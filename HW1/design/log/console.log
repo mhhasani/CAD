@@ -614,3 +614,926 @@ run
 # KERNEL: Simulation has finished. There are no more test vectors to simulate.
 run
 # KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/TestBench/convert_3x3_to_sum_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.vhd
+# Compile Package "array_3x3_pkg"
+# Compile Entity "convert_3x3_to_sum"
+# Compile Architecture "Behavioral" of Entity "convert_3x3_to_sum"
+# File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/TestBench/convert_3x3_to_sum_TB.vhd
+# Compile Entity "convert_3x3_to_sum_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "convert_3x3_to_sum_tb"
+# Compile Configuration "TESTBENCH_FOR_convert_3x3_to_sum"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/TestBench/convert_3x3_to_sum_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.vhd
+# Compile Package "array_3x3_pkg"
+# Compile Entity "convert_3x3_to_sum"
+# Compile Architecture "Behavioral" of Entity "convert_3x3_to_sum"
+# File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/TestBench/convert_3x3_to_sum_TB.vhd
+# Compile Entity "convert_3x3_to_sum_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "convert_3x3_to_sum_tb"
+# Compile Configuration "TESTBENCH_FOR_convert_3x3_to_sum"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# add wave -noreg {/convert_3x3_to_sum_tb/in_3x3}
+# add wave -noreg {/convert_3x3_to_sum_tb/out_sum}
+# KERNEL: Warning: KERNEL_0291 Signal '/convert_3x3_to_sum_tb/in_3x3' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/convert_3x3_to_sum_tb/out_sum' has already been traced.
+# 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/free/Desktop/term6/CAD/HW1/design/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Waveform file 'C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.awc' connected to 'C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Waveform file 'C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.awc' connected to 'C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+convert_3x3_to_sum_tb convert_3x3_to_sum_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5434 kB (elbread=427 elab2=4868 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\term6\CAD\HW1\design\src\wave.asdb
+#  5:16 PM, Wednesday, March 29, 2023
+#  Simulation has been initialized
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+endsim
+# KERNEL: stopped at time: 1650858530 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+convert_3x3_to_sum_tb convert_3x3_to_sum_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5434 kB (elbread=427 elab2=4868 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\term6\CAD\HW1\design\src\wave.asdb
+#  5:16 PM, Wednesday, March 29, 2023
+#  Simulation has been initialized
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+endsim
+# KERNEL: stopped at time: 483785500 ns
+# VSIM: Simulation has finished.
+# Waveform file 'C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.awc' connected to 'C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.asdb'.
+asim -O5 +access +r +m+convert_3x3_to_sum_tb convert_3x3_to_sum_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5434 kB (elbread=427 elab2=4868 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\term6\CAD\HW1\design\src\wave.asdb
+#  5:17 PM, Wednesday, March 29, 2023
+#  Simulation has been initialized
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+endsim
+# KERNEL: stopped at time: 1264351370 ns
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/TestBench/convert_3x3_to_sum_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.vhd
+# Compile Package "array_3x3_pkg"
+# Compile Entity "convert_3x3_to_sum"
+# Compile Architecture "Behavioral" of Entity "convert_3x3_to_sum"
+# File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/TestBench/convert_3x3_to_sum_TB.vhd
+# Compile Entity "convert_3x3_to_sum_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "convert_3x3_to_sum_tb"
+# Compile Configuration "TESTBENCH_FOR_convert_3x3_to_sum"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+convert_3x3_to_sum_tb convert_3x3_to_sum_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5434 kB (elbread=427 elab2=4868 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\term6\CAD\HW1\design\src\wave.asdb
+#  5:17 PM, Wednesday, March 29, 2023
+#  Simulation has been initialized
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+endsim
+# KERNEL: stopped at time: 401924660 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+convert_3x3_to_sum_tb convert_3x3_to_sum_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5434 kB (elbread=427 elab2=4868 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\term6\CAD\HW1\design\src\wave.asdb
+#  5:18 PM, Wednesday, March 29, 2023
+#  Simulation has been initialized
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+endsim
+# KERNEL: stopped at time: 2298128890 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+convert_3x3_to_sum_tb convert_3x3_to_sum_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5434 kB (elbread=427 elab2=4868 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\term6\CAD\HW1\design\src\wave.asdb
+#  5:19 PM, Wednesday, March 29, 2023
+#  Simulation has been initialized
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+endsim
+# KERNEL: stopped at time: 3341041200 ns
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/TestBench/convert_3x3_to_sum_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.vhd
+# Compile Package "array_3x3_pkg"
+# Compile Entity "convert_3x3_to_sum"
+# Compile Architecture "Behavioral" of Entity "convert_3x3_to_sum"
+# File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/TestBench/convert_3x3_to_sum_TB.vhd
+# Compile Entity "convert_3x3_to_sum_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "convert_3x3_to_sum_tb"
+# Compile Configuration "TESTBENCH_FOR_convert_3x3_to_sum"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+convert_3x3_to_sum_tb convert_3x3_to_sum_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5434 kB (elbread=427 elab2=4868 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\term6\CAD\HW1\design\src\wave.asdb
+#  5:20 PM, Wednesday, March 29, 2023
+#  Simulation has been initialized
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/TestBench/convert_3x3_to_sum_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.vhd
+# Compile Package "array_3x3_pkg"
+# Compile Entity "convert_3x3_to_sum"
+# Compile Architecture "Behavioral" of Entity "convert_3x3_to_sum"
+# File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/TestBench/convert_3x3_to_sum_TB.vhd
+# Compile Entity "convert_3x3_to_sum_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "convert_3x3_to_sum_tb"
+# Compile Configuration "TESTBENCH_FOR_convert_3x3_to_sum"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim -O5 +access +r +m+convert_3x3_to_sum_tb convert_3x3_to_sum_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5434 kB (elbread=427 elab2=4868 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\term6\CAD\HW1\design\src\wave.asdb
+#  5:20 PM, Wednesday, March 29, 2023
+#  Simulation has been initialized
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# EXECUTION:: ERROR  : Test 1 failed
+# EXECUTION:: Time: 10 ns,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb,  Process: new_process.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/TestBench/convert_3x3_to_sum_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.vhd
+# Compile Package "array_3x3_pkg"
+# Compile Entity "convert_3x3_to_sum"
+# Compile Architecture "Behavioral" of Entity "convert_3x3_to_sum"
+# File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/TestBench/convert_3x3_to_sum_TB.vhd
+# Compile Entity "convert_3x3_to_sum_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "convert_3x3_to_sum_tb"
+# Compile Configuration "TESTBENCH_FOR_convert_3x3_to_sum"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+convert_3x3_to_sum_tb convert_3x3_to_sum_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5435 kB (elbread=427 elab2=4869 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\term6\CAD\HW1\design\src\wave.asdb
+#  5:22 PM, Wednesday, March 29, 2023
+#  Simulation has been initialized
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# EXECUTION:: ERROR  : Test 2 failed
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb,  Process: new_process.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/TestBench/convert_3x3_to_sum_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.vhd
+# Compile Package "array_3x3_pkg"
+# Compile Entity "convert_3x3_to_sum"
+# Compile Architecture "Behavioral" of Entity "convert_3x3_to_sum"
+# File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/TestBench/convert_3x3_to_sum_TB.vhd
+# Compile Entity "convert_3x3_to_sum_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "convert_3x3_to_sum_tb"
+# Compile Configuration "TESTBENCH_FOR_convert_3x3_to_sum"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/TestBench/convert_3x3_to_sum_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.vhd
+# Compile Package "array_3x3_pkg"
+# Compile Entity "convert_3x3_to_sum"
+# Compile Architecture "Behavioral" of Entity "convert_3x3_to_sum"
+# File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/TestBench/convert_3x3_to_sum_TB.vhd
+# Compile Entity "convert_3x3_to_sum_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "convert_3x3_to_sum_tb"
+# Compile Configuration "TESTBENCH_FOR_convert_3x3_to_sum"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# Waveform file 'C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.awc' connected to 'C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.asdb'.
+asim -O5 +access +r +m+convert_3x3_to_sum_tb convert_3x3_to_sum_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5435 kB (elbread=427 elab2=4869 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\term6\CAD\HW1\design\src\wave.asdb
+#  5:23 PM, Wednesday, March 29, 2023
+#  Simulation has been initialized
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# EXECUTION:: ERROR  : Test 2 failed
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb,  Process: new_process.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+convert_3x3_to_sum_tb convert_3x3_to_sum_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/TestBench/convert_3x3_to_sum_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.vhd
+# Compile Package "array_3x3_pkg"
+# Compile Entity "convert_3x3_to_sum"
+# Compile Architecture "Behavioral" of Entity "convert_3x3_to_sum"
+# File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/TestBench/convert_3x3_to_sum_TB.vhd
+# Compile Entity "convert_3x3_to_sum_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "convert_3x3_to_sum_tb"
+# Compile Configuration "TESTBENCH_FOR_convert_3x3_to_sum"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim -O5 +access +r +m+convert_3x3_to_sum_tb convert_3x3_to_sum_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5435 kB (elbread=427 elab2=4869 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\term6\CAD\HW1\design\src\wave.asdb
+#  5:25 PM, Wednesday, March 29, 2023
+#  Simulation has been initialized
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# EXECUTION:: ERROR  : Test 2 failed
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb,  Process: new_process.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Waveform file 'C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.awc' connected to 'C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.asdb'.
+# add wave -noreg {/convert_3x3_to_sum_tb/in_3x3}
+# add wave -noreg {/convert_3x3_to_sum_tb/out_sum}
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+convert_3x3_to_sum_tb convert_3x3_to_sum_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5435 kB (elbread=427 elab2=4869 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\term6\CAD\HW1\design\src\wave.asdb
+#  5:25 PM, Wednesday, March 29, 2023
+#  Simulation has been initialized
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# EXECUTION:: ERROR  : Test 2 failed
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb,  Process: new_process.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/TestBench/convert_3x3_to_sum_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.vhd
+# Compile Package "array_3x3_pkg"
+# Compile Entity "convert_3x3_to_sum"
+# Compile Architecture "Behavioral" of Entity "convert_3x3_to_sum"
+# File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/TestBench/convert_3x3_to_sum_TB.vhd
+# Compile Entity "convert_3x3_to_sum_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "convert_3x3_to_sum_tb"
+# Compile Configuration "TESTBENCH_FOR_convert_3x3_to_sum"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim -O5 +access +r +m+convert_3x3_to_sum_tb convert_3x3_to_sum_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5435 kB (elbread=427 elab2=4869 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\term6\CAD\HW1\design\src\wave.asdb
+#  5:25 PM, Wednesday, March 29, 2023
+#  Simulation has been initialized
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# EXECUTION:: ERROR  : Test 2 failed
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb,  Process: new_process.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Waveform file 'C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.awc' connected to 'C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.asdb'.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+convert_3x3_to_sum_tb convert_3x3_to_sum_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5435 kB (elbread=427 elab2=4869 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\term6\CAD\HW1\design\src\wave.asdb
+#  5:26 PM, Wednesday, March 29, 2023
+#  Simulation has been initialized
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# EXECUTION:: ERROR  : Test 2 failed
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb,  Process: new_process.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# add wave -noreg {/convert_3x3_to_sum_tb/in_3x3}
+# add wave -noreg {/convert_3x3_to_sum_tb/out_sum}
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/TestBench/convert_3x3_to_sum_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.vhd
+# Compile Package "array_3x3_pkg"
+# Compile Entity "convert_3x3_to_sum"
+# Compile Architecture "Behavioral" of Entity "convert_3x3_to_sum"
+# File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/TestBench/convert_3x3_to_sum_TB.vhd
+# Compile Entity "convert_3x3_to_sum_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "convert_3x3_to_sum_tb"
+# Compile Configuration "TESTBENCH_FOR_convert_3x3_to_sum"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+convert_3x3_to_sum_tb convert_3x3_to_sum_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5435 kB (elbread=427 elab2=4869 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\term6\CAD\HW1\design\src\wave.asdb
+#  5:27 PM, Wednesday, March 29, 2023
+#  Simulation has been initialized
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Waveform file 'C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.awc' connected to 'C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.asdb'.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+convert_3x3_to_sum_tb convert_3x3_to_sum_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5435 kB (elbread=427 elab2=4869 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\term6\CAD\HW1\design\src\wave.asdb
+#  5:27 PM, Wednesday, March 29, 2023
+#  Simulation has been initialized
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/TestBench/convert_3x3_to_sum_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q1.vhd
+# Compile Package "array_3x3_pkg"
+# Compile Entity "convert_3x3_to_sum"
+# Compile Architecture "Behavioral" of Entity "convert_3x3_to_sum"
+# File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/TestBench/convert_3x3_to_sum_TB.vhd
+# Compile Entity "convert_3x3_to_sum_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "convert_3x3_to_sum_tb"
+# Compile Configuration "TESTBENCH_FOR_convert_3x3_to_sum"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+convert_3x3_to_sum_tb convert_3x3_to_sum_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5434 kB (elbread=427 elab2=4868 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\term6\CAD\HW1\design\src\wave.asdb
+#  5:28 PM, Wednesday, March 29, 2023
+#  Simulation has been initialized
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /convert_3x3_to_sum_tb/UUT,  Process: line__24.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.

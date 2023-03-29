@@ -43,3 +43,9 @@ TestBench/convert_3x3_to_sum_TB_runtest.do=-1
 .\src\TestBench\convert_3x3_to_sum_TB.vhd=VHDL Test Bench
 .\src\TestBench\convert_3x3_to_sum_TB_runtest.do=Macro
 
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=convert_3x3_to_sum_tb|TB_ARCHITECTURE|0 
+ShowHide=ShowTopLevel
+Selected=
