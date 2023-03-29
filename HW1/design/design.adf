@@ -1,0 +1,45 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=design
+
+[Library]
+design=.\design\design.lib
+
+[$LibMap$]
+design=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+
+[IMPLEMENTATION]
+UCF=
+
+[Groups]
+TestBench=1
+
+[Files]
+/Q1.vhd=-1
+/Q1.asdb=-1
+/Q1.awc=-1
+TestBench/convert_3x3_to_sum_TB.vhd=-1
+TestBench/convert_3x3_to_sum_TB_runtest.do=-1
+
+[Files.Data]
+.\src\Q1.vhd=VHDL Source Code
+.\src\Q1.asdb=Accelerated Waveform File
+.\src\Q1.awc=Accelerated Waveform Configuration
+.\src\TestBench\convert_3x3_to_sum_TB.vhd=VHDL Test Bench
+.\src\TestBench\convert_3x3_to_sum_TB_runtest.do=Macro
+
