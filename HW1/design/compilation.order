@@ -2,7 +2,10 @@
 .\src\Q2.vhd
 .\src\Q3.vhd
 .\src\Q4.vhd
+.\src\Q5.vhd
 .\src\TestBench\convert_3x3_to_sum_TB.vhd
 .\src\TestBench\alu_TB.vhd
 .\src\TestBench\unary_to_binary_TB.vhd
 .\src\TestBench\dot_product_TB.vhd
+.\src\TestBench\complex_entity_TB.vhd
+.\src\TestBench\dot_p_TB.vhd

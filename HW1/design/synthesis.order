@@ -6,3 +6,6 @@ i<>.\src\Q3.vhd
 i<>.\src\TestBench\unary_to_binary_TB.vhd
 i<>.\src\Q4.vhd
 i<>.\src\TestBench\dot_product_TB.vhd
+i<>.\src\Q5.vhd
+i<>.\src\TestBench\complex_entity_TB.vhd
+i<>.\src\TestBench\dot_p_TB.vhd

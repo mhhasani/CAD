@@ -6,7 +6,7 @@
     </comment>
     <databases>
         <database id="">*virtual*</database>
-        <database id="2811a8269256cf522564638248010000">Q4.asdb</database>
+        <database id="2811a82692567d7a2564ea80e3011f00">Q4.asdb</database>
     </databases>
     <gridshown/>
     <signallists>
@@ -18,10 +18,16 @@
     <propertybases>
         <propertybase id="0">
             <propclass name="radix">
+                <property first="268435474" last="268435474">
+                10
+                </property>
             </propclass>
             <propclass name="mode">
             </propclass>
             <propclass name="notation">
+                <property first="268435474" last="268435474">
+                2
+                </property>
             </propclass>
             <propclass name="reverse">
             </propclass>
@@ -51,7 +57,7 @@
     </propertybases>
     <timebases>
         <timebase id="0">
-            <time start_time="0" end_time="82018" />
+            <time start_time="0" end_time="82087" />
         </timebase>
     </timebases>
     <prefbases>
@@ -64,7 +70,7 @@
     </bookmarkbases>
     <cursorbases>
         <cursors id="0">
-            <cursor value="40000" label="Cursor 1" locked="0" />
+            <cursor value="30000" label="Cursor 1" locked="0" />
         </cursors>
     </cursorbases>
     <measurementbases>
