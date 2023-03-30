@@ -1,6 +1,16 @@
-36
+69
+~E 1 "../src/Q2.vhd" 8 ALU
+~A 1 "../src/Q2.vhd" 14 Behavioral
+~E 1 "../src/TestBench/alu_TB.vhd" 7 alu_tb
+~A 1 "../src/TestBench/alu_TB.vhd" 10 TB_ARCHITECTURE
 ~E 1 "../src/Q1.vhd" 17 convert_3x3_to_sum
 ~A 1 "../src/Q1.vhd" 22 Behavioral
 ~E 1 "../src/TestBench/convert_3x3_to_sum_TB.vhd" 6 convert_3x3_to_sum_tb
 ~A 1 "../src/TestBench/convert_3x3_to_sum_TB.vhd" 9 TB_ARCHITECTURE
-~C 1 "../src/TestBench/convert_3x3_to_sum_TB.vhd" 54 testbench_for_convert_3x3_to_sum
+~C 1 "../src/TestBench/alu_TB.vhd" 72 testbench_for_alu
+~C 1 "../src/TestBench/convert_3x3_to_sum_TB.vhd" 67 testbench_for_convert_3x3_to_sum
+~C 1 "../src/TestBench/unary_to_binary_TB.vhd" 65 testbench_for_unary_to_binary
+~E 1 "../src/Q3.vhd" 11 unary_to_binary
+~A 1 "../src/Q3.vhd" 16 arch
+~E 1 "../src/TestBench/unary_to_binary_TB.vhd" 7 unary_to_binary_tb
+~A 1 "../src/TestBench/unary_to_binary_TB.vhd" 10 TB_ARCHITECTURE

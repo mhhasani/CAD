@@ -35,6 +35,7 @@ begin
 	new_process : process
 	begin
 		-- test 1
+		wait for 10 ns;
 		in_3x3(0,0) <= "0000";
 		in_3x3(0,1) <= "0001";
 		in_3x3(0,2) <= "0010";
@@ -46,6 +47,18 @@ begin
 		in_3x3(2,2) <= "1000";
 		wait for 10 ns;
 		assert out_sum = 36 report "Test 1 failed" severity error;	
+		-- test 2
+		in_3x3(0,0) <= "0000";
+		in_3x3(0,1) <= "1010";
+		in_3x3(0,2) <= "0010";
+		in_3x3(1,0) <= "0111";
+		in_3x3(1,1) <= "0100";
+		in_3x3(1,2) <= "0101";
+		in_3x3(2,0) <= "0110";
+		in_3x3(2,1) <= "0111";
+		in_3x3(2,2) <= "1111";
+		wait for 10 ns;
+		assert out_sum = 92 report "Test 2 failed" severity error;
 		wait;
 	end process;
 

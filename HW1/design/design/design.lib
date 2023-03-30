@@ -1,13 +1,35 @@
-timestamp=1680094703610
+timestamp=1680165786129
 
 [~A]
-ModifyID=36
+ModifyID=69
 Version=74
 
 [~MFT]
-0=16|0design.mgf|43341|37090
-1=6|1design.mgf|62025|58787
-3=4|3design.mgf|15963|15591
+0=4|0design.mgf|103611|88252
+1=4|1design.mgf|201214|190509
+3=2|3design.mgf|61611|58975
+
+[alu]
+A/behavioral=A/Behavioral 21|../src/Q2.vhd|14|1*190251
+BinW64/behavioral=3*59347
+I=0*64176
+I/behavioral=I/Behavioral 0*99129
+M=11|2|ve8|1680162409990|../src/Q2.vhd|0*63830*0xb39d9e4248bee283ef3482ada295f1ef98f946c1|0*64106*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|ve8|1680165775922|../src/Q2.vhd|0*64410*0xf1176b02f7a00109f04f80f9ebee25eb2881ae07|0*64833*0x20116f55b147878295aeff36dce7fc50
+R=../src/Q2.vhd|8
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|fdc9c85601beb4171a6a25c637e2168e3bd8885a8c16b8550cbd17df21b57341
+Version/behavioral=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff47e81c555de9d905270f8a9ddf40f048b
+
+[alu_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/alu_TB.vhd|10|1*194853
+BinW64/tb_architecture=3*60969
+I=0*67175
+I/tb_architecture=I/TB_ARCHITECTURE 0*100160
+M=11|2|ve8|1680162595915|../src/TestBench/alu_TB.vhd|0*66895*0x3a8b3f6fe0753d78ef78b8f84024138995c60686|0*67088*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|ve8|1680165775979|../src/TestBench/alu_TB.vhd|0*85632*0x70c37c3f9dee59f633a7aeb05d223fe4950fb1be|0*86693*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/alu_TB.vhd|7
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|b5ca7ba7583dcb786be856c479ad2f64f9ad71ca02bdd8d761fe663d1853fa3c
+Version/tb_architecture=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea9d226a8e9a3db4a03ec21ffa9c88f91f
 
 [array_3x3_pkg]
 E=1*4517
@@ -24,38 +46,82 @@ R=../src/Q1.vhd|8
 Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|8f30476cf37230fa6f65a931570c412d845abf98cd6ceb1fde683fdbf9f45cdc26527262ddaa47cb266f3a3c4d9b973a325c5cb61a0cca7dfb10dbd589ae95f2
 
 [convert_3x3_to_sum]
-A/behavioral=A/Behavioral 21|../src/Q1.vhd|22|1*59879
-BinW64/behavioral=3*15591
+A/behavioral=A/Behavioral 21|../src/Q1.vhd|22|1*189408
+BinW64/behavioral=3*58975
 I=0*36104
-I/behavioral=I/Behavioral 0*41272
+I/behavioral=I/Behavioral 0*98829
 M=11|2|ve8|1680094504172|../src/Q1.vhd|0*35723*0x06d31d294581aef21aec9383cf0794526d2385b6|0*36019*0x23b75c12e3e89f2ef000564498faa8c2
-M/behavioral=M/Behavioral 21|2|ve8|1680094703589|../src/Q1.vhd|0*7135*0x228453dc6627c611320b9d3a664bb42cb7b32288|0*7482*0x20116f55b147878295aeff36dce7fc50
+M/behavioral=M/Behavioral 21|2|ve8|1680165774275|../src/Q1.vhd|0*7135*0x228453dc6627c611320b9d3a664bb42cb7b32288|0*7482*0x20116f55b147878295aeff36dce7fc50
 R=../src/Q1.vhd|17
 Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|8f30476cf37230fa6f65a931570c412deaac399b3c89c1599f40fc1144188b2093a7e6e1dd0c19a911dac6aec3c92f78
-Version/behavioral=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4f932d84e1dee6cc5b71b83f81b9d11a6
+Version/behavioral=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff43ef2636abe94d46f426f2bde514a8fe9
 
 [convert_3x3_to_sum_tb]
-A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/convert_3x3_to_sum_TB.vhd|9|1*60722
-BinW64/tb_architecture=3*15963
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/convert_3x3_to_sum_TB.vhd|9|1*193010
+BinW64/tb_architecture=3*60307
 I=0*10548
-I/tb_architecture=I/TB_ARCHITECTURE 0*42463
+I/tb_architecture=I/TB_ARCHITECTURE 0*99625
 M=11|2|ve8|1680091328952|../src/TestBench/convert_3x3_to_sum_TB.vhd|0*10201*0xb3030d84afba1e8ce0eb5fb31c37bf498291d46c|0*10431*0x23b75c12e3e89f2ef000564498faa8c2
-M/tb_architecture=M/TB_ARCHITECTURE 21|2|ve8|1680094703598|../src/TestBench/convert_3x3_to_sum_TB.vhd|0*41572*0x2a2f68af416d6bc31f3503a603381b4daa0f9f53|0*42327*0x20116f55b147878295aeff36dce7fc50
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|ve8|1680165775961|../src/TestBench/convert_3x3_to_sum_TB.vhd|0*92915*0xebfc162bbf14b7a636f82706290dc4e9c305733a|0*93977*0x20116f55b147878295aeff36dce7fc50
 R=../src/TestBench/convert_3x3_to_sum_TB.vhd|6
 Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|8f30476cf37230fa6f65a931570c412d2516836cf1b35be97f853d504c9881e81014b74e49f4d0c3ee1621649a1acaff
-Version/tb_architecture=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea5e968694328233623f88673f00dc78d6
+Version/tb_architecture=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea01a445e4fb3d17147adc2a0f3f220579
+
+[testbench_for_alu]
+Configures=alu_tb.TB_ARCHITECTURE
+E=1*196882
+I=0*100446
+M=2|2|ve8|1680165775982|../src/TestBench/alu_TB.vhd|0*87085*0x936d1666d59574b28770e9aa649e98b3cec67c19|0*87339*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/alu_TB.vhd|72
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e5b8f23e5cabe222998e0c23066880c31e346be5f9350d526aefce239f8374e597
 
 [testbench_for_convert_3x3_to_sum]
 Configures=convert_3x3_to_sum_tb.TB_ARCHITECTURE
-E=1*62025
-I=0*43341
-M=2|2|ve8|1680094703602|../src/TestBench/convert_3x3_to_sum_TB.vhd|0*42815*0xd325a07fc5d0057f27b94424c245c3d403f6561f|0*43189*0x20116f55b147878295aeff36dce7fc50
-R=../src/TestBench/convert_3x3_to_sum_TB.vhd|54
-Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e55f41464aec6ee6ec211561874d29208b4d70ce29aa928f5e5a36d0c2ebe6127f3042fed10a57fc25d777ae6f204f81bc
+E=1*194383
+I=0*99977
+M=2|2|ve8|1680165775964|../src/TestBench/convert_3x3_to_sum_TB.vhd|0*89697*0xd16bf4f7ed264536ad74a0bdd88194ae479124fb|0*90071*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/convert_3x3_to_sum_TB.vhd|67
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e55f41464aec6ee6ec211561874d29208b4d70ce29aa928f5e5a36d0c2ebe6127f431ac6b116dba8cbb9ed647da98fda3d
+
+[testbench_for_unary_to_binary]
+Configures=unary_to_binary_tb.TB_ARCHITECTURE
+E=1*201214
+I=0*103611
+M=2|2|ve8|1680165786115|../src/TestBench/unary_to_binary_TB.vhd|0*102642*0x05d934c4c5ffcad70e2db992f93a8fd1c346295d|0*102986*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/unary_to_binary_TB.vhd|65
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e5441ab74c3a7840815c43ab4c619feb23def8a24745f43c727e6ec1c0a065f8f20e7ee7c6f88fb7b6c20343e7f9788128
+
+[unary_to_binary]
+A/arch=21|../src/Q3.vhd|16|1*191327
+BinW64/arch=3*59749
+I=0*96206
+I/arch=0*99374
+M=11|2|ve8|1680165532797|../src/Q3.vhd|0*95840*0x6c13938fd808b02ccfb8f481a934d5a8c2698c29|0*96124*0x23b75c12e3e89f2ef000564498faa8c2
+M/arch=21|2|ve8|1680165775942|../src/Q3.vhd|0*96452*0xefe2a520c327592f7344197550eacb7235e3c1f8|0*97260*0x20116f55b147878295aeff36dce7fc50
+R=../src/Q3.vhd|11
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|aa1611cd59ada4efb4a33a9f13514f4c4b1a6970f9fdb3c48b25cd55c412485b30f7731b0a2c6483972fa235f4dc0f9c
+Version/arch=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|907f1eb2ab5faaca81dadc47e735a03a482bd19e821c8ac7a01cd0889dc093a6
+
+[unary_to_binary_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/unary_to_binary_TB.vhd|10|1*199493
+BinW64/tb_architecture=3*61611
+I=0*101092
+I/tb_architecture=I/TB_ARCHITECTURE 0*103305
+M=11|2|ve8|1680165775993|../src/TestBench/unary_to_binary_TB.vhd|0*100740*0xf6be68d1197d9742ea905a10c2ab563e962102fd|0*100981*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|ve8|1680165786107|../src/TestBench/unary_to_binary_TB.vhd|0*101341*0x113412de5a1ea6223ea20c804d0a4be9815759e5|0*102206*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/unary_to_binary_TB.vhd|7
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|cc7a13a8f92aec65c05c520d1b891326d7efdca8c9e28a048349df388a792d500cb526a8eb0e4abb9aa43c5746a996f3
+Version/tb_architecture=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea41b94c015e594207e4971b45da6fdc75
 
 [~U]
+alu=ALU 11|0*63642|
+alu_tb=11|0*66777|
 array_3x3_pkg=3|0*7889|0*8084
 convert_3x3_to_4bit_pkg=3|0*4640|0*4861
 convert_3x3_to_sum=11|0*35516|
 convert_3x3_to_sum_tb=11|0*10053|
+testbench_for_alu=TESTBENCH_FOR_alu 2||
 testbench_for_convert_3x3_to_sum=TESTBENCH_FOR_convert_3x3_to_sum 2||
+testbench_for_unary_to_binary=TESTBENCH_FOR_unary_to_binary 2||
+unary_to_binary=11|0*95635|
+unary_to_binary_tb=11|0*100602|

@@ -1,34 +1,33 @@
-Active-HDL 12.0.118.7745 2023-03-29 17:28:35
+Active-HDL 12.0.118.7745 2023-03-30 13:13:42
 
 Elaboration top modules:
-Architecture                  TB_ARCHITECTURE(convert_3x3_to_sum_tb)
+Architecture                  TB_ARCHITECTURE(unary_to_binary_tb)
 
 
------------------------------------------------------------------------------------------------------------
-Entity                | Architecture    | Library | Info | Compiler Version          | Compilation Options
------------------------------------------------------------------------------------------------------------
-convert_3x3_to_sum_tb | TB_ARCHITECTURE | design  |      | 12.0.118.7745 (Windows64) | -O3
-convert_3x3_to_sum    | Behavioral      | design  |      | 12.0.118.7745 (Windows64) | -O3
------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+Entity             | Architecture    | Library | Info | Compiler Version          | Compilation Options
+--------------------------------------------------------------------------------------------------------
+unary_to_binary_tb | TB_ARCHITECTURE | design  |      | 12.0.118.7745 (Windows64) | -O3
+unary_to_binary    | arch            | design  |      | 12.0.118.7745 (Windows64) | -O3
+--------------------------------------------------------------------------------------------------------
 
------------------------------------------------------------------------------------------------------------
-VHDL Package                            | Library | Info | Compiler Version          | Compilation Options
------------------------------------------------------------------------------------------------------------
-standard                                | std     |      |                           | <unavailable>
-TEXTIO                                  | std     |      |                           | <unavailable>
-std_logic_1164                          | ieee    |      |                           | <unavailable>
-NUMERIC_STD                             | ieee    |      |                           | <unavailable>
-array_3x3_pkg                           | design  |      |                           | <unavailable>
------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+VHDL Package                         | Library | Info | Compiler Version          | Compilation Options
+--------------------------------------------------------------------------------------------------------
+standard                             | std     |      |                           | <unavailable>
+TEXTIO                               | std     |      |                           | <unavailable>
+std_logic_1164                       | ieee    |      |                           | <unavailable>
+NUMERIC_STD                          | ieee    |      |                           | <unavailable>
+--------------------------------------------------------------------------------------------------------
 
------------------------------------------------------------------------------------------------------------
-Library                                 | Comment
------------------------------------------------------------------------------------------------------------
-design                                  | None
-ieee                                    | Standard IEEE packages library
-std                                     | Standard VHDL library
------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+Library                              | Comment
+--------------------------------------------------------------------------------------------------------
+design                               | None
+ieee                                 | Standard IEEE packages library
+std                                  | Standard VHDL library
+--------------------------------------------------------------------------------------------------------
 
 
-Simulation Options: asim -O5 +access +r +m+convert_3x3_to_sum_tb convert_3x3_to_sum_tb TB_ARCHITECTURE
+Simulation Options: asim -O5 +access +r +m+unary_to_binary_tb unary_to_binary_tb TB_ARCHITECTURE
 
