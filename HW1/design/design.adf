@@ -33,7 +33,7 @@ TestBench=1
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=alu|Behavioral|0 alu_tb|TB_ARCHITECTURE|0 convert_3x3_to_sum_tb|TB_ARCHITECTURE|0 unary_to_binary_tb|TB_ARCHITECTURE|0
+HierarchyInformation=complex_entity_tb|TB_ARCHITECTURE|0 dot_p_tb|TB_ARCHITECTURE|0 
 ShowHide=ShowTopLevel
 Selected=
 
@@ -51,14 +51,14 @@ Selected=
 /Q4.asdb=-1
 /Q4.awc=-1
 /Q5.vhd=-1
+/Q5.asdb=-1
+/Q5.awc=-1
 TestBench/convert_3x3_to_sum_TB.vhd=-1
 TestBench/convert_3x3_to_sum_TB_runtest.do=-1
 TestBench/alu_TB.vhd=-1
 TestBench/alu_TB_runtest.do=-1
 TestBench/unary_to_binary_TB.vhd=-1
 TestBench/unary_to_binary_TB_runtest.do=-1
-TestBench/dot_product_TB.vhd=-1
-TestBench/dot_product_TB_runtest.do=-1
 TestBench/complex_entity_TB.vhd=-1
 TestBench/complex_entity_TB_runtest.do=-1
 TestBench/dot_p_TB.vhd=-1
@@ -78,16 +78,16 @@ TestBench/dot_p_TB_runtest.do=-1
 .\src\Q4.asdb=Accelerated Waveform File
 .\src\Q4.awc=Accelerated Waveform Configuration
 .\src\Q5.vhd=VHDL Source Code
+.\src\Q5.asdb=Accelerated Waveform File
+.\src\Q5.awc=Accelerated Waveform Configuration
 .\src\TestBench\convert_3x3_to_sum_TB.vhd=VHDL Test Bench
 .\src\TestBench\convert_3x3_to_sum_TB_runtest.do=Macro
 .\src\TestBench\alu_TB.vhd=VHDL Test Bench
 .\src\TestBench\alu_TB_runtest.do=Macro
 .\src\TestBench\unary_to_binary_TB.vhd=VHDL Test Bench
 .\src\TestBench\unary_to_binary_TB_runtest.do=Macro
-.\src\TestBench\dot_product_TB.vhd=VHDL Test Bench
-.\src\TestBench\dot_product_TB_runtest.do=Macro
 .\src\TestBench\complex_entity_TB.vhd=VHDL Test Bench
 .\src\TestBench\complex_entity_TB_runtest.do=Macro
-
 .\src\TestBench\dot_p_TB.vhd=VHDL Test Bench
 .\src\TestBench\dot_p_TB_runtest.do=Macro
+

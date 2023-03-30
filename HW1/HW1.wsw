@@ -1,10 +1,10 @@
-[OPENDOC|Aldec.Hde.HdePlugIn.7|.\design\src/Q3.vhd|]
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\design\src/Q5.vhd|]
 TemplateId=0
 tab=lu
-[OPENDOC|Aldec.Hde.HdePlugIn.7|.\design\src/TestBench/unary_to_binary_TB.vhd|]
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\design\src/TestBench/complex_entity_TB.vhd|]
 TemplateId=0
 tab=lu
-[OPENDOC|Aldec.WaveFormASDB.7|.\design\src/Q3.awc|]
+[OPENDOC|Aldec.WaveFormASDB.7|.\design\src/Q5.awc|]
 TemplateId=0
 ActiveDocument=1
 tab=lu

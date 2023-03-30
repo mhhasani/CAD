@@ -1,34 +1,34 @@
-Active-HDL 12.0.118.7745 2023-03-30 16:33:09
+Active-HDL 12.0.118.7745 2023-03-30 21:26:59
 
 Elaboration top modules:
-Architecture                  TB_ARCHITECTURE(dot_p_tb)
+Architecture                  TB_ARCHITECTURE(complex_entity_tb)
 
 
-----------------------------------------------------------------------------------------------
-Entity   | Architecture    | Library | Info | Compiler Version          | Compilation Options
-----------------------------------------------------------------------------------------------
-dot_p_tb | TB_ARCHITECTURE | design  |      | 12.0.118.7745 (Windows64) | -O3
-dot_p    | Behavioral      | design  |      | 12.0.118.7745 (Windows64) | -O3
-----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+Entity            | Architecture    | Library | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------------
+complex_entity_tb | TB_ARCHITECTURE | design  |      | 12.0.118.7745 (Windows64) | -O3
+complex_entity    | Behavioral      | design  |      | 12.0.118.7745 (Windows64) | -O3
+-------------------------------------------------------------------------------------------------------
 
-----------------------------------------------------------------------------------------------
-VHDL Package               | Library | Info | Compiler Version          | Compilation Options
-----------------------------------------------------------------------------------------------
-standard                   | std     |      |                           | <unavailable>
-TEXTIO                     | std     |      |                           | <unavailable>
-std_logic_1164             | ieee    |      |                           | <unavailable>
-NUMERIC_STD                | ieee    |      |                           | <unavailable>
-array_of_num_pkg           | design  |      |                           | <unavailable>
-----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+VHDL Package                        | Library | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------------
+standard                            | std     |      |                           | <unavailable>
+TEXTIO                              | std     |      |                           | <unavailable>
+std_logic_1164                      | ieee    |      |                           | <unavailable>
+NUMERIC_STD                         | ieee    |      |                           | <unavailable>
+complex_package                     | design  |      |                           | <unavailable>
+-------------------------------------------------------------------------------------------------------
 
-----------------------------------------------------------------------------------------------
-Library                    | Comment
-----------------------------------------------------------------------------------------------
-design                     | None
-ieee                       | Standard IEEE packages library
-std                        | Standard VHDL library
-----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+Library                             | Comment
+-------------------------------------------------------------------------------------------------------
+design                              | None
+ieee                                | Standard IEEE packages library
+std                                 | Standard VHDL library
+-------------------------------------------------------------------------------------------------------
 
 
-Simulation Options: asim -O5 +access +r +m+dot_p_tb dot_p_tb TB_ARCHITECTURE
+Simulation Options: asim -O5 +access +r +m+complex_entity_tb complex_entity_tb TB_ARCHITECTURE
 
