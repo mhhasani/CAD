@@ -30,8 +30,8 @@ begin
 	process(num1, num2, operation)
 	begin
 		case operation is
-			when "001" => result.x <= num1.x * num2.x - num1.y * num2.y;
-						  result.y <= num1.x * num2.y + num1.y * num2.x;
+			when "001" => result.x <= Resize(num1.x * num2.x - num1.y * num2.y, 8);
+						  result.y <= Resize(num1.x * num2.y + num1.y * num2.x, 8);
 			when "010" => result.x <= num1.x + num2.x;
 						  result.y <= num1.y + num2.y;
 			when "100" => result.x <= num1.x - num2.x;

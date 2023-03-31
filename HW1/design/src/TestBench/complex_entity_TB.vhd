@@ -54,11 +54,11 @@ begin
 		wait for 10 ns;
 		assert result = complex_type'(x => "00000100", y => "10000100") report "Test failed" severity error;
 
-		num1 <= complex_type'(x => "00001100", y => "00000101");
-		num2 <= complex_type'(x => "10000100", y => "00100010");
+		num1 <= complex_type'(x => "00000100", y => "00000101");
+		num2 <= complex_type'(x => "00000010", y => "00000001");
 		operation <= "001";
 		wait for 10 ns;
-		assert result = complex_type'(x => "00011110", y => "00100111") report "Test failed" severity error;
+		assert result = complex_type'(x => "00000011", y => "00001110") report "Test failed" severity error;
 		wait;
 	end process;
 	

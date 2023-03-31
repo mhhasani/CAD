@@ -17,8 +17,6 @@ MESSAGE "File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q5.vhd"
 MESSAGE "Compile Package "complex_package"" 
 MESSAGE "Compile Entity "complex_entity"" 
 MESSAGE "Compile Architecture "Behavioral" of Entity "complex_entity"" 
-WARNING COMP96_0367: "Improper array length (16). Expected length is 8." "C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q5.vhd" 33 30
-WARNING COMP96_0367: "Improper array length (16). Expected length is 8." "C:/Users/free/Desktop/term6/CAD/HW1/design/src/Q5.vhd" 34 21
 MESSAGE "File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/TestBench/convert_3x3_to_sum_TB.vhd" 
 MESSAGE "Compile Entity "convert_3x3_to_sum_tb"" 
 MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "convert_3x3_to_sum_tb"" 
@@ -39,4 +37,4 @@ MESSAGE "File: C:/Users/free/Desktop/term6/CAD/HW1/design/src/TestBench/dot_p_TB
 MESSAGE "Compile Entity "dot_p_tb"" 
 MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "dot_p_tb"" 
 MESSAGE "Compile Configuration "TESTBENCH_FOR_dot_p"" 
-SUCCESS "Compile success 0 Errors 2 Warnings  Analysis time :  0.2 [s]" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

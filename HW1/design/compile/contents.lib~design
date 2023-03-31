@@ -1,4 +1,4 @@
-131
+138
 ~E 1 "../src/Q2.vhd" 8 ALU
 ~A 1 "../src/Q2.vhd" 14 Behavioral
 ~E 1 "../src/TestBench/alu_TB.vhd" 7 alu_tb
