@@ -1,0 +1,8 @@
+.\src\1.vhd
+.\src\2.vhd
+.\src\3.vhd
+.\src\4.vhd
+.\src\TestBench\sort10x8_TB.vhd
+.\src\TestBench\sqrtceiling_TB.vhd
+.\src\TestBench\bitgenerator_TB.vhd
+.\src\TestBench\alarm_for_clock_TB.vhd

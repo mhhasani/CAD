@@ -1,0 +1,81 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=design
+
+[Library]
+design=.\design\design.lib
+
+[$LibMap$]
+design=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+
+[IMPLEMENTATION]
+UCF=
+
+[Groups]
+TestBench=1
+
+[Files]
+/1.vhd=-1
+/1.asdb=-1
+/1.awc=-1
+/2.vhd=-1
+/2.asdb=-1
+/2.awc=-1
+/3.vhd=-1
+/3.asdb=-1
+/3.awc=-1
+/4.vhd=-1
+/4.asdb=-1
+/4.awc=-1
+TestBench/sort10x8_TB.vhd=-1
+TestBench/sort10x8_TB_runtest.do=-1
+TestBench/sqrtceiling_TB.vhd=-1
+TestBench/sqrtceiling_TB_runtest.do=-1
+TestBench/bitgenerator_TB.vhd=-1
+TestBench/bitgenerator_TB_runtest.do=-1
+TestBench/alarm_for_clock_TB.vhd=-1
+TestBench/alarm_for_clock_TB_runtest.do=-1
+
+[Files.Data]
+.\src\1.vhd=VHDL Source Code
+.\src\1.asdb=Accelerated Waveform File
+.\src\1.awc=Accelerated Waveform Configuration
+.\src\2.vhd=VHDL Source Code
+.\src\2.asdb=Accelerated Waveform File
+.\src\2.awc=Accelerated Waveform Configuration
+.\src\3.vhd=VHDL Source Code
+.\src\3.asdb=Accelerated Waveform File
+.\src\3.awc=Accelerated Waveform Configuration
+.\src\4.vhd=VHDL Source Code
+.\src\4.asdb=Accelerated Waveform File
+.\src\4.awc=Accelerated Waveform Configuration
+.\src\TestBench\sort10x8_TB.vhd=VHDL Test Bench
+.\src\TestBench\sort10x8_TB_runtest.do=Macro
+.\src\TestBench\sqrtceiling_TB.vhd=VHDL Test Bench
+.\src\TestBench\sqrtceiling_TB_runtest.do=Macro
+.\src\TestBench\bitgenerator_TB.vhd=VHDL Test Bench
+.\src\TestBench\bitgenerator_TB_runtest.do=Macro
+.\src\TestBench\alarm_for_clock_TB.vhd=VHDL Test Bench
+.\src\TestBench\alarm_for_clock_TB_runtest.do=Macro
+
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=alarmforclock_tb|TB_ARCHITECTURE|0 bitgenerator_tb|TB_ARCHITECTURE|0 sort10x8_tb|TB_ARCHITECTURE|0 sort_10x8|Behavioral|0 sqrtceiling_tb|TB_ARCHITECTURE|0 
+ShowHide=ShowTopLevel
+Selected=
