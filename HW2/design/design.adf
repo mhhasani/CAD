@@ -76,6 +76,6 @@ TestBench/alarm_for_clock_TB_runtest.do=-1
 [SpecTracer]
 WindowVisible=0
 [HierarchyViewer]
-HierarchyInformation=alarmforclock_tb|TB_ARCHITECTURE|0 bitgenerator_tb|TB_ARCHITECTURE|0 sort10x8_tb|TB_ARCHITECTURE|0 sort_10x8|Behavioral|0 sqrtceiling_tb|TB_ARCHITECTURE|0 
+HierarchyInformation=alarmforclock_tb|TB_ARCHITECTURE|0  
 ShowHide=ShowTopLevel
 Selected=
