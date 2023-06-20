@@ -1,0 +1,19 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd" 
+WARNING COMP96_0003: "Source file "C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd" is empty."
+MESSAGE "File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd" 
+MESSAGE "Compile Package "Recursive_Functions"" 
+MESSAGE "Compile Package Body "Recursive_Functions"" 
+MESSAGE "Compile Entity "Recursive_Functions_Entity"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "Recursive_Functions_Entity"" 
+MESSAGE "File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd" 
+MESSAGE "Compile Package "convolution_pkg"" 
+ERROR COMP96_0530: "Array subtype has more dimensions than base type." "C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd" 13 53
+ERROR COMP96_0530: "Array subtype has more dimensions than base type." "C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd" 16 60
+MESSAGE "Compile Package Body "convolution_pkg"" 
+ERROR COMP96_0057: "Cannot find referenced package declaration "convolution_pkg"." "C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd" 20 1
+MESSAGE "File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/TestBench/recursive_functions_entity_TB.vhd" 
+MESSAGE "Compile Entity "recursive_functions_entity_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "recursive_functions_entity_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_recursive_functions_entity"" 
+FAILURE "Compile failure 3 Errors 1 Warnings  Analysis time :  93.0 [ms]" 

@@ -1,0 +1,4 @@
+.\src\1.vhd
+.\src\3.vhd
+.\src\2.vhd
+.\src\TestBench\gcd_lcm_TB.vhd

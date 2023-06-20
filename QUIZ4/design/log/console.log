@@ -1,0 +1,1141 @@
+# Design: Design design already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: C-Synthesis: Not Defined
+# DESIGN: HDL Synthesis: Not Defined
+# DESIGN: Physical Synthesis: Not Defined
+# DESIGN: Implementation: Not Defined
+acom -reorder -O3 -e 100 -work design -2002  $dsn/src/2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "calculator_pkg"
+# Compile Package Body "calculator_pkg"
+# Compile Entity "calculator_entity"
+# Compile Architecture "behavioral" of Entity "calculator_entity"
+# Top-level unit(s) detected:
+# Entity => calculator_entity
+# Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/TestBench/calculator_entity_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "calculator_pkg"
+# Compile Package Body "calculator_pkg"
+# Compile Entity "calculator_entity"
+# Compile Architecture "behavioral" of Entity "calculator_entity"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/TestBench/calculator_entity_TB.vhd
+# Compile Entity "calculator_entity_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "calculator_entity_tb"
+# Error: COMP96_0078: TestBench/calculator_entity_TB.vhd : (13, 10): Unknown identifier "STD_LOGIC_VECTOR".
+# Error: COMP96_0064: TestBench/calculator_entity_TB.vhd : (13, 10): Unknown type.
+# Error: COMP96_0078: TestBench/calculator_entity_TB.vhd : (14, 10): Unknown identifier "STD_LOGIC_VECTOR".
+# Error: COMP96_0064: TestBench/calculator_entity_TB.vhd : (14, 10): Unknown type.
+# Error: COMP96_0078: TestBench/calculator_entity_TB.vhd : (15, 11): Unknown identifier "STD_LOGIC".
+# Error: COMP96_0064: TestBench/calculator_entity_TB.vhd : (15, 11): Unknown type.
+# Error: COMP96_0078: TestBench/calculator_entity_TB.vhd : (16, 16): Unknown identifier "STD_LOGIC_VECTOR".
+# Error: COMP96_0064: TestBench/calculator_entity_TB.vhd : (16, 16): Unknown type.
+# Error: COMP96_0078: TestBench/calculator_entity_TB.vhd : (20, 13): Unknown identifier "STD_LOGIC_VECTOR".
+# Error: COMP96_0064: TestBench/calculator_entity_TB.vhd : (20, 13): Unknown type.
+# Error: COMP96_0078: TestBench/calculator_entity_TB.vhd : (21, 13): Unknown identifier "STD_LOGIC_VECTOR".
+# Error: COMP96_0064: TestBench/calculator_entity_TB.vhd : (21, 13): Unknown type.
+# Error: COMP96_0078: TestBench/calculator_entity_TB.vhd : (22, 14): Unknown identifier "STD_LOGIC".
+# Error: COMP96_0064: TestBench/calculator_entity_TB.vhd : (22, 14): Unknown type.
+# Error: COMP96_0078: TestBench/calculator_entity_TB.vhd : (24, 18): Unknown identifier "STD_LOGIC_VECTOR".
+# Error: COMP96_0064: TestBench/calculator_entity_TB.vhd : (24, 18): Unknown type.
+# Error: COMP96_0333: TestBench/calculator_entity_TB.vhd : (33, 4): Formal must be locally static name.
+# Error: COMP96_0333: TestBench/calculator_entity_TB.vhd : (34, 4): Formal must be locally static name.
+# Error: COMP96_0333: TestBench/calculator_entity_TB.vhd : (35, 4): Formal must be locally static name.
+# Error: COMP96_0333: TestBench/calculator_entity_TB.vhd : (36, 4): Formal must be locally static name.
+# Compile Configuration "TESTBENCH_FOR_calculator_entity"
+# Error: COMP96_0209: TestBench/calculator_entity_TB.vhd : (44, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 21 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/TestBench/calculator_entity_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "calculator_pkg"
+# Compile Package Body "calculator_pkg"
+# Compile Entity "calculator_entity"
+# Compile Architecture "behavioral" of Entity "calculator_entity"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/TestBench/calculator_entity_TB.vhd
+# Compile Entity "calculator_entity_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "calculator_entity_tb"
+# Error: COMP96_0078: TestBench/calculator_entity_TB.vhd : (13, 10): Unknown identifier "STD_LOGIC_VECTOR".
+# Error: COMP96_0064: TestBench/calculator_entity_TB.vhd : (13, 10): Unknown type.
+# Error: COMP96_0078: TestBench/calculator_entity_TB.vhd : (14, 10): Unknown identifier "STD_LOGIC_VECTOR".
+# Error: COMP96_0064: TestBench/calculator_entity_TB.vhd : (14, 10): Unknown type.
+# Error: COMP96_0078: TestBench/calculator_entity_TB.vhd : (15, 11): Unknown identifier "STD_LOGIC".
+# Error: COMP96_0064: TestBench/calculator_entity_TB.vhd : (15, 11): Unknown type.
+# Error: COMP96_0078: TestBench/calculator_entity_TB.vhd : (16, 16): Unknown identifier "STD_LOGIC_VECTOR".
+# Error: COMP96_0064: TestBench/calculator_entity_TB.vhd : (16, 16): Unknown type.
+# Error: COMP96_0078: TestBench/calculator_entity_TB.vhd : (20, 13): Unknown identifier "STD_LOGIC_VECTOR".
+# Error: COMP96_0064: TestBench/calculator_entity_TB.vhd : (20, 13): Unknown type.
+# Error: COMP96_0078: TestBench/calculator_entity_TB.vhd : (21, 13): Unknown identifier "STD_LOGIC_VECTOR".
+# Error: COMP96_0064: TestBench/calculator_entity_TB.vhd : (21, 13): Unknown type.
+# Error: COMP96_0078: TestBench/calculator_entity_TB.vhd : (22, 14): Unknown identifier "STD_LOGIC".
+# Error: COMP96_0064: TestBench/calculator_entity_TB.vhd : (22, 14): Unknown type.
+# Error: COMP96_0078: TestBench/calculator_entity_TB.vhd : (24, 18): Unknown identifier "STD_LOGIC_VECTOR".
+# Error: COMP96_0064: TestBench/calculator_entity_TB.vhd : (24, 18): Unknown type.
+# Error: COMP96_0333: TestBench/calculator_entity_TB.vhd : (33, 4): Formal must be locally static name.
+# Error: COMP96_0333: TestBench/calculator_entity_TB.vhd : (34, 4): Formal must be locally static name.
+# Error: COMP96_0333: TestBench/calculator_entity_TB.vhd : (35, 4): Formal must be locally static name.
+# Error: COMP96_0333: TestBench/calculator_entity_TB.vhd : (36, 4): Formal must be locally static name.
+# Compile Configuration "TESTBENCH_FOR_calculator_entity"
+# Error: COMP96_0209: TestBench/calculator_entity_TB.vhd : (44, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 21 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "calculator_pkg"
+# Compile Package Body "calculator_pkg"
+# Compile Entity "calculator_entity"
+# Compile Architecture "behavioral" of Entity "calculator_entity"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "calculator_pkg"
+# Compile Package Body "calculator_pkg"
+# Compile Entity "calculator_entity"
+# Compile Architecture "behavioral" of Entity "calculator_entity"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "calculator_pkg"
+# Compile Package Body "calculator_pkg"
+# Error: COMP96_0015: 2.vhd : (32, 1): ';' expected.
+# Error: COMP96_0016: 2.vhd : (32, 9): Design unit declaration expected.
+# Compile Entity "calculator_entity"
+# Error: COMP96_0078: 2.vhd : (33, 5): Unknown identifier "ieee".
+# Error: COMP96_0078: 2.vhd : (38, 18): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2.vhd : (38, 18): Unknown type.
+# Error: COMP96_0078: 2.vhd : (39, 16): Unknown identifier "std_logic".
+# Error: COMP96_0064: 2.vhd : (39, 16): Unknown type.
+# Error: COMP96_0078: 2.vhd : (40, 21): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2.vhd : (40, 21): Unknown type.
+# Compile Architecture "behavioral" of Entity "calculator_entity"
+# Compile failure 9 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "calculator_pkg"
+# Compile Package Body "calculator_pkg"
+# Compile Entity "calculator_entity"
+# Compile Architecture "behavioral" of Entity "calculator_entity"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/2mel.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "calculator_pkg"
+# Compile Package Body "calculator_pkg"
+# Compile Entity "calculator_entity"
+# Compile Architecture "behavioral" of Entity "calculator_entity"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2mel.vhd
+# Compile Package "Calculator_Package"
+# Error: COMP96_0015: 2mel.vhd : (6, 67): ';' expected.
+# Error: COMP96_0015: 2mel.vhd : (7, 5): ';' expected.
+# Error: COMP96_0015: 2mel.vhd : (7, 70): ';' expected.
+# Error: COMP96_0015: 2mel.vhd : (11, 67): ';' expected.
+# Error: COMP96_0015: 2mel.vhd : (18, 70): ';' expected.
+# Error: COMP96_0019: 2mel.vhd : (24, 1): Keyword 'begin' expected.
+# Compile Entity "Calculator"
+# Error: COMP96_0078: 2mel.vhd : (28, 19): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2mel.vhd : (28, 19): Unknown type.
+# Error: COMP96_0078: 2mel.vhd : (29, 17): Unknown identifier "std_logic".
+# Error: COMP96_0064: 2mel.vhd : (29, 17): Unknown type.
+# Error: COMP96_0078: 2mel.vhd : (30, 22): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2mel.vhd : (30, 22): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# Error: COMP96_0056: 2mel.vhd : (34, 1): Cannot find referenced entity declaration "Calculator".
+# Compile failure 13 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/2mel.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "calculator_pkg"
+# Compile Package Body "calculator_pkg"
+# Compile Entity "calculator_entity"
+# Compile Architecture "behavioral" of Entity "calculator_entity"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2mel.vhd
+# Compile Package "Calculator"
+# Error: COMP96_0078: 2mel.vhd : (3, 33): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2mel.vhd : (3, 33): Unknown type.
+# Error: COMP96_0078: 2mel.vhd : (3, 70): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2mel.vhd : (3, 70): Unknown type.
+# Error: COMP96_0078: 2mel.vhd : (4, 36): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2mel.vhd : (4, 36): Unknown type.
+# Error: COMP96_0078: 2mel.vhd : (4, 73): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2mel.vhd : (4, 73): Unknown type.
+# Compile Package Body "Calculator"
+# Error: COMP96_0057: 2mel.vhd : (8, 1): Cannot find referenced package declaration "Calculator".
+# Compile Entity "Calculator_Entity"
+# Warning: COMP96_0994: 2mel.vhd : (31, 1): Multiple entity "Calculator_Entity" found in "C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2mel.vhd", "C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd".
+# Error: COMP96_0078: 2mel.vhd : (33, 16): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2mel.vhd : (33, 16): Unknown type.
+# Error: COMP96_0078: 2mel.vhd : (34, 16): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2mel.vhd : (34, 16): Unknown type.
+# Error: COMP96_0078: 2mel.vhd : (35, 17): Unknown identifier "std_logic".
+# Error: COMP96_0064: 2mel.vhd : (35, 17): Unknown type.
+# Error: COMP96_0078: 2mel.vhd : (36, 22): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2mel.vhd : (36, 22): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Calculator_Entity"
+# Warning: COMP96_0994: 2mel.vhd : (41, 1): Multiple architecture "Behavioral" of entity "Calculator_Entity" found in "C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2mel.vhd", "C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd".
+# Error: COMP96_0078: 2mel.vhd : (46, 23): Unknown identifier "Calculator".
+# Error: COMP96_0133: 2mel.vhd : (46, 23): Cannot find object declaration.
+# Error: COMP96_0289: 2mel.vhd : (46, 33): Prefix of index must be an array.
+# Error: COMP96_0077: 2mel.vhd : (46, 23): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0078: 2mel.vhd : (48, 23): Unknown identifier "Calculator".
+# Error: COMP96_0133: 2mel.vhd : (48, 23): Cannot find object declaration.
+# Error: COMP96_0289: 2mel.vhd : (48, 33): Prefix of index must be an array.
+# Error: COMP96_0077: 2mel.vhd : (48, 23): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Compile failure 25 Errors 2 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/2mel.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Warning: COMP96_0003: Source file "C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd" is empty.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2mel.vhd
+# Compile Package "Calculator"
+# Error: COMP96_0078: 2mel.vhd : (3, 33): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2mel.vhd : (3, 33): Unknown type.
+# Error: COMP96_0078: 2mel.vhd : (3, 70): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2mel.vhd : (3, 70): Unknown type.
+# Error: COMP96_0078: 2mel.vhd : (4, 36): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2mel.vhd : (4, 36): Unknown type.
+# Error: COMP96_0078: 2mel.vhd : (4, 73): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2mel.vhd : (4, 73): Unknown type.
+# Compile Package Body "Calculator"
+# Error: COMP96_0057: 2mel.vhd : (8, 1): Cannot find referenced package declaration "Calculator".
+# Compile Entity "Calculator_Entity"
+# Error: COMP96_0078: 2mel.vhd : (33, 16): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2mel.vhd : (33, 16): Unknown type.
+# Error: COMP96_0078: 2mel.vhd : (34, 16): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2mel.vhd : (34, 16): Unknown type.
+# Error: COMP96_0078: 2mel.vhd : (35, 17): Unknown identifier "std_logic".
+# Error: COMP96_0064: 2mel.vhd : (35, 17): Unknown type.
+# Error: COMP96_0078: 2mel.vhd : (36, 22): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2mel.vhd : (36, 22): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Calculator_Entity"
+# Error: COMP96_0078: 2mel.vhd : (46, 23): Unknown identifier "Calculator".
+# Error: COMP96_0133: 2mel.vhd : (46, 23): Cannot find object declaration.
+# Error: COMP96_0289: 2mel.vhd : (46, 33): Prefix of index must be an array.
+# Error: COMP96_0077: 2mel.vhd : (46, 23): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0078: 2mel.vhd : (48, 23): Unknown identifier "Calculator".
+# Error: COMP96_0133: 2mel.vhd : (48, 23): Cannot find object declaration.
+# Error: COMP96_0289: 2mel.vhd : (48, 33): Prefix of index must be an array.
+# Error: COMP96_0077: 2mel.vhd : (48, 23): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Compile failure 25 Errors 1 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/2mel.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Warning: COMP96_0003: Source file "C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd" is empty.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2mel.vhd
+# Compile Package "Calculator_pkg"
+# Compile Package Body "Calculator_pkg"
+# Error: COMP96_0754: 2mel.vhd : (14, 74): Cannot find the operator denoted with the ""+"[STD_LOGIC_VECTOR, STD_LOGIC_VECTOR return STD_LOGIC_VECTOR]" signature.
+# Error: COMP96_0077: 2mel.vhd : (14, 16): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0754: 2mel.vhd : (21, 75): Cannot find the operator denoted with the ""-"[STD_LOGIC_VECTOR, STD_LOGIC_VECTOR return STD_LOGIC_VECTOR]" signature.
+# Error: COMP96_0077: 2mel.vhd : (21, 17): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Compile Entity "Calculator"
+# Error: COMP96_0078: 2mel.vhd : (28, 19): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2mel.vhd : (28, 19): Unknown type.
+# Error: COMP96_0078: 2mel.vhd : (29, 19): Unknown identifier "std_logic".
+# Error: COMP96_0064: 2mel.vhd : (29, 19): Unknown type.
+# Error: COMP96_0078: 2mel.vhd : (30, 22): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2mel.vhd : (30, 22): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# Error: COMP96_0056: 2mel.vhd : (34, 1): Cannot find referenced entity declaration "Calculator".
+# Compile failure 11 Errors 1 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/2mel.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Warning: COMP96_0003: Source file "C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd" is empty.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2mel.vhd
+# Compile Package "Calculator_pkg"
+# Error: COMP96_0015: 2mel.vhd : (6, 86): ';' expected.
+# Error: COMP96_0015: 2mel.vhd : (7, 5): ';' expected.
+# Error: COMP96_0015: 2mel.vhd : (7, 89): ';' expected.
+# Error: COMP96_0015: 2mel.vhd : (11, 86): ';' expected.
+# Error: COMP96_0015: 2mel.vhd : (18, 89): ';' expected.
+# Error: COMP96_0019: 2mel.vhd : (24, 1): Keyword 'begin' expected.
+# Error: COMP96_0015: 2mel.vhd : (24, 13): ';' expected.
+# Error: COMP96_0016: 2mel.vhd : (24, 18): Design unit declaration expected.
+# Compile Entity "Calculator"
+# Error: COMP96_0078: 2mel.vhd : (28, 19): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2mel.vhd : (28, 19): Unknown type.
+# Error: COMP96_0078: 2mel.vhd : (29, 19): Unknown identifier "std_logic".
+# Error: COMP96_0064: 2mel.vhd : (29, 19): Unknown type.
+# Error: COMP96_0078: 2mel.vhd : (30, 22): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2mel.vhd : (30, 22): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# Error: COMP96_0056: 2mel.vhd : (34, 1): Cannot find referenced entity declaration "Calculator".
+# Compile failure 15 Errors 1 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/2mel.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Warning: COMP96_0003: Source file "C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd" is empty.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2mel.vhd
+# Compile Package "Calculator_pkg"
+# Compile Package Body "Calculator_pkg"
+# Compile Entity "Calculator"
+# Error: COMP96_0078: 2mel.vhd : (28, 19): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2mel.vhd : (28, 19): Unknown type.
+# Error: COMP96_0078: 2mel.vhd : (29, 19): Unknown identifier "std_logic".
+# Error: COMP96_0064: 2mel.vhd : (29, 19): Unknown type.
+# Error: COMP96_0078: 2mel.vhd : (30, 22): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2mel.vhd : (30, 22): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# Error: COMP96_0056: 2mel.vhd : (34, 1): Cannot find referenced entity declaration "Calculator".
+# Compile failure 7 Errors 1 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/2mel.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Warning: COMP96_0003: Source file "C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd" is empty.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2mel.vhd
+# Compile Package "Calculator_pkg"
+# Compile Package Body "Calculator_pkg"
+# Compile Entity "Calculator"
+# Error: COMP96_0078: 2mel.vhd : (28, 19): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2mel.vhd : (28, 19): Unknown type.
+# Error: COMP96_0078: 2mel.vhd : (29, 19): Unknown identifier "std_logic".
+# Error: COMP96_0064: 2mel.vhd : (29, 19): Unknown type.
+# Error: COMP96_0078: 2mel.vhd : (30, 22): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2mel.vhd : (30, 22): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# Error: COMP96_0056: 2mel.vhd : (34, 1): Cannot find referenced entity declaration "Calculator".
+# Compile failure 7 Errors 1 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/2mel.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Warning: COMP96_0003: Source file "C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd" is empty.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2mel.vhd
+# Compile Package "Calculator_pkg"
+# Compile Package Body "Calculator_pkg"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# Error: COMP96_0078: 2mel.vhd : (44, 23): Unknown identifier "addition".
+# Error: COMP96_0133: 2mel.vhd : (44, 23): Cannot find object declaration.
+# Error: COMP96_0289: 2mel.vhd : (44, 23): Prefix of index must be an array.
+# Error: COMP96_0077: 2mel.vhd : (44, 23): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0078: 2mel.vhd : (46, 23): Unknown identifier "subtraction".
+# Error: COMP96_0133: 2mel.vhd : (46, 23): Cannot find object declaration.
+# Error: COMP96_0289: 2mel.vhd : (46, 23): Prefix of index must be an array.
+# Error: COMP96_0077: 2mel.vhd : (46, 23): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Compile failure 8 Errors 1 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/2mel.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Warning: COMP96_0003: Source file "C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd" is empty.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2mel.vhd
+# Compile Package "Calculator_pkg"
+# Compile Package Body "Calculator_pkg"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# Compile success 0 Errors 1 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/2mel.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "calculator_pkg"
+# Compile Package Body "calculator_pkg"
+# Compile Entity "calculator_entity"
+# Compile Architecture "behavioral" of Entity "calculator_entity"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2mel.vhd
+# Compile Package "Calculator_pkg"
+# Warning: COMP96_0994: 2mel.vhd : (5, 1): Multiple package "Calculator_pkg" found in "C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2mel.vhd", "C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd".
+# Compile Package Body "Calculator_pkg"
+# Warning: COMP96_0994: 2mel.vhd : (10, 1): Multiple package body "Calculator_pkg" found in "C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2mel.vhd", "C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd".
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# Compile success 0 Errors 2 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "calculator_pkg"
+# Compile Package Body "calculator_pkg"
+# Compile Entity "calculator_entity"
+# Compile Architecture "behavioral" of Entity "calculator_entity"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "calculator_pkg"
+# Compile Package Body "calculator_pkg"
+# Compile Entity "calculator_entity"
+# Compile Architecture "behavioral" of Entity "calculator_entity"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "Calculator_Package"
+# Error: COMP96_0078: 2.vhd : (4, 31): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2.vhd : (4, 31): Unknown type.
+# Error: COMP96_0078: 2.vhd : (4, 68): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2.vhd : (4, 68): Unknown type.
+# Error: COMP96_0078: 2.vhd : (5, 34): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2.vhd : (5, 34): Unknown type.
+# Error: COMP96_0078: 2.vhd : (5, 71): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2.vhd : (5, 71): Unknown type.
+# Compile Package Body "Calculator_Package"
+# Error: COMP96_0057: 2.vhd : (11, 1): Cannot find referenced package declaration "Calculator_Package".
+# Compile Entity "Calculator_Entity"
+# Error: COMP96_0078: 2.vhd : (41, 15): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2.vhd : (41, 15): Unknown type.
+# Error: COMP96_0078: 2.vhd : (42, 13): Unknown identifier "std_logic".
+# Error: COMP96_0064: 2.vhd : (42, 13): Unknown type.
+# Error: COMP96_0078: 2.vhd : (43, 18): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2.vhd : (43, 18): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Calculator_Entity"
+# Error: COMP96_0055: 2.vhd : (49, 12): Cannot find context item "work.Calculator_Package".
+# Compile failure 16 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "Calculator_Package"
+# Compile Package Body "Calculator_Package"
+# Compile Entity "Calculator_Entity"
+# Error: COMP96_0078: 2.vhd : (44, 15): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2.vhd : (44, 15): Unknown type.
+# Error: COMP96_0078: 2.vhd : (45, 13): Unknown identifier "std_logic".
+# Error: COMP96_0064: 2.vhd : (45, 13): Unknown type.
+# Error: COMP96_0078: 2.vhd : (46, 18): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2.vhd : (46, 18): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Calculator_Entity"
+# Error: COMP96_0756: 2.vhd : (59, 17): Subprogram call is ambiguous. At least two matching subprograms "work.Calculator_Package.addition(a : std_logic_vector(7 downto 0); b : std_logic_vector(7 downto 0)) return STD_LOGIC_VECTOR" and "work.calculator_pkg.addition(a : std_logic_vector(7 downto 0); b : std_logic_vector(7 downto 0)) return STD_LOGIC_VECTOR" were detected.
+# Error: COMP96_0756: 2.vhd : (61, 17): Subprogram call is ambiguous. At least two matching subprograms "work.Calculator_Package.subtraction(a : std_logic_vector(7 downto 0); b : std_logic_vector(7 downto 0)) return STD_LOGIC_VECTOR" and "work.calculator_pkg.subtraction(a : std_logic_vector(7 downto 0); b : std_logic_vector(7 downto 0)) return STD_LOGIC_VECTOR" were detected.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -reorder -O3 -e 100 -work design -2002  $dsn/src/2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "Calculator_Package"
+# Compile Package Body "Calculator_Package"
+# Compile Entity "Calculator_Entity"
+# Compile Architecture "Behavioral" of Entity "Calculator_Entity"
+# Top-level unit(s) detected:
+# Entity => Calculator_Entity
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "Calculator_Package"
+# Compile Package Body "Calculator_Package"
+# Compile Entity "Calculator_Entity"
+# Compile Architecture "Behavioral" of Entity "Calculator_Entity"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "Calculator_Package"
+# Compile Package Body "Calculator_Package"
+# Compile Entity "Calculator_Entity"
+# Compile Architecture "Behavioral" of Entity "Calculator_Entity"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "calculator_pkg"
+# Compile Package Body "calculator_pkg"
+# Compile Entity "calculator_entity"
+# Compile Architecture "behavioral" of Entity "calculator_entity"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "calculator_pkg"
+# Compile Package Body "calculator_pkg"
+# Compile Entity "calculator_entity"
+# Compile Architecture "behavioral" of Entity "calculator_entity"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "calculator_pkg"
+# Compile Package Body "calculator_pkg"
+# Error: COMP96_0071: 2.vhd : (27, 38): Operator "+" is not defined for such operands.
+# Error: COMP96_0077: 2.vhd : (27, 17): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Compile Entity "calculator_entity"
+# Compile Architecture "behavioral" of Entity "calculator_entity"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "calculator_pkg"
+# Compile Package Body "calculator_pkg"
+# Error: COMP96_0071: 2.vhd : (25, 39): Operator "+" is not defined for such operands.
+# Error: COMP96_0077: 2.vhd : (25, 17): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Compile Entity "calculator_entity"
+# Compile Architecture "behavioral" of Entity "calculator_entity"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "calculator_pkg"
+# Compile Package Body "calculator_pkg"
+# Error: COMP96_0071: 2.vhd : (26, 39): Operator "+" is not defined for such operands.
+# Error: COMP96_0077: 2.vhd : (26, 17): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Compile Entity "calculator_entity"
+# Compile Architecture "behavioral" of Entity "calculator_entity"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Error: COMP96_0078: 2.vhd : (35, 21): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2.vhd : (35, 21): Unknown type.
+# Error: COMP96_0078: 2.vhd : (36, 21): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2.vhd : (36, 21): Unknown type.
+# Error: COMP96_0078: 2.vhd : (37, 21): Unknown identifier "std_logic".
+# Error: COMP96_0064: 2.vhd : (37, 21): Unknown type.
+# Error: COMP96_0078: 2.vhd : (38, 21): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 2.vhd : (38, 21): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# Error: COMP96_0078: 2.vhd : (48, 28): Unknown identifier "BinaryCalculator".
+# Error: COMP96_0133: 2.vhd : (48, 28): Cannot find object declaration.
+# Error: COMP96_0289: 2.vhd : (48, 44): Prefix of index must be an array.
+# Error: COMP96_0077: 2.vhd : (48, 28): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0078: 2.vhd : (50, 28): Unknown identifier "BinaryCalculator".
+# Error: COMP96_0133: 2.vhd : (50, 28): Cannot find object declaration.
+# Error: COMP96_0289: 2.vhd : (50, 44): Prefix of index must be an array.
+# Error: COMP96_0077: 2.vhd : (50, 28): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Compile failure 16 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# Error: COMP96_0078: 2.vhd : (52, 28): Unknown identifier "BinaryCalculator".
+# Error: COMP96_0133: 2.vhd : (52, 28): Cannot find object declaration.
+# Error: COMP96_0289: 2.vhd : (52, 44): Prefix of index must be an array.
+# Error: COMP96_0077: 2.vhd : (52, 28): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0078: 2.vhd : (54, 28): Unknown identifier "BinaryCalculator".
+# Error: COMP96_0133: 2.vhd : (54, 28): Cannot find object declaration.
+# Error: COMP96_0289: 2.vhd : (54, 44): Prefix of index must be an array.
+# Error: COMP96_0077: 2.vhd : (54, 28): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# Error: COMP96_0078: 2.vhd : (53, 28): Unknown identifier "BinaryCalculator".
+# Error: COMP96_0133: 2.vhd : (53, 28): Cannot find object declaration.
+# Error: COMP96_0289: 2.vhd : (53, 44): Prefix of index must be an array.
+# Error: COMP96_0077: 2.vhd : (53, 28): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0078: 2.vhd : (55, 28): Unknown identifier "BinaryCalculator".
+# Error: COMP96_0133: 2.vhd : (55, 28): Cannot find object declaration.
+# Error: COMP96_0289: 2.vhd : (55, 44): Prefix of index must be an array.
+# Error: COMP96_0077: 2.vhd : (55, 28): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/1.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "Behavioral" of Entity "Full_Adder"
+# Compile Entity "N_Bit_Adder"
+# Error: COMP96_0078: 1.vhd : (25, 18): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (25, 18): Unknown type.
+# Error: COMP96_0078: 1.vhd : (26, 17): Unknown identifier "std_logic".
+# Error: COMP96_0064: 1.vhd : (26, 17): Unknown type.
+# Error: COMP96_0078: 1.vhd : (27, 18): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (27, 18): Unknown type.
+# Error: COMP96_0078: 1.vhd : (28, 19): Unknown identifier "std_logic".
+# Error: COMP96_0064: 1.vhd : (28, 19): Unknown type.
+# Compile Architecture "Behavioral" of Entity "N_Bit_Adder"
+# Error: COMP96_0056: 1.vhd : (32, 1): Cannot find referenced entity declaration "N_Bit_Adder".
+# Compile Entity "Output_Generator"
+# Error: COMP96_0078: 1.vhd : (58, 20): Unknown identifier "std_logic".
+# Error: COMP96_0064: 1.vhd : (58, 20): Unknown type.
+# Error: COMP96_0078: 1.vhd : (59, 17): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (59, 17): Unknown type.
+# Error: COMP96_0078: 1.vhd : (60, 21): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (60, 21): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Output_Generator"
+# Error: COMP96_0056: 1.vhd : (64, 1): Cannot find referenced entity declaration "Output_Generator".
+# Compile Entity "Count_1s"
+# Error: COMP96_0078: 1.vhd : (83, 15): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (83, 15): Unknown type.
+# Error: COMP96_0078: 1.vhd : (84, 21): Unknown identifier "std_logic".
+# Error: COMP96_0064: 1.vhd : (84, 21): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Count_1s"
+# Error: COMP96_0056: 1.vhd : (88, 1): Cannot find referenced entity declaration "Count_1s".
+# Compile Entity "Combinational_Circuit"
+# Error: COMP96_0078: 1.vhd : (116, 18): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (116, 18): Unknown type.
+# Error: COMP96_0078: 1.vhd : (117, 16): Unknown identifier "std_logic".
+# Error: COMP96_0064: 1.vhd : (117, 16): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Combinational_Circuit"
+# Error: COMP96_0056: 1.vhd : (121, 1): Cannot find referenced entity declaration "Combinational_Circuit".
+# Compile failure 26 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/1.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "Behavioral" of Entity "Full_Adder"
+# Compile Entity "N_Bit_Adder"
+# Compile Architecture "Behavioral" of Entity "N_Bit_Adder"
+# Compile Entity "Output_Generator"
+# Error: COMP96_0078: 1.vhd : (61, 20): Unknown identifier "std_logic".
+# Error: COMP96_0064: 1.vhd : (61, 20): Unknown type.
+# Error: COMP96_0078: 1.vhd : (62, 17): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (62, 17): Unknown type.
+# Error: COMP96_0078: 1.vhd : (63, 21): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (63, 21): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Output_Generator"
+# Error: COMP96_0056: 1.vhd : (67, 1): Cannot find referenced entity declaration "Output_Generator".
+# Compile Entity "Count_1s"
+# Error: COMP96_0078: 1.vhd : (86, 15): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (86, 15): Unknown type.
+# Error: COMP96_0078: 1.vhd : (87, 21): Unknown identifier "std_logic".
+# Error: COMP96_0064: 1.vhd : (87, 21): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Count_1s"
+# Error: COMP96_0056: 1.vhd : (91, 1): Cannot find referenced entity declaration "Count_1s".
+# Compile Entity "Combinational_Circuit"
+# Error: COMP96_0078: 1.vhd : (119, 18): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (119, 18): Unknown type.
+# Error: COMP96_0078: 1.vhd : (120, 16): Unknown identifier "std_logic".
+# Error: COMP96_0064: 1.vhd : (120, 16): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Combinational_Circuit"
+# Error: COMP96_0056: 1.vhd : (124, 1): Cannot find referenced entity declaration "Combinational_Circuit".
+# Compile failure 17 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/1.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "Behavioral" of Entity "Full_Adder"
+# Compile Entity "N_Bit_Adder"
+# Compile Architecture "Behavioral" of Entity "N_Bit_Adder"
+# Compile Entity "Output_Generator"
+# Compile Architecture "Behavioral" of Entity "Output_Generator"
+# Error: COMP96_0264: 1.vhd : (74, 13): Signal "Output" in the sensitivity list must denote a signal that can be read.
+# Error: COMP96_0393: 1.vhd : (76, 12): Cannot read output : "Output".
+# Error: COMP96_0393: 1.vhd : (77, 41): Cannot read output : "Output".
+# Compile Entity "Count_1s"
+# Error: COMP96_0078: 1.vhd : (89, 15): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (89, 15): Unknown type.
+# Error: COMP96_0078: 1.vhd : (90, 21): Unknown identifier "std_logic".
+# Error: COMP96_0064: 1.vhd : (90, 21): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Count_1s"
+# Error: COMP96_0056: 1.vhd : (94, 1): Cannot find referenced entity declaration "Count_1s".
+# Compile Entity "Combinational_Circuit"
+# Error: COMP96_0078: 1.vhd : (122, 18): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (122, 18): Unknown type.
+# Error: COMP96_0078: 1.vhd : (123, 16): Unknown identifier "std_logic".
+# Error: COMP96_0064: 1.vhd : (123, 16): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Combinational_Circuit"
+# Error: COMP96_0056: 1.vhd : (127, 1): Cannot find referenced entity declaration "Combinational_Circuit".
+# Compile failure 13 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/1.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "Behavioral" of Entity "Full_Adder"
+# Compile Entity "N_Bit_Adder"
+# Compile Architecture "Behavioral" of Entity "N_Bit_Adder"
+# Compile Entity "Output_Generator"
+# Compile Architecture "Behavioral" of Entity "Output_Generator"
+# Error: COMP96_0264: 1.vhd : (74, 13): Signal "Output" in the sensitivity list must denote a signal that can be read.
+# Error: COMP96_0393: 1.vhd : (76, 12): Cannot read output : "Output".
+# Error: COMP96_0393: 1.vhd : (77, 41): Cannot read output : "Output".
+# Compile Entity "Count_1s"
+# Compile Architecture "Behavioral" of Entity "Count_1s"
+# Compile Entity "Combinational_Circuit"
+# Error: COMP96_0078: 1.vhd : (125, 18): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (125, 18): Unknown type.
+# Error: COMP96_0078: 1.vhd : (126, 16): Unknown identifier "std_logic".
+# Error: COMP96_0064: 1.vhd : (126, 16): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Combinational_Circuit"
+# Error: COMP96_0056: 1.vhd : (130, 1): Cannot find referenced entity declaration "Combinational_Circuit".
+# Compile failure 8 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/1.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "Behavioral" of Entity "Full_Adder"
+# Compile Entity "Output_Generator"
+# Error: COMP96_0078: 1.vhd : (25, 12): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (25, 12): Unknown type.
+# Error: COMP96_0078: 1.vhd : (26, 12): Unknown identifier "std_logic".
+# Error: COMP96_0064: 1.vhd : (26, 12): Unknown type.
+# Error: COMP96_0078: 1.vhd : (27, 13): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (27, 13): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Output_Generator"
+# Error: COMP96_0078: 1.vhd : (33, 3): Unknown identifier "C".
+# Error: COMP96_0133: 1.vhd : (33, 3): Cannot find object declaration.
+# Error: COMP96_0078: 1.vhd : (33, 8): Unknown identifier "B".
+# Error: COMP96_0078: 1.vhd : (33, 12): Unknown identifier "A".
+# Compile Entity "Even_Count_Checker"
+# Error: COMP96_0078: 1.vhd : (43, 12): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (43, 12): Unknown type.
+# Error: COMP96_0078: 1.vhd : (44, 13): Unknown identifier "std_logic".
+# Error: COMP96_0064: 1.vhd : (44, 13): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Even_Count_Checker"
+# Error: COMP96_0056: 1.vhd : (48, 1): Cannot find referenced entity declaration "Even_Count_Checker".
+# Compile Entity "Combinational_Circuit"
+# Error: COMP96_0078: 1.vhd : (60, 15): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (60, 15): Unknown type.
+# Error: COMP96_0078: 1.vhd : (61, 13): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (61, 13): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Combinational_Circuit"
+# Error: COMP96_0056: 1.vhd : (65, 1): Cannot find referenced entity declaration "Combinational_Circuit".
+# Compile failure 20 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/1.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "Behavioral" of Entity "Full_Adder"
+# Compile Entity "Output_Generator"
+# Compile Architecture "Behavioral" of Entity "Output_Generator"
+# Compile Entity "Even_Count_Checker"
+# Error: COMP96_0078: 1.vhd : (46, 12): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (46, 12): Unknown type.
+# Error: COMP96_0078: 1.vhd : (47, 13): Unknown identifier "std_logic".
+# Error: COMP96_0064: 1.vhd : (47, 13): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Even_Count_Checker"
+# Error: COMP96_0056: 1.vhd : (51, 1): Cannot find referenced entity declaration "Even_Count_Checker".
+# Compile Entity "Combinational_Circuit"
+# Error: COMP96_0078: 1.vhd : (63, 15): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (63, 15): Unknown type.
+# Error: COMP96_0078: 1.vhd : (64, 13): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (64, 13): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Combinational_Circuit"
+# Error: COMP96_0056: 1.vhd : (68, 1): Cannot find referenced entity declaration "Combinational_Circuit".
+# Compile failure 10 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/1.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "Behavioral" of Entity "Full_Adder"
+# Compile Entity "Output_Generator"
+# Compile Architecture "Behavioral" of Entity "Output_Generator"
+# Compile Entity "Even_Count_Checker"
+# Compile Architecture "Behavioral" of Entity "Even_Count_Checker"
+# Error: COMP96_0078: 1.vhd : (56, 18): Unknown identifier "count".
+# Error: COMP96_0133: 1.vhd : (56, 18): Cannot find object declaration.
+# Error: COMP96_0289: 1.vhd : (56, 18): Prefix of index must be an array.
+# Error: COMP96_0077: 1.vhd : (56, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile Entity "Combinational_Circuit"
+# Error: COMP96_0078: 1.vhd : (66, 15): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (66, 15): Unknown type.
+# Error: COMP96_0078: 1.vhd : (67, 13): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (67, 13): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Combinational_Circuit"
+# Error: COMP96_0056: 1.vhd : (71, 1): Cannot find referenced entity declaration "Combinational_Circuit".
+# Compile failure 9 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/1.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "Behavioral" of Entity "Full_Adder"
+# Compile Entity "Output_Generator"
+# Compile Architecture "Behavioral" of Entity "Output_Generator"
+# Compile Entity "Even_Count_Checker"
+# Compile Architecture "Behavioral" of Entity "Even_Count_Checker"
+# Error: COMP96_0078: 1.vhd : (56, 18): Unknown identifier "count".
+# Error: COMP96_0133: 1.vhd : (56, 18): Cannot find object declaration.
+# Error: COMP96_0289: 1.vhd : (56, 18): Prefix of index must be an array.
+# Error: COMP96_0077: 1.vhd : (56, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile Entity "Combinational_Circuit"
+# Compile Architecture "Behavioral" of Entity "Combinational_Circuit"
+# Error: COMP96_0100: 1.vhd : (124, 7): Actual parameter type in port map does not match the type of the formal port 'A'.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/1.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "Behavioral" of Entity "Full_Adder"
+# Compile Entity "Output_Generator"
+# Error: COMP96_0078: 1.vhd : (25, 12): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (25, 12): Unknown type.
+# Error: COMP96_0078: 1.vhd : (26, 12): Unknown identifier "std_logic".
+# Error: COMP96_0064: 1.vhd : (26, 12): Unknown type.
+# Error: COMP96_0078: 1.vhd : (27, 13): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (27, 13): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Output_Generator"
+# Compile Entity "Even_Count_Checker"
+# Error: COMP96_0078: 1.vhd : (43, 12): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (43, 12): Unknown type.
+# Error: COMP96_0078: 1.vhd : (44, 13): Unknown identifier "std_logic".
+# Error: COMP96_0064: 1.vhd : (44, 13): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Even_Count_Checker"
+# A feature of VHDL 2008 has been detected. Use the -2008 argument of the vcom command.
+# Error: COMP96_0015: 1.vhd : (59, 14): ';' expected.
+# Error: COMP96_0019: 1.vhd : (59, 37): Keyword 'end' expected.
+# Error: COMP96_0015: 1.vhd : (60, 7): ';' expected.
+# Error: COMP96_0016: 1.vhd : (60, 14): Design unit declaration expected.
+# Compile Entity "Combinational_Circuit"
+# Error: COMP96_0078: 1.vhd : (70, 15): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (70, 15): Unknown type.
+# Error: COMP96_0078: 1.vhd : (71, 13): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (71, 13): Unknown type.
+# Compile Architecture "Behavioral" of Entity "Combinational_Circuit"
+# Error: COMP96_0100: 1.vhd : (125, 7): Actual parameter type in port map does not match the type of the formal port 'A'.
+# Compile failure 19 Errors 0 Warnings  Analysis time :  93.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/1.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "Behavioral" of Entity "Full_Adder"
+# Compile Entity "Output_Generator"
+# Compile Architecture "Behavioral" of Entity "Output_Generator"
+# Compile Entity "Even_Count_Checker"
+# Compile Architecture "Behavioral" of Entity "Even_Count_Checker"
+# A feature of VHDL 2008 has been detected. Use the -2008 argument of the vcom command.
+# Error: COMP96_0015: 1.vhd : (65, 14): ';' expected.
+# Error: COMP96_0019: 1.vhd : (65, 37): Keyword 'end' expected.
+# Error: COMP96_0015: 1.vhd : (66, 7): ';' expected.
+# Error: COMP96_0016: 1.vhd : (66, 14): Design unit declaration expected.
+# Compile Entity "Combinational_Circuit"
+# Compile Architecture "Behavioral" of Entity "Combinational_Circuit"
+# Error: COMP96_0100: 1.vhd : (134, 7): Actual parameter type in port map does not match the type of the formal port 'A'.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/1.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "Behavioral" of Entity "Full_Adder"
+# Compile Entity "Output_Generator"
+# Compile Architecture "Behavioral" of Entity "Output_Generator"
+# Compile Entity "Even_Count_Checker"
+# Compile Architecture "Behavioral" of Entity "Even_Count_Checker"
+# Error: COMP96_0078: 1.vhd : (56, 18): Unknown identifier "count".
+# Error: COMP96_0133: 1.vhd : (56, 18): Cannot find object declaration.
+# Error: COMP96_0289: 1.vhd : (56, 18): Prefix of index must be an array.
+# Error: COMP96_0077: 1.vhd : (56, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile Entity "Combinational_Circuit"
+# Compile Architecture "Behavioral" of Entity "Combinational_Circuit"
+# Error: COMP96_0100: 1.vhd : (124, 7): Actual parameter type in port map does not match the type of the formal port 'A'.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/1.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "Behavioral" of Entity "Full_Adder"
+# Compile Entity "Output_Generator"
+# Compile Architecture "Behavioral" of Entity "Output_Generator"
+# Compile Entity "Even_Count_Checker"
+# Compile Architecture "Behavioral" of Entity "Even_Count_Checker"
+# Compile Entity "Combinational_Circuit"
+# Compile Architecture "Behavioral" of Entity "Combinational_Circuit"
+# Error: COMP96_0100: 1.vhd : (125, 7): Actual parameter type in port map does not match the type of the formal port 'A'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/1.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "Behavioral" of Entity "Full_Adder"
+# Compile Entity "Output_Generator"
+# Compile Architecture "Behavioral" of Entity "Output_Generator"
+# Compile Entity "Even_Count_Checker"
+# Compile Architecture "Behavioral" of Entity "Even_Count_Checker"
+# Compile Entity "Combinational_Circuit"
+# Compile Architecture "Behavioral" of Entity "Combinational_Circuit"
+# Error: COMP96_0015: 1.vhd : (131, 3): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/1.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "Behavioral" of Entity "Full_Adder"
+# Compile Entity "Output_Generator"
+# Compile Architecture "Behavioral" of Entity "Output_Generator"
+# Compile Entity "Even_Count_Checker"
+# Compile Architecture "Behavioral" of Entity "Even_Count_Checker"
+# Compile Entity "Combinational_Circuit"
+# Compile Architecture "Behavioral" of Entity "Combinational_Circuit"
+# Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/1.vhd
+# Compile Entity "Full_Adder"
+# Compile Architecture "Behavioral" of Entity "Full_Adder"
+# Compile Entity "Output_Generator"
+# Compile Architecture "Behavioral" of Entity "Output_Generator"
+# Compile Entity "Even_Count_Checker"
+# Compile Architecture "Behavioral" of Entity "Even_Count_Checker"
+# Compile Entity "Combinational_Circuit"
+# Compile Architecture "Behavioral" of Entity "Combinational_Circuit"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/1.vhd
+# Compile Entity "CombinationalCircuit"
+# Error: COMP96_0664: 1.vhd : (7, 32): Value 8 out of range 2 to 7.
+# Compile Architecture "Behavioral" of Entity "CombinationalCircuit"
+# Error: COMP96_0056: 1.vhd : (15, 1): Cannot find referenced entity declaration "CombinationalCircuit".
+# Compile failure 2 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/1.vhd
+# Compile Entity "CombinationalCircuit"
+# Compile Architecture "Behavioral" of Entity "CombinationalCircuit"
+# Error: COMP96_0664: 1.vhd : (26, 34): Value 8 out of range 2 to 7.
+# Error: COMP96_0664: 1.vhd : (38, 34): Value 8 out of range 2 to 7.
+# Error: COMP96_0100: 1.vhd : (57, 7): Actual parameter type in port map does not match the type of the formal port 'B'.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/1.vhd
+# Compile Entity "CombinationalCircuit"
+# Compile Architecture "Behavioral" of Entity "CombinationalCircuit"
+# Warning: ELAB1_0026: 1.vhd : (54, 0): There is no default binding for component "FullAdder". (No entity named "FullAdder" was found).
+# Error: COMP96_0100: 1.vhd : (57, 7): Actual parameter type in port map does not match the type of the formal port 'B'.
+# Compile failure 1 Errors 1 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/1.vhd
+# Error: COMP96_0016: 1.vhd : (2, 1): Design unit declaration expected.
+# Compile Entity "CombinationalCircuit"
+# Error: COMP96_0078: 1.vhd : (39, 15): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (39, 15): Unknown type.
+# Error: COMP96_0078: 1.vhd : (40, 16): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (40, 16): Unknown type.
+# Compile Architecture "Behavioral" of Entity "CombinationalCircuit"
+# Error: COMP96_0078: 1.vhd : (51, 20): Unknown identifier "NBitAdder".
+# Error: COMP96_0134: 1.vhd : (51, 20): Cannot find component declaration.
+# Error: COMP96_0078: 1.vhd : (61, 20): Unknown identifier "CountOnes".
+# Error: COMP96_0134: 1.vhd : (61, 20): Cannot find component declaration.
+# Compile failure 9 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/1.vhd
+# Error: COMP96_0016: 1.vhd : (5, 1): Design unit declaration expected.
+# Error: COMP96_0016: 1.vhd : (5, 11): Design unit declaration expected.
+# Compile Entity "CombinationalCircuit"
+# Error: COMP96_0078: 1.vhd : (42, 15): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (42, 15): Unknown type.
+# Error: COMP96_0078: 1.vhd : (43, 16): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (43, 16): Unknown type.
+# Compile Architecture "Behavioral" of Entity "CombinationalCircuit"
+# Error: COMP96_0078: 1.vhd : (54, 20): Unknown identifier "NBitAdder".
+# Error: COMP96_0134: 1.vhd : (54, 20): Cannot find component declaration.
+# Error: COMP96_0078: 1.vhd : (64, 20): Unknown identifier "CountOnes".
+# Error: COMP96_0134: 1.vhd : (64, 20): Cannot find component declaration.
+# Compile failure 10 Errors 0 Warnings  Analysis time :  93.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/1.vhd
+# Compile Entity "FullAdder"
+# Error: COMP96_0078: 1.vhd : (3, 27): Unknown identifier "std_logic".
+# Error: COMP96_0064: 1.vhd : (3, 27): Unknown type.
+# Error: COMP96_0078: 1.vhd : (4, 28): Unknown identifier "std_logic".
+# Error: COMP96_0064: 1.vhd : (4, 28): Unknown type.
+# Compile Architecture "Behavioral" of Entity "FullAdder"
+# Error: COMP96_0056: 1.vhd : (7, 1): Cannot find referenced entity declaration "FullAdder".
+# Compile Entity "NBitAdder"
+# Error: COMP96_0078: 1.vhd : (17, 22): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (17, 22): Unknown type.
+# Error: COMP96_0078: 1.vhd : (18, 21): Unknown identifier "std_logic".
+# Error: COMP96_0064: 1.vhd : (18, 21): Unknown type.
+# Error: COMP96_0078: 1.vhd : (19, 22): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (19, 22): Unknown type.
+# Error: COMP96_0078: 1.vhd : (20, 23): Unknown identifier "std_logic".
+# Error: COMP96_0064: 1.vhd : (20, 23): Unknown type.
+# Compile Architecture "Behavioral" of Entity "NBitAdder"
+# Error: COMP96_0056: 1.vhd : (23, 1): Cannot find referenced entity declaration "NBitAdder".
+# Compile Entity "CountAndReturnEven"
+# Error: COMP96_0078: 1.vhd : (42, 19): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (42, 19): Unknown type.
+# Error: COMP96_0078: 1.vhd : (43, 28): Unknown identifier "std_logic".
+# Error: COMP96_0064: 1.vhd : (43, 28): Unknown type.
+# Compile Architecture "Behavioral" of Entity "CountAndReturnEven"
+# Error: COMP96_0056: 1.vhd : (46, 1): Cannot find referenced entity declaration "CountAndReturnEven".
+# Compile Entity "CombinationalCircuit"
+# Error: COMP96_0078: 1.vhd : (70, 22): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (70, 22): Unknown type.
+# Error: COMP96_0078: 1.vhd : (71, 20): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (71, 20): Unknown type.
+# Compile Architecture "Behavioral" of Entity "CombinationalCircuit"
+# Warning: ELAB1_0026: 1.vhd : (92, 0): There is no default binding for component "NBitAdder". (No entity named "NBitAdder" was found).
+# Warning: ELAB1_0026: 1.vhd : (93, 0): There is no default binding for component "CountAndReturnEven". (No entity named "CountAndReturnEven" was found).
+# Compile Entity "OutputGenerator"
+# Error: COMP96_0078: 1.vhd : (101, 27): Unknown identifier "std_logic".
+# Error: COMP96_0064: 1.vhd : (101, 27): Unknown type.
+# Error: COMP96_0078: 1.vhd : (102, 21): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (102, 21): Unknown type.
+# Error: COMP96_0078: 1.vhd : (103, 25): Unknown identifier "std_logic_vector".
+# Error: COMP96_0064: 1.vhd : (103, 25): Unknown type.
+# Compile Architecture "Behavioral" of Entity "OutputGenerator"
+# Error: COMP96_0056: 1.vhd : (106, 1): Cannot find referenced entity declaration "OutputGenerator".
+# Compile failure 30 Errors 2 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/1.vhd
+# Compile Entity "FullAdder"
+# Compile Architecture "Behavioral" of Entity "FullAdder"
+# Compile Entity "NBitAdder"
+# Compile Architecture "Behavioral" of Entity "NBitAdder"
+# Compile Entity "CountAndReturnEven"
+# Compile Architecture "Behavioral" of Entity "CountAndReturnEven"
+# Compile Entity "CombinationalCircuit"
+# Compile Architecture "Behavioral" of Entity "CombinationalCircuit"
+# Compile Entity "OutputGenerator"
+# Compile Architecture "Behavioral" of Entity "OutputGenerator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/1.vhd
+# Compile Entity "FullAdder"
+# Compile Architecture "Behavioral" of Entity "FullAdder"
+# Compile Entity "NBitAdder"
+# Compile Architecture "Behavioral" of Entity "NBitAdder"
+# Compile Entity "CountAndReturnEven"
+# Compile Architecture "Behavioral" of Entity "CountAndReturnEven"
+# Compile Entity "CombinationalCircuit"
+# Compile Architecture "Behavioral" of Entity "CombinationalCircuit"
+# Compile Entity "OutputGenerator"
+# Compile Architecture "Behavioral" of Entity "OutputGenerator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work design -2002  $dsn/src/2.vhd $dsn/src/1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/2.vhd
+# Compile Package "BinaryCalculator"
+# Compile Package Body "BinaryCalculator"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/QUIZ4/design/src/1.vhd
+# Compile Entity "FullAdder"
+# Compile Architecture "Behavioral" of Entity "FullAdder"
+# Compile Entity "NBitAdder"
+# Compile Architecture "Behavioral" of Entity "NBitAdder"
+# Compile Entity "CountAndReturnEven"
+# Compile Architecture "Behavioral" of Entity "CountAndReturnEven"
+# Compile Entity "CombinationalCircuit"
+# Compile Architecture "Behavioral" of Entity "CombinationalCircuit"
+# Compile Entity "OutputGenerator"
+# Compile Architecture "Behavioral" of Entity "OutputGenerator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]

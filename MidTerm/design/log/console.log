@@ -1,0 +1,6 @@
+# ELBREAD: Elaboration process.
+# ULM: Warning: ULM_0021 Architecture `behavioral' of entity `design.bcd_sum' is not up-to-date. Please recompile file `C:\Users\free\Desktop\UNI\term6\CAD\MidTerm\design/src/2.vhd'.
+# ELBREAD: Warning: ELBREAD_0081 bcd_sum_TB.vhd (35): Design unit BCD_Sum instantiated in design.bcd_sum_tb(TB_ARCHITECTURE) not found in searched libraries: design.
+# ELBREAD: Error: The contents of entity 'design.bcd_sum' instantiated in architecture 'TB_ARCHITECTURE:bcd_sum_tb' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed

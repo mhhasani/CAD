@@ -1,0 +1,3 @@
+BCD_Sum ENTITY
+eight_bit_register ENTITY
+TESTBENCH_FOR_counter12bit CONFIGURATION

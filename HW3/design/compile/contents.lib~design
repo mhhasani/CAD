@@ -1,0 +1,21 @@
+59
+~E 1 "../src/Q1.vhd" 41 BCD_Adder
+~A 1 "../src/Q1.vhd" 51 Behavioral
+~E 1 "../src/Q2.vhd" 44 Binary_Reverser_TB
+~A 1 "../src/Q2.vhd" 49 sim
+~E 1 "../src/Q3.vhd" 48 Convolution_Main
+~E 1 "../src/Q3.vhd" 20 Convolution_Unit
+~A 1 "../src/Q3.vhd" 28 Behavioral
+~E 1 "../src/Q1.vhd" 5 Full_Adder
+~A 1 "../src/Q1.vhd" 12 Behavioral
+~E 1 "../src/Q1.vhd" 23 Half_Adder
+~A 1 "../src/Q1.vhd" 30 Behavioral
+~E 1 "../src/Q1.vhd" 4 Q1
+~E 1 "../src/Q2.vhd" 45 Recursive_Functions_Entity
+~A 1 "../src/Q2.vhd" 52 Behavioral
+~E 1 "../src/TestBench/recursive_functions_entity_TB.vhd" 4 recursive_functions_entity_tb
+~A 1 "../src/TestBench/recursive_functions_entity_TB.vhd" 7 TB_ARCHITECTURE
+~E 1 "../src/TestBench/recursive_functions_entity_TB.vhd" 5 Recursive_Functions_TB
+~A 1 "../src/TestBench/recursive_functions_entity_TB.vhd" 8 tb_arch
+~E 1 "../src/Q3.vhd" 96 Testbench
+~C 1 "../src/TestBench/recursive_functions_entity_TB.vhd" 56 testbench_for_recursive_functions_entity

@@ -1,0 +1,10 @@
+14
+~E 1 "../src/1.vhd" 4 GCD_LCM
+~A 1 "../src/1.vhd" 11 Behavioral
+~E 1 "../src/TestBench/gcd_lcm_TB.vhd" 6 gcd_lcm_tb
+~A 1 "../src/TestBench/gcd_lcm_TB.vhd" 9 TB_ARCHITECTURE
+~E 1 "../src/3.vhd" 13 MatrixOperation
+~A 1 "../src/3.vhd" 22 Behavioral
+~E 1 "../src/2.vhd" 5 MedianAverage
+~A 1 "../src/2.vhd" 13 Behavioral
+~C 1 "../src/TestBench/gcd_lcm_TB.vhd" 61 testbench_for_gcd_lcm
