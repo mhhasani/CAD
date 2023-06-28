@@ -1,0 +1,363 @@
+# Design: Design design already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: C-Synthesis: Not Defined
+# DESIGN: HDL Synthesis: Not Defined
+# DESIGN: Physical Synthesis: Not Defined
+# DESIGN: Implementation: Not Defined
+acom -reorder -O3 -e 100 -work design -2002  $dsn/src/main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/Project/design/src/main.vhd
+# Compile Entity "counterEx"
+# Compile Architecture "arch" of Entity "counterEx"
+# Top-level unit(s) detected:
+# Entity => counterEx
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work design -2002  $dsn/src/main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/Project/design/src/main.vhd
+# Compile Entity "counterEx"
+# Compile Architecture "arch" of Entity "counterEx"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/main.vhd $dsn/src/TestBench/counterex_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/Project/design/src/main.vhd
+# Compile Entity "counterEx"
+# Compile Architecture "arch" of Entity "counterEx"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/Project/design/src/TestBench/counterex_TB.vhd
+# Compile Entity "counterex_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "counterex_tb"
+# Compile Configuration "TESTBENCH_FOR_counterex"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -e 100 -work design -2002  $dsn/src/main.vhd $dsn/src/TestBench/counterex_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/Project/design/src/main.vhd
+# Compile Entity "counterEx"
+# Compile Architecture "arch" of Entity "counterEx"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/Project/design/src/TestBench/counterex_TB.vhd
+# Compile Entity "counterex_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "counterex_tb"
+# Compile Configuration "TESTBENCH_FOR_counterex"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+counterex_tb counterex_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6463 kB (elbread=427 elab2=5897 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\UNI\term6\CAD\Project\design\src\wave.asdb
+#  10:31 AM, Tuesday, June 27, 2023
+#  Simulation has been initialized
+run @10ns
+# KERNEL: stopped at time: 10 ns
+# add wave -noreg {/counterex_tb/clk}
+# add wave -noreg {/counterex_tb/reset}
+# add wave -noreg {/counterex_tb/out_moore}
+# add wave -noreg {/counterex_tb/M}
+# add wave -noreg {/counterex_tb/N}
+# 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/free/Desktop/UNI/term6/CAD/Project/design/src/wave.asdb'.
+run @20ns
+# KERNEL: stopped at time: 20 ns
+run @30ns
+# KERNEL: stopped at time: 30 ns
+run @40ns
+# KERNEL: stopped at time: 40 ns
+run @50ns
+# KERNEL: stopped at time: 50 ns
+run @60ns
+# KERNEL: stopped at time: 60 ns
+run @70ns
+# KERNEL: stopped at time: 70 ns
+run @80ns
+# KERNEL: stopped at time: 80 ns
+run @90ns
+# KERNEL: stopped at time: 90 ns
+run @100ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @110ns
+# KERNEL: stopped at time: 110 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 120 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 130 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 140 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 150 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 160 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Waveform file 'C:/Users/free/Desktop/UNI/term6/CAD/Project/design/src/untitled.awc' connected to 'C:/Users/free/Desktop/UNI/term6/CAD/Project/design/src/untitled.asdb'.
+# Adding file C:\Users\free\Desktop\UNI\term6\CAD\Project\design\src\untitled.asdb ... Done
+# Adding file C:\Users\free\Desktop\UNI\term6\CAD\Project\design\src\untitled.awc ... Done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work design -2002  $dsn/src/main.vhd $dsn/src/TestBench/counterex_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/Project/design/src/main.vhd
+# Compile Entity "counterEx"
+# Compile Architecture "arch" of Entity "counterEx"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/Project/design/src/TestBench/counterex_TB.vhd
+# Compile Entity "counterex_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "counterex_tb"
+# Compile Configuration "TESTBENCH_FOR_counterex"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+asim -O5 +access +r +m+counterEx counterEx arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6460 kB (elbread=427 elab2=5893 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\UNI\term6\CAD\Project\design\src\wave.asdb
+#  10:35 AM, Tuesday, June 27, 2023
+#  Simulation has been initialized
+run @10ns
+# KERNEL: stopped at time: 10 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+counterEx counterEx arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6460 kB (elbread=427 elab2=5893 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\UNI\term6\CAD\Project\design\src\wave.asdb
+#  10:35 AM, Tuesday, June 27, 2023
+#  Simulation has been initialized
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+counterEx counterEx arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6460 kB (elbread=427 elab2=5893 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\UNI\term6\CAD\Project\design\src\wave.asdb
+#  10:35 AM, Tuesday, June 27, 2023
+#  Simulation has been initialized
+run @10ns
+# KERNEL: stopped at time: 10 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# add wave -noreg {/counterEx/clk}
+# add wave -noreg {/counterEx/reset}
+# add wave -noreg {/counterEx/out_moore}
+# add wave -noreg {/counterEx/state_moore_reg}
+# add wave -noreg {/counterEx/state_moore_next}
+# add wave -noreg {/counterEx/count_moore_reg}
+# add wave -noreg {/counterEx/count_moore_next}
+# add wave -noreg {/counterEx/M}
+# add wave -noreg {/counterEx/N}
+# 9 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/free/Desktop/UNI/term6/CAD/Project/design/src/wave.asdb'.
+run @20ns
+# KERNEL: stopped at time: 20 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 30 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 40 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 50 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 60 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Waveform file 'C:/Users/free/Desktop/UNI/term6/CAD/Project/design/src/untitled.awc' connected to 'C:/Users/free/Desktop/UNI/term6/CAD/Project/design/src/untitled.asdb'.
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work design -2002  $dsn/src/main.vhd $dsn/src/TestBench/counterex_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/Project/design/src/main.vhd
+# Compile Entity "counterEx"
+# Compile Architecture "arch" of Entity "counterEx"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/Project/design/src/TestBench/counterex_TB.vhd
+# Compile Entity "counterex_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "counterex_tb"
+# Compile Configuration "TESTBENCH_FOR_counterex"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+asim -O5 +access +r +m+counterex_tb counterex_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6463 kB (elbread=427 elab2=5897 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\UNI\term6\CAD\Project\design\src\wave.asdb
+#  10:37 AM, Tuesday, June 27, 2023
+#  Simulation has been initialized
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# add wave -noreg {/counterex_tb/clk}
+# add wave -noreg {/counterex_tb/reset}
+# add wave -noreg {/counterex_tb/out_moore}
+# add wave -noreg {/counterex_tb/M}
+# add wave -noreg {/counterex_tb/N}
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+counterex_tb counterex_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6463 kB (elbread=427 elab2=5897 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\UNI\term6\CAD\Project\design\src\wave.asdb
+#  10:37 AM, Tuesday, June 27, 2023
+#  Simulation has been initialized
+run @10ns
+# KERNEL: stopped at time: 10 ns
+# add wave -noreg {/counterex_tb/clk}
+# add wave -noreg {/counterex_tb/reset}
+# add wave -noreg {/counterex_tb/out_moore}
+# add wave -noreg {/counterex_tb/M}
+# add wave -noreg {/counterex_tb/N}
+# 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/free/Desktop/UNI/term6/CAD/Project/design/src/wave.asdb'.
+run @20ns
+# KERNEL: stopped at time: 20 ns
+run 10 ns
+# KERNEL: stopped at time: 30 ns
+run 10 ns
+# KERNEL: stopped at time: 40 ns
+run 10 ns
+# KERNEL: stopped at time: 50 ns
+run 10 ns
+# KERNEL: stopped at time: 60 ns
+run 10 ns
+# KERNEL: stopped at time: 70 ns
+run 10 ns
+# KERNEL: stopped at time: 80 ns
+run 10 ns
+# KERNEL: stopped at time: 90 ns
+run 10 ns
+# KERNEL: stopped at time: 100 ns
+run 10 ns
+# KERNEL: stopped at time: 110 ns
+run 10 ns
+# KERNEL: stopped at time: 120 ns
+run 10 ns
+# KERNEL: stopped at time: 130 ns
+run 10 ns
+# KERNEL: stopped at time: 140 ns
+run 10 ns
+# KERNEL: stopped at time: 150 ns
+run 10 ns
+# KERNEL: stopped at time: 160 ns
+run 10 ns
+# KERNEL: stopped at time: 170 ns
+run 10 ns
+# KERNEL: stopped at time: 180 ns
+run 10 ns
+# KERNEL: stopped at time: 190 ns
+run 10 ns
+# KERNEL: stopped at time: 200 ns
+run 10 ns
+# KERNEL: stopped at time: 210 ns
+run 10 ns
+# KERNEL: stopped at time: 220 ns
+run 10 ns
+# KERNEL: stopped at time: 230 ns
+run 10 ns
+# KERNEL: stopped at time: 240 ns
+run 10 ns
+# KERNEL: stopped at time: 250 ns
+run 10 ns
+# KERNEL: stopped at time: 260 ns
+run 10 ns
+# KERNEL: stopped at time: 270 ns
+run 10 ns
+# KERNEL: stopped at time: 280 ns
+run 10 ns
+# KERNEL: stopped at time: 290 ns
+run 10 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+# Waveform file 'C:/Users/free/Desktop/UNI/term6/CAD/Project/design/src/untitled.awc' connected to 'C:/Users/free/Desktop/UNI/term6/CAD/Project/design/src/untitled.asdb'.
+# Adding file C:\Users\free\Desktop\UNI\term6\CAD\Project\design\src\untitled.asdb ... Done
+# Adding file C:\Users\free\Desktop\UNI\term6\CAD\Project\design\src\untitled.awc ... Done

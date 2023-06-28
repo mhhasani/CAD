@@ -1,55 +1,208 @@
+-- 1. Make a package and define the image and filter and the types, functions and procedures you are going to use
+-- Define package "image_filter"
+package image_filter is
+    type image_type is array (0 to 29, 0 to 29) of integer range 0 to 255;
+    type filter_type is array (0 to 2, 0 to 2) of real range -1.0 to 1.0;
+    function convolution (window : image_type; filter : filter_type) return real;
+end image_filter;
+
+-- Implement package body "image_filter"
+package body image_filter is
+    function convolution (window : image_type; filter : filter_type) return real is
+        variable result : real := 0.0;
+    begin
+        for i in 0 to 2 loop
+            for j in 0 to 2 loop
+                result := result + real(window(i, j)) * filter(i, j);
+            end loop;
+        end loop;
+        return result / 9.0;
+    end convolution;
+end image_filter;
+
+
+-- 2. Make the convolution unit with 2 inputs and 1 output( you can also pass the whole image to unit with index instead of passing window)
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
+use work.image_filter.all;
 
+entity convolution_unit is
+    port (
+        clk : in std_logic;
+        reset : in std_logic;
+        window : in image_type;
+        filter : in filter_type;
+        result : out real
+    );
+end convolution_unit;
 
--- Package definition
-package convolution_pkg is
-  type grayscale_array is array (natural range <>) of integer range 0 to 255;
-  type filter_array is array (natural range <>, natural range <>) of real range 0.0 to 1.0;
-  
-  function convolution_unit(window: in grayscale_array; filter: in filter_array) return real;
-  
-  procedure main_component(image: in grayscale_array(0 to 29, 0 to 29);
-                           filter: in filter_array(0 to 2, 0 to 2);
-                           num_units: in integer;
-                           feature_map: out grayscale_array(0 to 28, 0 to 28));
-end convolution_pkg;
+architecture rtl of convolution_unit is
+    signal result_reg : real := 0.0;
+begin
+    process (clk, reset)
+    begin
+        if reset = '1' then
+            result_reg <= 0.0;
+        elsif rising_edge(clk) then
+            result_reg <= convolution(window, filter);
+        end if;
+    end process;
+    result <= result_reg;
+end rtl;
 
--- Package body
-package body convolution_pkg is
-  function convolution_unit(window: in grayscale_array; filter: in filter_array) return real is
-    variable result: real := 0.0;
-  begin
-    result := (window(0)(0) * filter(0, 0) +
-               window(0)(1) * filter(0, 1) +
-               window(0)(2) * filter(0, 2) +
-               window(1)(0) * filter(1, 0) +
-               window(1)(1) * filter(1, 1) +
-               window(1)(2) * filter(1, 2) +
-               window(2)(0) * filter(2, 0) +
-               window(2)(1) * filter(2, 1) +
-               window(2)(2) * filter(2, 2)) / 9.0;
-    return result;
-  end convolution_unit;
-  
-  procedure main_component(image: in grayscale_array(0 to 29, 0 to 29);
-                           filter: in filter_array(0 to 2, 0 to 2);
-                           num_units: in integer;
-                           feature_map: out grayscale_array(0 to 28, 0 to 28)) is
-    variable window: grayscale_array(0 to 2, 0 to 2);
-  begin
-    for i in 0 to 28 loop
-      for j in 0 to 28 loop
-        for k in 0 to num_units-1 loop
-          for m in 0 to 2 loop
-            for n in 0 to 2 loop
-              window(m)(n) := image(i+m)(j+n);
+-- 3. Make the Main components with the generic integer on N that indicates number of Convolution units that we are going to use
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use work.image_filter.all;
+
+entity main is
+    generic (
+        N : integer := 1
+    );
+    port (
+        clk : in std_logic;
+        reset : in std_logic;
+        image : in image_type;
+        filter : in filter_type;
+        result : out real
+    );
+end main;
+
+architecture rtl of main is
+    component convolution_unit is
+        port (
+            clk : in std_logic;
+            reset : in std_logic;
+            window : in image_type;
+            filter : in filter_type;
+            result : out real
+        );
+    end component;
+
+    signal result_reg : real := 0.0;
+    signal window_reg : image_type := (others => (others => 0));
+    signal filter_reg : filter_type := (others => (others => 0.0));
+    signal result_unit : real := 0.0;
+begin
+    process (clk, reset)
+    begin
+        if reset = '1' then
+            result_reg <= 0.0;
+            window_reg <= (others => (others => 0));
+            filter_reg <= (others => (others => 0.0));
+        elsif rising_edge(clk) then
+            result_reg <= result_unit;
+            window_reg <= window_reg;
+            filter_reg <= filter_reg;
+        end if;
+    end process;
+
+    unit : for i in 0 to N - 1 generate
+        unit_i : convolution_unit
+            port map (
+                clk => clk,
+                reset => reset,
+                window => window_reg,
+                filter => filter_reg,
+                result => result_unit
+            );
+    end generate;
+
+    result <= result_reg;
+end rtl;
+
+-- 4. Show the result feature map(29*29 of Real)(bonus for saving the result into a txt file) About using multiple units its up to you how to handle it
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use work.image_filter.all;
+library std;
+use std.textio.all;
+
+entity feature_map is
+    generic (
+        N : integer := 1
+    );
+    port (
+        clk : in std_logic;
+        reset : in std_logic;
+        image : in image_type;
+        filter : in filter_type;
+        feature_map : out image_type
+    );
+end feature_map;
+
+architecture rtl of feature_map is
+    component main is
+        generic (
+            N : integer := 1
+        );
+        port (
+            clk : in std_logic;
+            reset : in std_logic;
+            image : in image_type;
+            filter : in filter_type;
+            result : out real
+        );
+    end component;
+
+    signal result : real := 0.0;
+    signal result_reg : real := 0.0;
+    signal window_reg : image_type := (others => (others => 0));
+    signal filter_reg : filter_type := (others => (others => 0.0));
+    signal feature_map_reg : image_type := (others => (others => 0));
+
+    file file_handle : text open write_mode is "feature_map.txt";
+begin
+    process (clk, reset)
+        variable line : line;
+    begin
+        if reset = '1' then
+            result_reg <= 0.0;
+            window_reg <= (others => (others => 0));
+            filter_reg <= (others => (others => 0.0));
+            feature_map_reg <= (others => (others => 0));
+        elsif rising_edge(clk) then
+            result_reg <= result;
+            window_reg <= window_reg;
+            filter_reg <= filter_reg;
+            feature_map_reg <= feature_map_reg;
+        end if;
+
+        if reset = '1' then
+            write(line, "Feature Map");
+            writeline(file_handle, line);
+            for i in 0 to 29 loop
+                for j in 0 to 29 loop
+                    write(line, integer'image(feature_map_reg(i, j)));
+                    writeline(file_handle, line);
+                end loop;
             end loop;
-          end loop;
-          feature_map(i)(j) := integer(convolution_unit(window, filter));
-        end loop;
-      end loop;
-    end loop;
-  end main_component;
-end convolution_pkg;
+        elsif rising_edge(clk) then
+            write(line, "Feature Map");
+            writeline(file_handle, line);
+            for i in 0 to 29 loop
+                for j in 0 to 29 loop
+                    write(line, integer'image(feature_map_reg(i, j)));
+                    writeline(file_handle, line);
+                end loop;
+            end loop;
+        end if;
+    end process;
+
+    unit : for i in 0 to N - 1 generate
+        unit_i : main
+            port map (
+                clk => clk,
+                reset => reset,
+                image => image,
+                filter => filter,
+                result => result
+            );
+    end generate;
+
+    feature_map <= feature_map_reg;
+end rtl;

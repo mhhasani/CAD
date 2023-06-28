@@ -30,24 +30,19 @@ UCF=
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=recursive_functions_entity_tb|TB_ARCHITECTURE|0 
+HierarchyInformation=matrix_example|Behavioral|0  
 ShowHide=ShowTopLevel
 Selected=
 
 [Groups]
-TestBench=1
 
 [Files]
 /Q1.vhd=-1
 /Q2.vhd=-1
 /Q3.vhd=-1
-TestBench/recursive_functions_entity_TB.vhd=-1
-TestBench/recursive_functions_entity_TB_runtest.do=-1
 
 [Files.Data]
 .\src\Q1.vhd=VHDL Source Code
 .\src\Q2.vhd=VHDL Source Code
 .\src\Q3.vhd=VHDL Source Code
-.\src\TestBench\recursive_functions_entity_TB.vhd=VHDL Test Bench
-.\src\TestBench\recursive_functions_entity_TB_runtest.do=Macro
 

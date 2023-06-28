@@ -1,0 +1,51 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=design
+
+[Library]
+design=.\design\design.lib
+
+[$LibMap$]
+design=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+
+[IMPLEMENTATION]
+UCF=
+
+[Groups]
+TestBench=1
+
+[Files]
+/main.vhd=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+TestBench/counterex_TB.vhd=-1
+TestBench/counterex_TB_runtest.do=-1
+
+[Files.Data]
+.\src\main.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
+.\src\TestBench\counterex_TB.vhd=VHDL Test Bench
+.\src\TestBench\counterex_TB_runtest.do=Macro
+
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=counterex|arch|0 counterex_tb|TB_ARCHITECTURE|0 
+ShowHide=ShowTopLevel
+Selected=

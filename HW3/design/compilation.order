@@ -1,4 +1,3 @@
 .\src\Q1.vhd
 .\src\Q2.vhd
 .\src\Q3.vhd
-.\src\TestBench\recursive_functions_entity_TB.vhd

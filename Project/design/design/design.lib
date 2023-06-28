@@ -1,0 +1,45 @@
+timestamp=1687849644978
+
+[~A]
+ModifyID=6
+Version=74
+
+[~MFT]
+0=12|0design.mgf|10570|6220
+1=6|1design.mgf|18349|14946
+3=4|3design.mgf|7766|6321
+
+[counterex]
+A/arch=21|../src/main.vhd|18|1*14946
+BinW64/arch=3*6321
+I=0*615
+I/arch=0*9228
+M=11|2|ve8|1687848911041|../src/main.vhd|0*231*0x0bb8662c23b17ed254c86b0d02795779aa176100|0*537*0x23b75c12e3e89f2ef000564498faa8c2
+M/arch=21|2|ve8|1687849644932|../src/main.vhd|0*7540*0x7635c11ea98ba6bb2b806686ea7e6655a03c1174|0*8433*0x20116f55b147878295aeff36dce7fc50
+R=../src/main.vhd|5
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|72b15c695c1fb81372dcc5181e202349a26c989bfd142d4b45cb211f4178385aeab0921b0bb4c129c5bb8d0372df49e0
+Version/arch=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|907f1eb2ab5faaca81dadc47e735a03a781c04ad966f2612aefa5363d4271cf7
+
+[counterex_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/counterex_TB.vhd|15|1*16583
+BinW64/tb_architecture=3*7766
+I=0*3813
+I/tb_architecture=I/TB_ARCHITECTURE 0*10274
+M=11|2|ve8|1687849166108|../src/TestBench/counterex_TB.vhd|0*3454*0x1b0df5cb160f239d47cf781ad9c1f7b5688afb6f|0*3714*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|ve8|1687849644948|../src/TestBench/counterex_TB.vhd|0*9473*0x589a1b2dc1dd75f55fd337a3d60c36a72b3b3f78|0*10156*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/counterex_TB.vhd|7
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|156b8868d7c2fbb462dd772b9eb4ed4b88c597ce8e5343964484755d91efbbdc38b57f10bb85ccb57930bb94ea746532
+Version/tb_architecture=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea4187d7432ede026fd6fadf19ecd96bca
+
+[testbench_for_counterex]
+Configures=counterex_tb.TB_ARCHITECTURE
+E=1*18349
+I=0*10570
+M=2|2|ve8|1687849644960|../src/TestBench/counterex_TB.vhd|0*6951*0x04947b4f3cc42509cff9297f27637c282786b23b|0*7247*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/counterex_TB.vhd|76
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e59565eaef7becce3dd8729472c35dd06626527262ddaa47cb266f3a3c4d9b973a49bbf39bd3a79e96c9373042b6d0a55f
+
+[~U]
+counterex=counterEx 11|0*0|
+counterex_tb=11|0*3303|
+testbench_for_counterex=TESTBENCH_FOR_counterex 2||

@@ -1,0 +1,6 @@
+6
+~E 1 "../src/main.vhd" 5 counterEx
+~A 1 "../src/main.vhd" 18 arch
+~E 1 "../src/TestBench/counterex_TB.vhd" 7 counterex_tb
+~A 1 "../src/TestBench/counterex_TB.vhd" 15 TB_ARCHITECTURE
+~C 1 "../src/TestBench/counterex_TB.vhd" 76 testbench_for_counterex
