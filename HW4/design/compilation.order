@@ -1,0 +1,7 @@
+.\src\Q3.vhd
+.\src\Q4.vhd
+.\src\Q1.vhd
+.\src\TestBench\mealymachine_TB.vhd
+.\src\TestBench\mooremachine_TB.vhd
+.\src\TestBench\binary_to_unary_TB.vhd
+.\src\TestBench\zeroblockfinder_TB.vhd

@@ -1,0 +1,144 @@
+timestamp=1687978502619
+
+[~A]
+ModifyID=79
+Version=74
+
+[~MFT]
+0=34|0design.mgf|248020|228931
+1=24|1design.mgf|784454|770138
+3=15|3design.mgf|307174|302285
+
+[binary_to_unary]
+A/behavioral=A/Behavioral 21|../src/Q4.vhd|10|1*772205
+BinW64/behavioral=3*303937
+I=0*56206
+I/behavioral=I/Behavioral 0*243656
+M=11|2|ve8|1687970653840|../src/Q4.vhd|0*55840*0xbb3b4dec397b20413f8c525703f0e11fffe43bcf|0*56124*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|ve8|1687978502526|../src/Q4.vhd|0*56452*0x3dc39de06c608e3710c291b783d963a6b087bb18|0*56897*0x20116f55b147878295aeff36dce7fc50
+R=../src/Q4.vhd|5
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|a3164ba1d24eff6971d867cd4b321fe58393cfed6227b485cbcb3e592b9a9da73b5b21528e0342b26b7f2deb75cef804
+Version/behavioral=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4303c40b383bc6a8787185b18729365a6
+
+[binary_to_unary_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/binary_to_unary_TB.vhd|10|1*779367
+BinW64/tb_architecture=3*306509
+I=0*60175
+I/tb_architecture=I/TB_ARCHITECTURE 0*245005
+M=11|2|ve8|1687970817826|../src/TestBench/binary_to_unary_TB.vhd|0*59823*0xda5569a5ac15bbf01dc734aefeba25105374ba0a|0*60064*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|ve8|1687978502588|../src/TestBench/binary_to_unary_TB.vhd|0*64254*0xa21b7cfbfdf037fef086c866980d42c7787cd25d|0*65425*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/binary_to_unary_TB.vhd|7
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|4879b24d77ed5c23def7defc463fc5546c38ddb6348a08fd443044d059566d60e67ab90462cc099c54d17ea0576cffe2
+Version/tb_architecture=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534beaba534e3f34bd089648d80041b35a6075
+
+[mealymachine]
+A/behavioral=A/Behavioral 21|../src/Q3.vhd|15|1*770138
+BinW64/behavioral=3*302285
+I=0*544
+I/behavioral=I/Behavioral 0*243224
+M=11|2|ve8|1687968070509|../src/Q3.vhd|0*199*0x4bfe4e7a81641f3f7f63a0ff9acbaa91b802b715|0*465*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|ve8|1687978502502|../src/Q3.vhd|0*23387*0xc1891a4b9fedfcccfc66a6aa8d8ec604f25eb8f0|0*24132*0x20116f55b147878295aeff36dce7fc50
+R=../src/Q3.vhd|4
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|5cf7453c3659fec87aec4192646d43385dbfa6735f773065919a278a38e6bca93168b7cfd679f49888f2705e2a8e9ae7
+Version/behavioral=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff49e0bcd5777871bec460ae52e5783c8a8
+
+[mealymachine_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/mealymachine_TB.vhd|9|1*776053
+BinW64/tb_architecture=3*305356
+I=0*7686
+I/tb_architecture=I/TB_ARCHITECTURE 0*244132
+M=11|2|ve8|1687968325725|../src/TestBench/mealymachine_TB.vhd|0*7378*0xbded4c01a960371319a839765f402573752c571f|0*7581*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|ve8|1687978502557|../src/TestBench/mealymachine_TB.vhd|0*30393*0xa850ac0968758540cb05ca57911f65b044bd2306|0*31173*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/mealymachine_TB.vhd|6
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|562e5f402fffa9d8604dc289a7a434cdd38d151145aa61264638813248430c91a56ddbcf3367744a0a34701634c2d2f1
+Version/tb_architecture=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea1e85bb05492c01fc7aaccfbd77996b26
+
+[mooremachine]
+A/behavioral=A/Behavioral 21|../src/Q3.vhd|83|1*771169
+BinW64/behavioral=3*303072
+I=0*2384
+I/behavioral=I/Behavioral 0*243440
+M=11|2|ve8|1687968083720|../src/Q3.vhd|0*2039*0xdff97362d6678dd87f73d7bc813601bf80ac28b2|0*2305*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|ve8|1687978502508|../src/Q3.vhd|0*53229*0xea89eed80733490d982ddf8116fb7d7fdd2ff865|0*54022*0x20116f55b147878295aeff36dce7fc50
+R=../src/Q3.vhd|73
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|3bfb8be8cd586509828a2cb60ee0f61c11b3c2e0e6d47dc6d6f8fb87dd5ac82ef453af42a11ef0e00e1c0733d307c786
+Version/behavioral=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff427a42eb2e9f649c402ae62f2e3b63079
+
+[mooremachine_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/mooremachine_TB.vhd|9|1*777710
+BinW64/tb_architecture=3*305942
+I=0*9856
+I/tb_architecture=I/TB_ARCHITECTURE 0*244569
+M=11|2|ve8|1687968325747|../src/TestBench/mooremachine_TB.vhd|0*9548*0x596eb3d882d0fa0234322bc736f515f4c65f795c|0*9751*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|ve8|1687978502573|../src/TestBench/mooremachine_TB.vhd|0*47222*0x9ed27b0e18fd279eb264573f94ae83f0cd9386ec|0*47991*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/mooremachine_TB.vhd|6
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|bf7691c6cad9cb5f749b6a10c616b29cdcdba86cdfc6d40b5663839b061cfc558f6cfc10903fe33e1c9d6577897f5f5e
+Version/tb_architecture=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bead33ca9cca035d5d7d5f877de5dc0ba04
+
+[testbench_for_binary_to_unary]
+Configures=binary_to_unary_tb.TB_ARCHITECTURE
+E=1*781408
+I=0*245313
+M=2|2|ve8|1687978502591|../src/TestBench/binary_to_unary_TB.vhd|0*65863*0x9326b0f8d7e9b8939e60e84a438448b2325e2c40|0*66213*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/binary_to_unary_TB.vhd|84
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e5db0fe4e8efa2a102079a902f2632a6aac52f97cb819b702ca9ee5c8c690189ed6d076111f0b1584d8cd6888008ed90b3
+
+[testbench_for_mealymachine]
+Configures=mealymachine_tb.TB_ARCHITECTURE
+E=1*777266
+I=0*244395
+M=2|2|ve8|1687978502560|../src/TestBench/mealymachine_TB.vhd|0*22317*0xc5bc03d83cdd3483a1f1ca21b8ef5b91235a46f4|0*22643*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/mealymachine_TB.vhd|76
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e540c095aba617f699513c5f04e695cda32a5407fb5773d4bc3169592f26367cea939c3ee235127bc0a45c4057698ca035
+
+[testbench_for_mooremachine]
+Configures=mooremachine_tb.TB_ARCHITECTURE
+E=1*778923
+I=0*244831
+M=2|2|ve8|1687978502576|../src/TestBench/mooremachine_TB.vhd|0*48377*0x34d8c99a3a7de88f57649cb5eea33a92ab49526b|0*48703*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/mooremachine_TB.vhd|75
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e56f94a025fe334fcd7db152fda662e166387b2a989ee98fd910427c694b043ca078c331ba7c48bf489dd39419eff4fa72
+
+[testbench_for_zeroblockfinder]
+Configures=zeroblockfinder_tb.TB_ARCHITECTURE
+E=1*784454
+I=0*248020
+M=2|2|ve8|1687978502604|../src/TestBench/zeroblockfinder_TB.vhd|0*247527*0x9e44052c145d27bddca01c0862189eedc2680e52|0*247877*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/zeroblockfinder_TB.vhd|107
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e577ed5ca0019cbc10729689109e76a27262c3a3afad6799de80baf39ddb2644aa0ef91bc8aeac0e63191a8dda84445d82
+
+[zeroblockfinder]
+A/behavioral=A/Behavioral 21|../src/Q1.vhd|30|1*773299
+BinW64/behavioral=3*304352
+I=0*235201
+I/behavioral=I/Behavioral 0*243913
+M=11|2|ve8|1687978467317|../src/Q1.vhd|0*234673*0xb59363e51513ac2676a3fe83268106ab759b03ac|0*235119*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|ve8|1687978502543|../src/Q1.vhd|0*235409*0x27975097c7ebd689a77822c4de16a09d60c11c33|0*236798*0x20116f55b147878295aeff36dce7fc50
+R=../src/Q1.vhd|18
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|8d72bca800dac73968a3eb2221a3102c43fb9da0e91c961cd91d4e9ba3339acc937c9b63e5d7e5f82e99e10e5d172d00
+Version/behavioral=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4eddb26871588460308234ca5f4c6ec47
+
+[zeroblockfinder_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/zeroblockfinder_TB.vhd|9|1*781886
+BinW64/tb_architecture=3*307174
+I=0*80997
+I/tb_architecture=I/TB_ARCHITECTURE 0*247259
+M=11|2|ve8|1687974474392|../src/TestBench/zeroblockfinder_TB.vhd|0*80671*0x2e07c3db2298e6c296c8b6b481a7eb04fd3c7adb|0*80886*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|ve8|1687978502600|../src/TestBench/zeroblockfinder_TB.vhd|0*245490*0x3ce2669416bfa53006139002341ceb860ddc6ede|0*247129*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/zeroblockfinder_TB.vhd|6
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|8d72bca800dac73968a3eb2221a3102c0483092eaf08ea318aedfddddfec3cd006948217cd3640d41da56cf763eced16
+Version/tb_architecture=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534beac00cd287fd26268c2c2f67b8cdff33fe
+
+[~U]
+binary_to_unary=11|0*55636|
+binary_to_unary_tb=11|0*59685|
+mealymachine=MealyMachine 11|0*0|
+mealymachine_tb=11|0*7242|
+mooremachine=MooreMachine 11|0*1840|
+mooremachine_tb=11|0*9412|
+testbench_for_binary_to_unary=TESTBENCH_FOR_binary_to_unary 2||
+testbench_for_mealymachine=TESTBENCH_FOR_mealymachine 2||
+testbench_for_mooremachine=TESTBENCH_FOR_mooremachine 2||
+testbench_for_zeroblockfinder=TESTBENCH_FOR_zeroblockfinder 2||
+zeroblockfinder=ZeroBlockFinder 11|0*234413|
+zeroblockfinder_tb=11|0*80529|

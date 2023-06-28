@@ -1,0 +1,79 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=design
+
+[Library]
+design=.\design\design.lib
+
+[$LibMap$]
+design=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+
+[IMPLEMENTATION]
+UCF=
+
+[Groups]
+TestBench=1
+
+[Files]
+/Q3.vhd=-1
+/Mealy.asdb=-1
+/Mealy.awc=-1
+/Moore.asdb=-1
+/Moore.awc=-1
+/Q4.vhd=-1
+/Q4.asdb=-1
+/Q4.awc=-1
+/Q1.vhd=-1
+/Q1.asdb=-1
+/Q1.awc=-1
+TestBench/mealymachine_TB.vhd=-1
+TestBench/mealymachine_TB_runtest.do=-1
+TestBench/mooremachine_TB.vhd=-1
+TestBench/mooremachine_TB_runtest.do=-1
+TestBench/binary_to_unary_TB.vhd=-1
+TestBench/binary_to_unary_TB_runtest.do=-1
+TestBench/zeroblockfinder_TB.vhd=-1
+TestBench/zeroblockfinder_TB_runtest.do=-1
+
+[Files.Data]
+.\src\Q3.vhd=VHDL Source Code
+.\src\Mealy.asdb=Accelerated Waveform File
+.\src\Mealy.awc=Accelerated Waveform Configuration
+.\src\Moore.asdb=Accelerated Waveform File
+.\src\Moore.awc=Accelerated Waveform Configuration
+.\src\Q4.vhd=VHDL Source Code
+.\src\Q4.asdb=Accelerated Waveform File
+.\src\Q4.awc=Accelerated Waveform Configuration
+.\src\Q1.vhd=VHDL Source Code
+.\src\Q1.asdb=Accelerated Waveform File
+.\src\Q1.awc=Accelerated Waveform Configuration
+.\src\TestBench\mealymachine_TB.vhd=VHDL Test Bench
+.\src\TestBench\mealymachine_TB_runtest.do=Macro
+.\src\TestBench\mooremachine_TB.vhd=VHDL Test Bench
+.\src\TestBench\mooremachine_TB_runtest.do=Macro
+.\src\TestBench\binary_to_unary_TB.vhd=VHDL Test Bench
+.\src\TestBench\binary_to_unary_TB_runtest.do=Macro
+.\src\TestBench\zeroblockfinder_TB.vhd=VHDL Test Bench
+.\src\TestBench\zeroblockfinder_TB_runtest.do=Macro
+
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=binary_to_unary_tb|TB_ARCHITECTURE|0 mealymachine|Behavioral|0 mealymachine_tb|TB_ARCHITECTURE|0 mooremachine_tb|TB_ARCHITECTURE|0 zeroblockfinder_tb|TB_ARCHITECTURE|0 
+ShowHide=ShowTopLevel
+Selected=

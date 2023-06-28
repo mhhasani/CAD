@@ -1,0 +1,21 @@
+79
+~E 1 "../src/Q4.vhd" 5 binary_to_unary
+~A 1 "../src/Q4.vhd" 10 Behavioral
+~E 1 "../src/TestBench/binary_to_unary_TB.vhd" 7 binary_to_unary_tb
+~A 1 "../src/TestBench/binary_to_unary_TB.vhd" 10 TB_ARCHITECTURE
+~E 1 "../src/Q3.vhd" 4 MealyMachine
+~A 1 "../src/Q3.vhd" 15 Behavioral
+~E 1 "../src/TestBench/mealymachine_TB.vhd" 6 mealymachine_tb
+~A 1 "../src/TestBench/mealymachine_TB.vhd" 9 TB_ARCHITECTURE
+~E 1 "../src/Q3.vhd" 73 MooreMachine
+~A 1 "../src/Q3.vhd" 83 Behavioral
+~E 1 "../src/TestBench/mooremachine_TB.vhd" 6 mooremachine_tb
+~A 1 "../src/TestBench/mooremachine_TB.vhd" 9 TB_ARCHITECTURE
+~C 1 "../src/TestBench/binary_to_unary_TB.vhd" 84 testbench_for_binary_to_unary
+~C 1 "../src/TestBench/mealymachine_TB.vhd" 76 testbench_for_mealymachine
+~C 1 "../src/TestBench/mooremachine_TB.vhd" 75 testbench_for_mooremachine
+~C 1 "../src/TestBench/zeroblockfinder_TB.vhd" 107 testbench_for_zeroblockfinder
+~E 1 "../src/Q1.vhd" 18 ZeroBlockFinder
+~A 1 "../src/Q1.vhd" 30 Behavioral
+~E 1 "../src/TestBench/zeroblockfinder_TB.vhd" 6 zeroblockfinder_tb
+~A 1 "../src/TestBench/zeroblockfinder_TB.vhd" 9 TB_ARCHITECTURE
