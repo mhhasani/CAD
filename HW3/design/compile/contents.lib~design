@@ -1,4 +1,4 @@
-138
+149
 ~E 1 "../src/Q1.vhd" 41 BCD_Adder
 ~A 1 "../src/Q1.vhd" 51 Behavioral
 ~E 1 "../src/Q2.vhd" 44 Binary_Reverser_TB
@@ -20,7 +20,8 @@
 ~A 1 "../src/Q1.vhd" 94 Behavioral
 ~E 1 "../src/TestBench/matrix_example_TB.vhd" 6 matrix_example_tb
 ~E 1 "../src/Q1.vhd" 6 Matrix_Parameters
-~E 1 "../src/Q1.vhd" 78 matrix_tb
+~E 1 "../src/Q1.vhd" 72 matrix_tb
+~A 1 "../src/Q1.vhd" 76 Behavioral
 ~E 1 "../src/Q1.vhd" 4 Q1
 ~E 1 "../src/Q2.vhd" 45 Recursive_Functions_Entity
 ~A 1 "../src/Q2.vhd" 52 Behavioral

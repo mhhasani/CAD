@@ -1,502 +1,14 @@
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
-acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
-# Compile Package "matrix_pkg"
-# Compile Package Body "matrix_pkg"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
 acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
 # File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
 # Compile Package "matrix_pkg"
 # Compile Package Body "matrix_pkg"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
-# Compile Package "Recursive_Functions"
-# Compile Package Body "Recursive_Functions"
-# Compile Entity "Recursive_Functions_Entity"
-# Compile Architecture "Behavioral" of Entity "Recursive_Functions_Entity"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
-# Compile Package "convolution_pkg"
-# Compile Package Body "convolution_pkg"
-# Error: COMP96_0356: Q3.vhd : (24, 38): Index constraint cannot be applied to constrained type.
-# Error: COMP96_0356: Q3.vhd : (25, 39): Index constraint cannot be applied to constrained type.
-# Error: COMP96_0367: Q3.vhd : (43, 62): Improper array length (3). Expected length is 30.
-# Error: COMP96_0617: Q3.vhd : (43, 45): Assignment target incompatible with right side. Cannot convert 'REAL' to 'INTEGER'.
-# Compile Entity "convolution_top"
-# Error: COMP96_0078: Q3.vhd : (60, 23): Unknown identifier "convolution_pkg".
-# Error: COMP96_0133: Q3.vhd : (60, 23): Cannot find object declaration.
-# Error: COMP96_0064: Q3.vhd : (60, 23): Unknown type.
-# Error: COMP96_0078: Q3.vhd : (61, 30): Unknown identifier "convolution_pkg".
-# Error: COMP96_0133: Q3.vhd : (61, 30): Cannot find object declaration.
-# Error: COMP96_0064: Q3.vhd : (61, 30): Unknown type.
-# Compile Architecture "rtl" of Entity "convolution_top"
-# Error: COMP96_0056: Q3.vhd : (65, 1): Cannot find referenced entity declaration "convolution_top".
-# Compile failure 11 Errors 0 Warnings  Analysis time :  0.1 [s]
-acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
-# Compile Package "matrix_pkg"
-# Compile Package Body "matrix_pkg"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
-# Compile Package "Recursive_Functions"
-# Compile Package Body "Recursive_Functions"
-# Compile Entity "Recursive_Functions_Entity"
-# Compile Architecture "Behavioral" of Entity "Recursive_Functions_Entity"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
-# Compile Package "Convolution"
-# Error: COMP96_0530: Q3.vhd : (10, 31): Array subtype has more dimensions than base type.
-# Error: COMP96_0530: Q3.vhd : (11, 32): Array subtype has more dimensions than base type.
-# Error: COMP96_0530: Q3.vhd : (15, 30): Array subtype has more dimensions than base type.
-# Error: COMP96_0530: Q3.vhd : (16, 32): Array subtype has more dimensions than base type.
-# Error: COMP96_0530: Q3.vhd : (17, 32): Array subtype has more dimensions than base type.
-# Compile Package Body "Convolution"
-# Error: COMP96_0517: Q3.vhd : (48, 29): Unknown syntax error.
-# Compile Entity "Convolution_Main"
-# Error: COMP96_0078: Q3.vhd : (69, 23): Unknown identifier "Convolution".
-# Error: COMP96_0078: Q3.vhd : (69, 51): Unknown identifier "Convolution".
-# Error: COMP96_0078: Q3.vhd : (69, 82): Unknown identifier "Convolution".
-# Error: COMP96_0133: Q3.vhd : (69, 23): Cannot find object declaration.
-# Error: COMP96_0064: Q3.vhd : (69, 23): Unknown type.
-# Error: COMP96_0078: Q3.vhd : (70, 24): Unknown identifier "Convolution".
-# Error: COMP96_0078: Q3.vhd : (70, 53): Unknown identifier "Convolution".
-# Error: COMP96_0078: Q3.vhd : (70, 85): Unknown identifier "Convolution".
-# Error: COMP96_0133: Q3.vhd : (70, 24): Cannot find object declaration.
-# Error: COMP96_0064: Q3.vhd : (70, 24): Unknown type.
-# Error: COMP96_0078: Q3.vhd : (71, 31): Unknown identifier "Convolution".
-# Error: COMP96_0078: Q3.vhd : (71, 59): Unknown identifier "Convolution".
-# Error: COMP96_0078: Q3.vhd : (71, 90): Unknown identifier "Convolution".
-# Error: COMP96_0133: Q3.vhd : (71, 31): Cannot find object declaration.
-# Error: COMP96_0064: Q3.vhd : (71, 31): Unknown type.
-# Compile Architecture "Behavioral" of Entity "Convolution_Main"
-# Error: COMP96_0029: Q3.vhd : (87, 29): Expression expected.
-# Error: COMP96_0029: Q3.vhd : (92, 53): Expression expected.
-# Error: COMP96_0046: Q3.vhd : (92, 53): Sequential statement expected.
-# Error: COMP96_0049: Q3.vhd : (100, 96): Syntax error in expression.
-# Error: COMP96_0015: Q3.vhd : (100, 96): ')' expected.
-# Error: COMP96_0015: Q3.vhd : (100, 97): ')' expected.
-# Compile failure 27 Errors 0 Warnings  Analysis time :  94.0 [ms]
-acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
-# Compile Package "matrix_pkg"
-# Compile Package Body "matrix_pkg"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
-# Compile Package "Recursive_Functions"
-# Compile Package Body "Recursive_Functions"
-# Compile Entity "Recursive_Functions_Entity"
-# Compile Architecture "Behavioral" of Entity "Recursive_Functions_Entity"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
-# Compile Package "Convolution"
-# Compile Package Body "Convolution"
-# Error: COMP96_0517: Q3.vhd : (48, 29): Unknown syntax error.
-# Compile Entity "Convolution_Main"
-# Error: COMP96_0078: Q3.vhd : (69, 23): Unknown identifier "Convolution".
-# Error: COMP96_0078: Q3.vhd : (69, 51): Unknown identifier "Convolution".
-# Error: COMP96_0078: Q3.vhd : (69, 82): Unknown identifier "Convolution".
-# Error: COMP96_0133: Q3.vhd : (69, 23): Cannot find object declaration.
-# Error: COMP96_0064: Q3.vhd : (69, 23): Unknown type.
-# Error: COMP96_0078: Q3.vhd : (70, 24): Unknown identifier "Convolution".
-# Error: COMP96_0078: Q3.vhd : (70, 53): Unknown identifier "Convolution".
-# Error: COMP96_0078: Q3.vhd : (70, 85): Unknown identifier "Convolution".
-# Error: COMP96_0133: Q3.vhd : (70, 24): Cannot find object declaration.
-# Error: COMP96_0064: Q3.vhd : (70, 24): Unknown type.
-# Error: COMP96_0078: Q3.vhd : (71, 31): Unknown identifier "Convolution".
-# Error: COMP96_0078: Q3.vhd : (71, 59): Unknown identifier "Convolution".
-# Error: COMP96_0078: Q3.vhd : (71, 90): Unknown identifier "Convolution".
-# Error: COMP96_0133: Q3.vhd : (71, 31): Cannot find object declaration.
-# Error: COMP96_0064: Q3.vhd : (71, 31): Unknown type.
-# Compile Architecture "Behavioral" of Entity "Convolution_Main"
-# Error: COMP96_0029: Q3.vhd : (87, 29): Expression expected.
-# Error: COMP96_0029: Q3.vhd : (92, 53): Expression expected.
-# Error: COMP96_0046: Q3.vhd : (92, 53): Sequential statement expected.
-# Error: COMP96_0049: Q3.vhd : (100, 96): Syntax error in expression.
-# Error: COMP96_0015: Q3.vhd : (100, 96): ')' expected.
-# Error: COMP96_0015: Q3.vhd : (100, 97): ')' expected.
-# Compile failure 22 Errors 0 Warnings  Analysis time :  94.0 [ms]
-acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
-# Compile Package "matrix_pkg"
-# Compile Package Body "matrix_pkg"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
-# Compile Package "Recursive_Functions"
-# Compile Package Body "Recursive_Functions"
-# Compile Entity "Recursive_Functions_Entity"
-# Compile Architecture "Behavioral" of Entity "Recursive_Functions_Entity"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
-# Compile Package "Convolution_Package"
-# Error: COMP96_0015: Q3.vhd : (7, 83): ';' expected.
-# Error: COMP96_0015: Q3.vhd : (12, 83): ';' expected.
-# Error: COMP96_0019: Q3.vhd : (23, 1): Keyword 'begin' expected.
-# Compile Entity "Convolution_Unit"
-# Error: COMP96_0078: Q3.vhd : (33, 20): Unknown identifier "Convolution_Package".
-# Error: COMP96_0133: Q3.vhd : (33, 20): Cannot find object declaration.
-# Error: COMP96_0064: Q3.vhd : (33, 20): Unknown type.
-# Error: COMP96_0078: Q3.vhd : (34, 21): Unknown identifier "Convolution_Package".
-# Error: COMP96_0133: Q3.vhd : (34, 21): Cannot find object declaration.
-# Error: COMP96_0064: Q3.vhd : (34, 21): Unknown type.
-# Compile Architecture "Behavioral" of Entity "Convolution_Unit"
-# Error: VLM_0009: Q3.vhd : (40, 1): Entity "design.Convolution_Unit" must be recompiled because package "design.Convolution_Package" has changed.
-# Error: COMP96_0056: Q3.vhd : (40, 1): Cannot find referenced entity declaration "Convolution_Unit".
-# Compile Entity "Main_Component"
-# Error: COMP96_0078: Q3.vhd : (86, 20): Unknown identifier "Convolution_Package".
-# Error: COMP96_0133: Q3.vhd : (86, 20): Cannot find object declaration.
-# Error: COMP96_0064: Q3.vhd : (86, 20): Unknown type.
-# Error: COMP96_0078: Q3.vhd : (87, 21): Unknown identifier "Convolution_Package".
-# Error: COMP96_0133: Q3.vhd : (87, 21): Cannot find object declaration.
-# Error: COMP96_0064: Q3.vhd : (87, 21): Unknown type.
-# Error: COMP96_0078: Q3.vhd : (88, 22): Unknown identifier "Convolution_Package".
-# Error: COMP96_0133: Q3.vhd : (88, 22): Cannot find object declaration.
-# Error: COMP96_0064: Q3.vhd : (88, 22): Unknown type.
-# Compile Architecture "Behavioral" of Entity "Main_Component"
-# Error: COMP96_0018: Q3.vhd : (107, 26): Identifier expected.
-# Error: COMP96_0019: Q3.vhd : (111, 5): Keyword 'end' expected.
-# Error: COMP96_0016: Q3.vhd : (111, 10): Design unit declaration expected.
-# Compile Entity "Convolution_Top"
-# Error: COMP96_0078: Q3.vhd : (137, 20): Unknown identifier "Convolution_Package".
-# Error: COMP96_0133: Q3.vhd : (137, 20): Cannot find object declaration.
-# Error: COMP96_0064: Q3.vhd : (137, 20): Unknown type.
-# Error: COMP96_0078: Q3.vhd : (138, 21): Unknown identifier "Convolution_Package".
-# Error: COMP96_0133: Q3.vhd : (138, 21): Cannot find object declaration.
-# Error: COMP96_0064: Q3.vhd : (138, 21): Unknown type.
-# Compile Architecture "Behavioral" of Entity "Convolution_Top"
-# Error: COMP96_0056: Q3.vhd : (143, 1): Cannot find referenced entity declaration "Convolution_Top".
-# Compile failure 30 Errors 0 Warnings  Analysis time :  0.1 [s]
-acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
-# Compile Package "matrix_pkg"
-# Compile Package Body "matrix_pkg"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
-# Compile Package "Recursive_Functions"
-# Compile Package Body "Recursive_Functions"
-# Compile Entity "Recursive_Functions_Entity"
-# Compile Architecture "Behavioral" of Entity "Recursive_Functions_Entity"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
-# Compile Package "Convolution_Package"
-# Error: COMP96_0015: Q3.vhd : (7, 83): ';' expected.
-# Error: COMP96_0015: Q3.vhd : (12, 83): ';' expected.
-# Error: COMP96_0019: Q3.vhd : (23, 1): Keyword 'begin' expected.
-# Compile Entity "Convolution_Unit"
-# Error: COMP96_0078: Q3.vhd : (33, 20): Unknown identifier "Convolution_Package".
-# Error: COMP96_0133: Q3.vhd : (33, 20): Cannot find object declaration.
-# Error: COMP96_0064: Q3.vhd : (33, 20): Unknown type.
-# Error: COMP96_0078: Q3.vhd : (34, 21): Unknown identifier "Convolution_Package".
-# Error: COMP96_0133: Q3.vhd : (34, 21): Cannot find object declaration.
-# Error: COMP96_0064: Q3.vhd : (34, 21): Unknown type.
-# Compile Architecture "Behavioral" of Entity "Convolution_Unit"
-# Error: VLM_0009: Q3.vhd : (40, 1): Entity "design.Convolution_Unit" must be recompiled because package "design.Convolution_Package" has changed.
-# Error: COMP96_0056: Q3.vhd : (40, 1): Cannot find referenced entity declaration "Convolution_Unit".
-# Compile Entity "Main_Component"
-# Error: COMP96_0078: Q3.vhd : (86, 20): Unknown identifier "Convolution_Package".
-# Error: COMP96_0133: Q3.vhd : (86, 20): Cannot find object declaration.
-# Error: COMP96_0064: Q3.vhd : (86, 20): Unknown type.
-# Error: COMP96_0078: Q3.vhd : (87, 21): Unknown identifier "Convolution_Package".
-# Error: COMP96_0133: Q3.vhd : (87, 21): Cannot find object declaration.
-# Error: COMP96_0064: Q3.vhd : (87, 21): Unknown type.
-# Error: COMP96_0078: Q3.vhd : (88, 22): Unknown identifier "Convolution_Package".
-# Error: COMP96_0133: Q3.vhd : (88, 22): Cannot find object declaration.
-# Error: COMP96_0064: Q3.vhd : (88, 22): Unknown type.
-# Compile Architecture "Behavioral" of Entity "Main_Component"
-# Error: COMP96_0018: Q3.vhd : (107, 26): Identifier expected.
-# Error: COMP96_0019: Q3.vhd : (111, 5): Keyword 'end' expected.
-# Error: COMP96_0016: Q3.vhd : (111, 10): Design unit declaration expected.
-# Compile Entity "Convolution_Top"
-# Error: COMP96_0078: Q3.vhd : (137, 20): Unknown identifier "Convolution_Package".
-# Error: COMP96_0133: Q3.vhd : (137, 20): Cannot find object declaration.
-# Error: COMP96_0064: Q3.vhd : (137, 20): Unknown type.
-# Error: COMP96_0078: Q3.vhd : (138, 21): Unknown identifier "Convolution_Package".
-# Error: COMP96_0133: Q3.vhd : (138, 21): Cannot find object declaration.
-# Error: COMP96_0064: Q3.vhd : (138, 21): Unknown type.
-# Compile Architecture "Behavioral" of Entity "Convolution_Top"
-# Error: COMP96_0056: Q3.vhd : (143, 1): Cannot find referenced entity declaration "Convolution_Top".
-# Compile failure 30 Errors 0 Warnings  Analysis time :  0.1 [s]
-acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
-# Compile Package "matrix_pkg"
-# Compile Package Body "matrix_pkg"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
-# Compile Package "Recursive_Functions"
-# Compile Package Body "Recursive_Functions"
-# Compile Entity "Recursive_Functions_Entity"
-# Compile Architecture "Behavioral" of Entity "Recursive_Functions_Entity"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
-# Compile Package "image_filter"
-# Error: COMP96_0121: Q3.vhd : (19, 57): The type bounds of this range are not compatible.
-# Error: COMP96_0082: Q3.vhd : (19, 51): Invalid constraints.
-# Error: COMP96_0078: Q3.vhd : (20, 52): Unknown identifier "filter".
-# Error: COMP96_0064: Q3.vhd : (20, 52): Unknown type.
-# Compile Package Body "image_filter"
-# Error: COMP96_0057: Q3.vhd : (23, 1): Cannot find referenced package declaration "image_filter".
-# Compile Entity "convolution_unit"
-# Error: COMP96_0055: Q3.vhd : (40, 10): Cannot find context item "work.image_filter".
-# Error: COMP96_0078: Q3.vhd : (46, 21): Unknown identifier "image".
-# Error: COMP96_0064: Q3.vhd : (46, 21): Unknown type.
-# Error: COMP96_0078: Q3.vhd : (47, 21): Unknown identifier "filter".
-# Error: COMP96_0064: Q3.vhd : (47, 21): Unknown type.
-# Compile Architecture "rtl" of Entity "convolution_unit"
-# Error: VLM_0009: Q3.vhd : (52, 1): Entity "design.Convolution_Unit" must be recompiled because package "design.Convolution_Package" has changed.
-# Error: COMP96_0056: Q3.vhd : (52, 1): Cannot find referenced entity declaration "convolution_unit".
-# Compile Entity "main"
-# Error: COMP96_0055: Q3.vhd : (70, 10): Cannot find context item "work.image_filter".
-# Error: COMP96_0078: Q3.vhd : (79, 20): Unknown identifier "image".
-# Error: COMP96_0064: Q3.vhd : (79, 20): Unknown type.
-# Error: COMP96_0078: Q3.vhd : (80, 21): Unknown identifier "filter".
-# Error: COMP96_0064: Q3.vhd : (80, 21): Unknown type.
-# Compile Architecture "rtl" of Entity "main"
-# Error: COMP96_0019: Q3.vhd : (114, 5): Keyword 'end' expected.
-# Error: COMP96_0016: Q3.vhd : (114, 11): Design unit declaration expected.
-# Compile Entity "feature_map"
-# Error: COMP96_0055: Q3.vhd : (132, 10): Cannot find context item "work.image_filter".
-# Error: COMP96_0078: Q3.vhd : (141, 20): Unknown identifier "image".
-# Error: COMP96_0064: Q3.vhd : (141, 20): Unknown type.
-# Error: COMP96_0078: Q3.vhd : (142, 21): Unknown identifier "filter".
-# Error: COMP96_0064: Q3.vhd : (142, 21): Unknown type.
-# Error: COMP96_0064: Q3.vhd : (143, 27): Unknown type.
-# Compile Architecture "rtl" of Entity "feature_map"
-# Error: COMP96_0056: Q3.vhd : (147, 1): Cannot find referenced entity declaration "feature_map".
-# Compile failure 26 Errors 0 Warnings  Analysis time :  0.1 [s]
-acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
-# Compile Package "matrix_pkg"
-# Compile Package Body "matrix_pkg"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
-# Compile Package "Recursive_Functions"
-# Compile Package Body "Recursive_Functions"
-# Compile Entity "Recursive_Functions_Entity"
-# Compile Architecture "Behavioral" of Entity "Recursive_Functions_Entity"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
-# Compile Package "image_filter"
-# Error: COMP96_0121: Q3.vhd : (4, 57): The type bounds of this range are not compatible.
-# Error: COMP96_0082: Q3.vhd : (4, 51): Invalid constraints.
-# Error: COMP96_0078: Q3.vhd : (5, 52): Unknown identifier "filter".
-# Error: COMP96_0064: Q3.vhd : (5, 52): Unknown type.
-# Compile Package Body "image_filter"
-# Error: COMP96_0057: Q3.vhd : (8, 1): Cannot find referenced package declaration "image_filter".
-# Compile Entity "convolution_unit"
-# Error: COMP96_0055: Q3.vhd : (25, 10): Cannot find context item "work.image_filter".
-# Error: COMP96_0078: Q3.vhd : (31, 21): Unknown identifier "image".
-# Error: COMP96_0064: Q3.vhd : (31, 21): Unknown type.
-# Error: COMP96_0078: Q3.vhd : (32, 21): Unknown identifier "filter".
-# Error: COMP96_0064: Q3.vhd : (32, 21): Unknown type.
-# Compile Architecture "rtl" of Entity "convolution_unit"
-# Error: VLM_0009: Q3.vhd : (37, 1): Entity "design.Convolution_Unit" must be recompiled because package "design.Convolution_Package" has changed.
-# Error: COMP96_0056: Q3.vhd : (37, 1): Cannot find referenced entity declaration "convolution_unit".
-# Compile Entity "main"
-# Error: COMP96_0055: Q3.vhd : (55, 10): Cannot find context item "work.image_filter".
-# Error: COMP96_0078: Q3.vhd : (64, 20): Unknown identifier "image".
-# Error: COMP96_0064: Q3.vhd : (64, 20): Unknown type.
-# Error: COMP96_0078: Q3.vhd : (65, 21): Unknown identifier "filter".
-# Error: COMP96_0064: Q3.vhd : (65, 21): Unknown type.
-# Compile Architecture "rtl" of Entity "main"
-# Error: COMP96_0019: Q3.vhd : (99, 5): Keyword 'end' expected.
-# Error: COMP96_0016: Q3.vhd : (99, 11): Design unit declaration expected.
-# Compile Entity "feature_map"
-# Error: COMP96_0055: Q3.vhd : (117, 10): Cannot find context item "work.image_filter".
-# Error: COMP96_0078: Q3.vhd : (126, 20): Unknown identifier "image".
-# Error: COMP96_0064: Q3.vhd : (126, 20): Unknown type.
-# Error: COMP96_0078: Q3.vhd : (127, 21): Unknown identifier "filter".
-# Error: COMP96_0064: Q3.vhd : (127, 21): Unknown type.
-# Error: COMP96_0064: Q3.vhd : (128, 27): Unknown type.
-# Compile Architecture "rtl" of Entity "feature_map"
-# Error: COMP96_0056: Q3.vhd : (132, 1): Cannot find referenced entity declaration "feature_map".
-# Compile failure 26 Errors 0 Warnings  Analysis time :  0.1 [s]
-acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
-# Compile Package "matrix_pkg"
-# Compile Package Body "matrix_pkg"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
-# Compile Package "Recursive_Functions"
-# Compile Package Body "Recursive_Functions"
-# Compile Entity "Recursive_Functions_Entity"
-# Compile Architecture "Behavioral" of Entity "Recursive_Functions_Entity"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
-# Compile Package "image_filter"
-# Error: COMP96_0121: Q3.vhd : (3, 57): The type bounds of this range are not compatible.
-# Error: COMP96_0082: Q3.vhd : (3, 51): Invalid constraints.
-# Error: COMP96_0078: Q3.vhd : (4, 52): Unknown identifier "filter".
-# Error: COMP96_0064: Q3.vhd : (4, 52): Unknown type.
-# Compile Package Body "image_filter"
-# Error: COMP96_0057: Q3.vhd : (7, 1): Cannot find referenced package declaration "image_filter".
-# Compile Entity "convolution_unit"
-# Error: COMP96_0055: Q3.vhd : (23, 10): Cannot find context item "work.image_filter".
-# Error: COMP96_0078: Q3.vhd : (29, 21): Unknown identifier "image".
-# Error: COMP96_0064: Q3.vhd : (29, 21): Unknown type.
-# Error: COMP96_0078: Q3.vhd : (30, 21): Unknown identifier "filter".
-# Error: COMP96_0064: Q3.vhd : (30, 21): Unknown type.
-# Compile Architecture "rtl" of Entity "convolution_unit"
-# Error: VLM_0009: Q3.vhd : (35, 1): Entity "design.Convolution_Unit" must be recompiled because package "design.Convolution_Package" has changed.
-# Error: COMP96_0056: Q3.vhd : (35, 1): Cannot find referenced entity declaration "convolution_unit".
-# Compile Entity "main"
-# Error: COMP96_0055: Q3.vhd : (52, 10): Cannot find context item "work.image_filter".
-# Error: COMP96_0078: Q3.vhd : (61, 20): Unknown identifier "image".
-# Error: COMP96_0064: Q3.vhd : (61, 20): Unknown type.
-# Error: COMP96_0078: Q3.vhd : (62, 21): Unknown identifier "filter".
-# Error: COMP96_0064: Q3.vhd : (62, 21): Unknown type.
-# Compile Architecture "rtl" of Entity "main"
-# Error: COMP96_0019: Q3.vhd : (96, 5): Keyword 'end' expected.
-# Error: COMP96_0016: Q3.vhd : (96, 11): Design unit declaration expected.
-# Compile Entity "feature_map"
-# Error: COMP96_0055: Q3.vhd : (112, 10): Cannot find context item "work.image_filter".
-# Error: COMP96_0078: Q3.vhd : (121, 20): Unknown identifier "image".
-# Error: COMP96_0064: Q3.vhd : (121, 20): Unknown type.
-# Error: COMP96_0078: Q3.vhd : (122, 21): Unknown identifier "filter".
-# Error: COMP96_0064: Q3.vhd : (122, 21): Unknown type.
-# Error: COMP96_0064: Q3.vhd : (123, 27): Unknown type.
-# Compile Architecture "rtl" of Entity "feature_map"
-# Error: COMP96_0029: Q3.vhd : (155, 40): Expression expected.
-# Error: COMP96_0018: Q3.vhd : (155, 40): Identifier expected.
-# Error: COMP96_0015: Q3.vhd : (155, 40): ';' expected.
-# Error: COMP96_0019: Q3.vhd : (155, 40): Keyword 'end' expected.
-# Error: COMP96_0019: Q3.vhd : (156, 21): Keyword 'loop' expected.
-# Error: COMP96_0036: Q3.vhd : (156, 23): Boolean expression expected.
-# Error: COMP96_0015: Q3.vhd : (159, 13): ';' expected.
-# Error: COMP96_0025: Q3.vhd : (161, 18): Identifier or string literal expected.
-# Compile failure 33 Errors 0 Warnings  Analysis time :  0.1 [s]
-acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
-# Compile Package "matrix_pkg"
-# Compile Package Body "matrix_pkg"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
-# Compile Package "Recursive_Functions"
-# Compile Package Body "Recursive_Functions"
-# Compile Entity "Recursive_Functions_Entity"
-# Compile Architecture "Behavioral" of Entity "Recursive_Functions_Entity"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
-# Compile Package "image_filter"
-# Compile Package Body "image_filter"
-# Error: COMP96_0019: Q3.vhd : (10, 9): Keyword 'begin' expected.
-# Error: COMP96_0015: Q3.vhd : (15, 17): ';' expected.
-# Error: COMP96_0016: Q3.vhd : (15, 21): Design unit declaration expected.
-# Compile Entity "convolution_unit"
-# Compile Architecture "rtl" of Entity "convolution_unit"
-# Compile Entity "main"
-# Compile Architecture "rtl" of Entity "main"
-# Error: COMP96_0019: Q3.vhd : (99, 5): Keyword 'end' expected.
-# Error: COMP96_0016: Q3.vhd : (99, 11): Design unit declaration expected.
-# Compile Entity "feature_map"
-# Error: COMP96_0304: Q3.vhd : (128, 27): Bad type name. Type conflict in "image" literal.
-# Compile Architecture "rtl" of Entity "feature_map"
-# Error: COMP96_0045: Q3.vhd : (155, 31): Identifier, string literal, character literal or keyword 'all' expected.
-# Error: COMP96_0029: Q3.vhd : (160, 40): Expression expected.
-# Error: COMP96_0018: Q3.vhd : (160, 40): Identifier expected.
-# Error: COMP96_0015: Q3.vhd : (160, 40): ';' expected.
-# Error: COMP96_0019: Q3.vhd : (160, 40): Keyword 'end' expected.
-# Error: COMP96_0019: Q3.vhd : (161, 21): Keyword 'loop' expected.
-# Error: COMP96_0036: Q3.vhd : (161, 23): Boolean expression expected.
-# Error: COMP96_0015: Q3.vhd : (164, 13): ';' expected.
-# Error: COMP96_0025: Q3.vhd : (166, 18): Identifier or string literal expected.
-# Compile failure 15 Errors 0 Warnings  Analysis time :  0.1 [s]
-acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
-# Compile Package "matrix_pkg"
-# Compile Package Body "matrix_pkg"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
-# Compile Package "Recursive_Functions"
-# Compile Package Body "Recursive_Functions"
-# Compile Entity "Recursive_Functions_Entity"
-# Compile Architecture "Behavioral" of Entity "Recursive_Functions_Entity"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
-# Compile Package "image_filter"
-# Compile Package Body "image_filter"
-# Compile Entity "convolution_unit"
-# Compile Architecture "rtl" of Entity "convolution_unit"
-# Compile Entity "main"
-# Compile Architecture "rtl" of Entity "main"
-# Error: COMP96_0019: Q3.vhd : (102, 5): Keyword 'end' expected.
-# Error: COMP96_0016: Q3.vhd : (102, 11): Design unit declaration expected.
-# Compile Entity "feature_map"
-# Error: COMP96_0304: Q3.vhd : (131, 27): Bad type name. Type conflict in "image" literal.
-# Compile Architecture "rtl" of Entity "feature_map"
-# Error: COMP96_0045: Q3.vhd : (158, 31): Identifier, string literal, character literal or keyword 'all' expected.
-# Error: COMP96_0029: Q3.vhd : (163, 40): Expression expected.
-# Error: COMP96_0018: Q3.vhd : (163, 40): Identifier expected.
-# Error: COMP96_0015: Q3.vhd : (163, 40): ';' expected.
-# Error: COMP96_0019: Q3.vhd : (163, 40): Keyword 'end' expected.
-# Error: COMP96_0019: Q3.vhd : (164, 21): Keyword 'loop' expected.
-# Error: COMP96_0036: Q3.vhd : (164, 23): Boolean expression expected.
-# Error: COMP96_0015: Q3.vhd : (167, 13): ';' expected.
-# Error: COMP96_0025: Q3.vhd : (169, 18): Identifier or string literal expected.
-# Compile failure 12 Errors 0 Warnings  Analysis time :  0.1 [s]
-acom -O3 -e 100 -work design -2002  $dsn/src/Q3.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
-# Compile Package "image_filter"
-# Compile Package Body "image_filter"
-# Compile Entity "convolution_unit"
-# Compile Architecture "rtl" of Entity "convolution_unit"
-# Compile Entity "main"
-# Compile Architecture "rtl" of Entity "main"
-# Error: COMP96_0304: Q3.vhd : (78, 25): Bad type name. Type conflict in "image" literal.
-# Error: COMP96_0304: Q3.vhd : (79, 25): Bad type name. Type conflict in "filter" literal.
-# Error: COMP96_0304: Q3.vhd : (85, 25): Bad type name. Type conflict in "image" literal.
-# Error: COMP96_0304: Q3.vhd : (86, 25): Bad type name. Type conflict in "filter" literal.
-# Compile Entity "feature_map"
-# Error: COMP96_0304: Q3.vhd : (132, 27): Bad type name. Type conflict in "image" literal.
-# Compile Architecture "rtl" of Entity "feature_map"
-# Error: COMP96_0045: Q3.vhd : (159, 31): Identifier, string literal, character literal or keyword 'all' expected.
-# Error: COMP96_0029: Q3.vhd : (164, 40): Expression expected.
-# Error: COMP96_0018: Q3.vhd : (164, 40): Identifier expected.
-# Error: COMP96_0015: Q3.vhd : (164, 40): ';' expected.
-# Error: COMP96_0019: Q3.vhd : (164, 40): Keyword 'end' expected.
-# Error: COMP96_0019: Q3.vhd : (165, 21): Keyword 'loop' expected.
-# Error: COMP96_0036: Q3.vhd : (165, 23): Boolean expression expected.
-# Error: COMP96_0015: Q3.vhd : (168, 13): ';' expected.
-# Error: COMP96_0025: Q3.vhd : (170, 18): Identifier or string literal expected.
-# Compile failure 14 Errors 0 Warnings  Analysis time :  93.0 [ms]
-acom -O3 -e 100 -work design -2002  $dsn/src/Q3.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
-# Compile Package "image_filter"
-# Compile Package Body "image_filter"
-# Compile Entity "convolution_unit"
-# Compile Architecture "rtl" of Entity "convolution_unit"
-# Compile Entity "main"
-# Compile Architecture "rtl" of Entity "main"
-# Compile Entity "feature_map"
-# Compile Architecture "rtl" of Entity "feature_map"
-# Error: COMP96_0045: Q3.vhd : (159, 31): Identifier, string literal, character literal or keyword 'all' expected.
-# Error: COMP96_0029: Q3.vhd : (164, 40): Expression expected.
-# Error: COMP96_0018: Q3.vhd : (164, 40): Identifier expected.
-# Error: COMP96_0015: Q3.vhd : (164, 40): ';' expected.
-# Error: COMP96_0019: Q3.vhd : (164, 40): Keyword 'end' expected.
-# Error: COMP96_0019: Q3.vhd : (165, 21): Keyword 'loop' expected.
-# Error: COMP96_0036: Q3.vhd : (165, 23): Boolean expression expected.
-# Error: COMP96_0015: Q3.vhd : (168, 13): ';' expected.
-# Error: COMP96_0025: Q3.vhd : (170, 18): Identifier or string literal expected.
-# Compile failure 9 Errors 0 Warnings  Analysis time :  78.0 [ms]
-acom -O3 -e 100 -work design -2002  $dsn/src/Q3.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
-# Compile Package "image_filter"
-# Compile Package Body "image_filter"
-# Compile Entity "convolution_unit"
-# Compile Architecture "rtl" of Entity "convolution_unit"
-# Compile Entity "main"
-# Compile Architecture "rtl" of Entity "main"
-# Compile Entity "feature_map"
-# Compile Architecture "rtl" of Entity "feature_map"
-# Error: COMP96_0045: Q3.vhd : (159, 31): Identifier, string literal, character literal or keyword 'all' expected.
-# Error: COMP96_0029: Q3.vhd : (164, 40): Expression expected.
-# Error: COMP96_0018: Q3.vhd : (164, 40): Identifier expected.
-# Error: COMP96_0015: Q3.vhd : (164, 40): ';' expected.
-# Error: COMP96_0019: Q3.vhd : (164, 40): Keyword 'end' expected.
-# Error: COMP96_0019: Q3.vhd : (165, 21): Keyword 'loop' expected.
-# Error: COMP96_0036: Q3.vhd : (165, 23): Boolean expression expected.
-# Error: COMP96_0015: Q3.vhd : (168, 13): ';' expected.
-# Error: COMP96_0025: Q3.vhd : (170, 18): Identifier or string literal expected.
-# Compile failure 9 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
-# Compile Package "matrix_pkg"
-# Compile Package Body "matrix_pkg"
+# Compile Entity "matrix_tb"
+# Compile Architecture "Behavioral" of Entity "matrix_tb"
+# Error: COMP96_0153: Q1.vhd : (89, 21): Formal "a" of class variable must be associated with a variable.
+# Error: COMP96_0153: Q1.vhd : (90, 21): Formal "a" of class variable must be associated with a variable.
 # File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
 # Compile Package "Recursive_Functions"
 # Compile Package Body "Recursive_Functions"
@@ -511,12 +23,16 @@ acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.
 # Compile Architecture "rtl" of Entity "main"
 # Compile Entity "feature_map"
 # Compile Architecture "rtl" of Entity "feature_map"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.2 [s]
 acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
 # File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
 # Compile Package "matrix_pkg"
 # Compile Package Body "matrix_pkg"
+# Compile Entity "matrix_tb"
+# Compile Architecture "Behavioral" of Entity "matrix_tb"
+# Error: COMP96_0153: Q1.vhd : (84, 21): Formal "a" of class variable must be associated with a variable.
+# Error: COMP96_0153: Q1.vhd : (85, 21): Formal "a" of class variable must be associated with a variable.
 # File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
 # Compile Package "Recursive_Functions"
 # Compile Package Body "Recursive_Functions"
@@ -531,233 +47,20 @@ acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.
 # Compile Architecture "rtl" of Entity "main"
 # Compile Entity "feature_map"
 # Compile Architecture "rtl" of Entity "feature_map"
-# Error: COMP96_0019: Q3.vhd : (161, 9): Keyword 'begin' expected.
-# Error: COMP96_0047: Q3.vhd : (163, 9): Concurrent statement or ':' expected.
-# Error: COMP96_0028: Q3.vhd : (163, 29): Identifier or keyword expected.
-# Error: COMP96_0019: Q3.vhd : (163, 29): Keyword 'end' expected.
-# Error: COMP96_0016: Q3.vhd : (163, 33): Design unit declaration expected.
-# Compile failure 5 Errors 0 Warnings  Analysis time :  0.1 [s]
-acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
-# Compile Package "matrix_pkg"
-# Compile Package Body "matrix_pkg"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
-# Compile Package "Recursive_Functions"
-# Compile Package Body "Recursive_Functions"
-# Compile Entity "Recursive_Functions_Entity"
-# Compile Architecture "Behavioral" of Entity "Recursive_Functions_Entity"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
-# Compile Package "image_filter"
-# Compile Package Body "image_filter"
-# Compile Entity "convolution_unit"
-# Compile Architecture "rtl" of Entity "convolution_unit"
-# Compile Entity "main"
-# Compile Architecture "rtl" of Entity "main"
-# Compile Entity "feature_map"
-# Error: COMP96_0078: Q3.vhd : (130, 20): Unknown identifier "image_filter".
-# Error: COMP96_0133: Q3.vhd : (130, 20): Cannot find object declaration.
-# Error: COMP96_0064: Q3.vhd : (130, 20): Unknown type.
-# Error: COMP96_0078: Q3.vhd : (131, 21): Unknown identifier "image_filter".
-# Error: COMP96_0133: Q3.vhd : (131, 21): Cannot find object declaration.
-# Error: COMP96_0064: Q3.vhd : (131, 21): Unknown type.
-# Error: COMP96_0078: Q3.vhd : (132, 27): Unknown identifier "image_filter".
-# Error: COMP96_0133: Q3.vhd : (132, 27): Cannot find object declaration.
-# Error: COMP96_0064: Q3.vhd : (132, 27): Unknown type.
-# Compile Architecture "rtl" of Entity "feature_map"
-# Error: COMP96_0019: Q3.vhd : (160, 9): Keyword 'begin' expected.
-# Error: COMP96_0047: Q3.vhd : (162, 9): Concurrent statement or ':' expected.
-# Error: COMP96_0028: Q3.vhd : (162, 29): Identifier or keyword expected.
-# Error: COMP96_0019: Q3.vhd : (162, 29): Keyword 'end' expected.
-# Error: COMP96_0016: Q3.vhd : (162, 33): Design unit declaration expected.
-# Compile failure 14 Errors 0 Warnings  Analysis time :  0.1 [s]
-acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
-# Compile Package "matrix_pkg"
-# Compile Package Body "matrix_pkg"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
-# Compile Package "Recursive_Functions"
-# Compile Package Body "Recursive_Functions"
-# Compile Entity "Recursive_Functions_Entity"
-# Compile Architecture "Behavioral" of Entity "Recursive_Functions_Entity"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
-# Compile Package "image_filter"
-# Compile Package Body "image_filter"
-# Compile Entity "convolution_unit"
-# Compile Architecture "rtl" of Entity "convolution_unit"
-# Compile Entity "main"
-# Compile Architecture "rtl" of Entity "main"
-# Compile Entity "feature_map"
-# Compile Architecture "rtl" of Entity "feature_map"
-# Error: COMP96_0019: Q3.vhd : (161, 9): Keyword 'begin' expected.
-# Error: COMP96_0047: Q3.vhd : (163, 9): Concurrent statement or ':' expected.
-# Error: COMP96_0028: Q3.vhd : (163, 29): Identifier or keyword expected.
-# Error: COMP96_0019: Q3.vhd : (163, 29): Keyword 'end' expected.
-# Error: COMP96_0016: Q3.vhd : (163, 33): Design unit declaration expected.
-# Compile failure 5 Errors 0 Warnings  Analysis time :  94.0 [ms]
-acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
-# Compile Package "matrix_pkg"
-# Compile Package Body "matrix_pkg"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
-# Compile Package "Recursive_Functions"
-# Compile Package Body "Recursive_Functions"
-# Compile Entity "Recursive_Functions_Entity"
-# Compile Architecture "Behavioral" of Entity "Recursive_Functions_Entity"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
-# Compile Package "image_filter"
-# Compile Package Body "image_filter"
-# Compile Entity "convolution_unit"
-# Compile Architecture "rtl" of Entity "convolution_unit"
-# Compile Entity "main"
-# Compile Architecture "rtl" of Entity "main"
-# Compile Entity "feature_map"
-# Compile Architecture "rtl" of Entity "feature_map"
-# Error: COMP96_0078: Q3.vhd : (158, 28): Unknown identifier "text".
-# Error: COMP96_0064: Q3.vhd : (158, 28): Unknown type.
-# Error: COMP96_0294: Q3.vhd : (160, 9): Target of variable assignment is not a variable.
-# Error: COMP96_0078: Q3.vhd : (160, 24): Unknown identifier "file_open".
-# Error: COMP96_0078: Q3.vhd : (163, 17): Unknown identifier "write".
-# Error: COMP96_0066: Q3.vhd : (163, 17): Cannot find "write" procedure declaration.
-# Error: COMP96_0078: Q3.vhd : (164, 17): Unknown identifier "write".
-# Error: COMP96_0066: Q3.vhd : (164, 17): Cannot find "write" procedure declaration.
-# Error: COMP96_0078: Q3.vhd : (166, 13): Unknown identifier "write".
-# Error: COMP96_0066: Q3.vhd : (166, 13): Cannot find "write" procedure declaration.
-# Error: COMP96_0078: Q3.vhd : (168, 9): Unknown identifier "file_close".
-# Error: COMP96_0066: Q3.vhd : (168, 9): Cannot find "file_close" procedure declaration.
-# Error: COMP96_0122: Q3.vhd : (186, 5): Symbol "main" has already been declared in this scope.
-# Error: COMP96_0641: Q3.vhd : (186, 12): Name "main" does not refer to a component declaration.
-# Compile failure 14 Errors 0 Warnings  Analysis time :  94.0 [ms]
-acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
-# Compile Package "matrix_pkg"
-# Compile Package Body "matrix_pkg"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
-# Compile Package "Recursive_Functions"
-# Compile Package Body "Recursive_Functions"
-# Compile Entity "Recursive_Functions_Entity"
-# Compile Architecture "Behavioral" of Entity "Recursive_Functions_Entity"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
-# Compile Package "image_filter"
-# Compile Package Body "image_filter"
-# Compile Entity "convolution_unit"
-# Compile Architecture "rtl" of Entity "convolution_unit"
-# Compile Entity "main"
-# Compile Architecture "rtl" of Entity "main"
-# Compile Entity "feature_map"
-# Compile Architecture "rtl" of Entity "feature_map"
-# Error: COMP96_0078: Q3.vhd : (158, 28): Unknown identifier "text".
-# Error: COMP96_0064: Q3.vhd : (158, 28): Unknown type.
-# Error: COMP96_0294: Q3.vhd : (160, 9): Target of variable assignment is not a variable.
-# Error: COMP96_0078: Q3.vhd : (160, 24): Unknown identifier "file_open".
-# Error: COMP96_0078: Q3.vhd : (163, 17): Unknown identifier "write".
-# Error: COMP96_0066: Q3.vhd : (163, 17): Cannot find "write" procedure declaration.
-# Error: COMP96_0078: Q3.vhd : (164, 17): Unknown identifier "write".
-# Error: COMP96_0066: Q3.vhd : (164, 17): Cannot find "write" procedure declaration.
-# Error: COMP96_0078: Q3.vhd : (166, 13): Unknown identifier "write".
-# Error: COMP96_0066: Q3.vhd : (166, 13): Cannot find "write" procedure declaration.
-# Error: COMP96_0078: Q3.vhd : (168, 9): Unknown identifier "file_close".
-# Error: COMP96_0066: Q3.vhd : (168, 9): Cannot find "file_close" procedure declaration.
-# Error: COMP96_0122: Q3.vhd : (186, 5): Symbol "main" has already been declared in this scope.
-# Error: COMP96_0641: Q3.vhd : (186, 12): Name "main" does not refer to a component declaration.
-# Compile failure 14 Errors 0 Warnings  Analysis time :  93.0 [ms]
-acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
-# Compile Package "matrix_pkg"
-# Compile Package Body "matrix_pkg"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
-# Compile Package "Recursive_Functions"
-# Compile Package Body "Recursive_Functions"
-# Compile Entity "Recursive_Functions_Entity"
-# Compile Architecture "Behavioral" of Entity "Recursive_Functions_Entity"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
-# Compile Package "image_filter"
-# Compile Package Body "image_filter"
-# Compile Entity "convolution_unit"
-# Compile Architecture "rtl" of Entity "convolution_unit"
-# Compile Entity "main"
-# Compile Architecture "rtl" of Entity "main"
-# Compile Entity "feature_map"
-# Compile Architecture "rtl" of Entity "feature_map"
-# Error: COMP96_0078: Q3.vhd : (158, 28): Unknown identifier "text".
-# Error: COMP96_0064: Q3.vhd : (158, 28): Unknown type.
-# Error: COMP96_0294: Q3.vhd : (160, 9): Target of variable assignment is not a variable.
-# Error: COMP96_0078: Q3.vhd : (160, 24): Unknown identifier "file_open".
-# Error: COMP96_0078: Q3.vhd : (163, 17): Unknown identifier "write".
-# Error: COMP96_0066: Q3.vhd : (163, 17): Cannot find "write" procedure declaration.
-# Error: COMP96_0078: Q3.vhd : (164, 17): Unknown identifier "write".
-# Error: COMP96_0066: Q3.vhd : (164, 17): Cannot find "write" procedure declaration.
-# Error: COMP96_0078: Q3.vhd : (166, 13): Unknown identifier "write".
-# Error: COMP96_0066: Q3.vhd : (166, 13): Cannot find "write" procedure declaration.
-# Error: COMP96_0078: Q3.vhd : (168, 9): Unknown identifier "file_close".
-# Error: COMP96_0066: Q3.vhd : (168, 9): Cannot find "file_close" procedure declaration.
-# Error: COMP96_0122: Q3.vhd : (186, 5): Symbol "main" has already been declared in this scope.
-# Error: COMP96_0641: Q3.vhd : (186, 12): Name "main" does not refer to a component declaration.
-# Compile failure 14 Errors 0 Warnings  Analysis time :  93.0 [ms]
-acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
-# Compile Package "matrix_pkg"
-# Compile Package Body "matrix_pkg"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
-# Compile Package "Recursive_Functions"
-# Compile Package Body "Recursive_Functions"
-# Compile Entity "Recursive_Functions_Entity"
-# Compile Architecture "Behavioral" of Entity "Recursive_Functions_Entity"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
-# Compile Package "image_filter"
-# Compile Package Body "image_filter"
-# Compile Entity "convolution_unit"
-# Compile Architecture "rtl" of Entity "convolution_unit"
-# Compile Entity "main"
-# Compile Architecture "rtl" of Entity "main"
-# Compile Entity "feature_map"
-# Compile Architecture "rtl" of Entity "feature_map"
-# Error: COMP96_0294: Q3.vhd : (162, 9): Target of variable assignment is not a variable.
-# Error: COMP96_0093: Q3.vhd : (162, 34): The type of a parameter in a subprogram call does not match to a formal parameter of the "std.TEXTIO.FILE_OPEN(F : TEXT; EXTERNAL_NAME : STRING; OPEN_KIND : FILE_OPEN_KIND) return FILE_OPEN_STATUS" subprogram.
-# Error: COMP96_0093: Q3.vhd : (162, 44): The type of a parameter in a subprogram call does not match to a formal parameter of the "std.TEXTIO.FILE_OPEN(F : TEXT; EXTERNAL_NAME : STRING; OPEN_KIND : FILE_OPEN_KIND) return FILE_OPEN_STATUS" subprogram.
-# Error: COMP96_0154: Q3.vhd : (162, 34): Formal "F" of class file must be associated with a file.
-# Error: COMP96_0617: Q3.vhd : (162, 24): Assignment target incompatible with right side. Cannot convert 'FILE_OPEN_STATUS' to 'TEXT'.
-# Error: COMP96_0273: Q3.vhd : (165, 17): Cannot find procedure "write" for these actuals.
-# Error: COMP96_0263: Q3.vhd : (168, 32): Type names are not allowed as primaries.
-# Error: COMP96_0273: Q3.vhd : (168, 13): Cannot find procedure "write" for these actuals.
-# Error: COMP96_0122: Q3.vhd : (188, 5): Symbol "main" has already been declared in this scope.
-# Error: COMP96_0641: Q3.vhd : (188, 12): Name "main" does not refer to a component declaration.
-# Compile failure 10 Errors 0 Warnings  Analysis time :  94.0 [ms]
-acom -reorder -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
-# Compile Package "matrix_pkg"
-# Compile Package Body "matrix_pkg"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
-# Compile Package "Recursive_Functions"
-# Compile Package Body "Recursive_Functions"
-# Compile Entity "Recursive_Functions_Entity"
-# Compile Architecture "Behavioral" of Entity "Recursive_Functions_Entity"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
-# Compile Package "image_filter"
-# Compile Package Body "image_filter"
-# Compile Entity "convolution_unit"
-# Compile Architecture "rtl" of Entity "convolution_unit"
-# Compile Entity "main"
-# Compile Architecture "rtl" of Entity "main"
-# Compile Entity "feature_map"
-# Compile Architecture "rtl" of Entity "feature_map"
-# Top-level unit(s) detected:
-# Entity => Recursive_Functions_Entity
-# Entity => main
-# Error: ELAB1_0003: Q3.vhd : (7, 0): The subprogram "save_to_txt" has no corresponding body declaration.
-# Error: COMP96_0045: Q3.vhd : (164, 31): Identifier, string literal, character literal or keyword 'all' expected.
 # Compile failure 2 Errors 0 Warnings  Analysis time :  0.1 [s]
 acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
 # File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
 # Compile Package "matrix_pkg"
 # Compile Package Body "matrix_pkg"
+# Compile Entity "matrix_tb"
+# Compile Architecture "Behavioral" of Entity "matrix_tb"
+# Error: COMP96_0078: Q1.vhd : (84, 9): Unknown identifier "matrix_pkg".
+# Error: COMP96_0133: Q1.vhd : (84, 9): Cannot find object declaration.
+# Error: COMP96_0066: Q1.vhd : (84, 9): Cannot find "fill_matrix" procedure declaration.
+# Error: COMP96_0078: Q1.vhd : (85, 9): Unknown identifier "matrix_pkg".
+# Error: COMP96_0133: Q1.vhd : (85, 9): Cannot find object declaration.
+# Error: COMP96_0066: Q1.vhd : (85, 9): Cannot find "fill_matrix" procedure declaration.
 # File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
 # Compile Package "Recursive_Functions"
 # Compile Package Body "Recursive_Functions"
@@ -766,20 +69,46 @@ acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.
 # File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
 # Compile Package "image_filter"
 # Compile Package Body "image_filter"
-# Error: ELAB1_0003: Q3.vhd : (7, 0): The subprogram "save_to_txt" has no corresponding body declaration.
 # Compile Entity "convolution_unit"
 # Compile Architecture "rtl" of Entity "convolution_unit"
 # Compile Entity "main"
 # Compile Architecture "rtl" of Entity "main"
 # Compile Entity "feature_map"
 # Compile Architecture "rtl" of Entity "feature_map"
-# Error: COMP96_0045: Q3.vhd : (164, 31): Identifier, string literal, character literal or keyword 'all' expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
+# Compile Package "matrix_pkg"
+# Compile Package Body "matrix_pkg"
+# Compile Entity "matrix_tb"
+# Compile Architecture "Behavioral" of Entity "matrix_tb"
+# Error: COMP96_0153: Q1.vhd : (84, 21): Formal "a" of class variable must be associated with a variable.
+# Error: COMP96_0153: Q1.vhd : (85, 21): Formal "a" of class variable must be associated with a variable.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
+# Compile Package "Recursive_Functions"
+# Compile Package Body "Recursive_Functions"
+# Compile Entity "Recursive_Functions_Entity"
+# Compile Architecture "Behavioral" of Entity "Recursive_Functions_Entity"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
+# Compile Package "image_filter"
+# Compile Package Body "image_filter"
+# Compile Entity "convolution_unit"
+# Compile Architecture "rtl" of Entity "convolution_unit"
+# Compile Entity "main"
+# Compile Architecture "rtl" of Entity "main"
+# Compile Entity "feature_map"
+# Compile Architecture "rtl" of Entity "feature_map"
 # Compile failure 2 Errors 0 Warnings  Analysis time :  0.1 [s]
 acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
 # File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
 # Compile Package "matrix_pkg"
 # Compile Package Body "matrix_pkg"
+# Compile Entity "matrix_tb"
+# Compile Architecture "Behavioral" of Entity "matrix_tb"
+# Error: COMP96_0153: Q1.vhd : (84, 21): Formal "a" of class variable must be associated with a variable.
+# Error: COMP96_0153: Q1.vhd : (85, 21): Formal "a" of class variable must be associated with a variable.
 # File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
 # Compile Package "Recursive_Functions"
 # Compile Package Body "Recursive_Functions"
@@ -794,22 +123,16 @@ acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.
 # Compile Architecture "rtl" of Entity "main"
 # Compile Entity "feature_map"
 # Compile Architecture "rtl" of Entity "feature_map"
-# Error: COMP96_0294: Q3.vhd : (162, 9): Target of variable assignment is not a variable.
-# Error: COMP96_0093: Q3.vhd : (162, 34): The type of a parameter in a subprogram call does not match to a formal parameter of the "std.TEXTIO.FILE_OPEN(F : TEXT; EXTERNAL_NAME : STRING; OPEN_KIND : FILE_OPEN_KIND) return FILE_OPEN_STATUS" subprogram.
-# Error: COMP96_0093: Q3.vhd : (162, 44): The type of a parameter in a subprogram call does not match to a formal parameter of the "std.TEXTIO.FILE_OPEN(F : TEXT; EXTERNAL_NAME : STRING; OPEN_KIND : FILE_OPEN_KIND) return FILE_OPEN_STATUS" subprogram.
-# Error: COMP96_0154: Q3.vhd : (162, 34): Formal "F" of class file must be associated with a file.
-# Error: COMP96_0617: Q3.vhd : (162, 24): Assignment target incompatible with right side. Cannot convert 'FILE_OPEN_STATUS' to 'TEXT'.
-# Error: COMP96_0273: Q3.vhd : (165, 17): Cannot find procedure "write" for these actuals.
-# Error: COMP96_0263: Q3.vhd : (168, 32): Type names are not allowed as primaries.
-# Error: COMP96_0273: Q3.vhd : (168, 13): Cannot find procedure "write" for these actuals.
-# Error: COMP96_0122: Q3.vhd : (188, 5): Symbol "main" has already been declared in this scope.
-# Error: COMP96_0641: Q3.vhd : (188, 12): Name "main" does not refer to a component declaration.
-# Compile failure 10 Errors 0 Warnings  Analysis time :  93.0 [ms]
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.1 [s]
 acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
 # File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
 # Compile Package "matrix_pkg"
 # Compile Package Body "matrix_pkg"
+# Compile Entity "matrix_tb"
+# Compile Architecture "Behavioral" of Entity "matrix_tb"
+# Error: COMP96_0153: Q1.vhd : (84, 21): Formal "a" of class variable must be associated with a variable.
+# Error: COMP96_0153: Q1.vhd : (85, 21): Formal "a" of class variable must be associated with a variable.
 # File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
 # Compile Package "Recursive_Functions"
 # Compile Package Body "Recursive_Functions"
@@ -824,59 +147,6 @@ acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.
 # Compile Architecture "rtl" of Entity "main"
 # Compile Entity "feature_map"
 # Compile Architecture "rtl" of Entity "feature_map"
-# Error: COMP96_0294: Q3.vhd : (162, 9): Target of variable assignment is not a variable.
-# Error: COMP96_0093: Q3.vhd : (162, 34): The type of a parameter in a subprogram call does not match to a formal parameter of the "std.TEXTIO.FILE_OPEN(F : TEXT; EXTERNAL_NAME : STRING; OPEN_KIND : FILE_OPEN_KIND) return FILE_OPEN_STATUS" subprogram.
-# Error: COMP96_0093: Q3.vhd : (162, 44): The type of a parameter in a subprogram call does not match to a formal parameter of the "std.TEXTIO.FILE_OPEN(F : TEXT; EXTERNAL_NAME : STRING; OPEN_KIND : FILE_OPEN_KIND) return FILE_OPEN_STATUS" subprogram.
-# Error: COMP96_0154: Q3.vhd : (162, 34): Formal "F" of class file must be associated with a file.
-# Error: COMP96_0617: Q3.vhd : (162, 24): Assignment target incompatible with right side. Cannot convert 'FILE_OPEN_STATUS' to 'TEXT'.
-# Error: COMP96_0273: Q3.vhd : (165, 17): Cannot find procedure "write" for these actuals.
-# Error: COMP96_0263: Q3.vhd : (168, 32): Type names are not allowed as primaries.
-# Error: COMP96_0273: Q3.vhd : (168, 13): Cannot find procedure "write" for these actuals.
-# Error: COMP96_0122: Q3.vhd : (188, 5): Symbol "main" has already been declared in this scope.
-# Error: COMP96_0641: Q3.vhd : (188, 12): Name "main" does not refer to a component declaration.
-# Compile failure 10 Errors 0 Warnings  Analysis time :  94.0 [ms]
-acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
-# Compile Package "matrix_pkg"
-# Compile Package Body "matrix_pkg"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
-# Compile Package "Recursive_Functions"
-# Compile Package Body "Recursive_Functions"
-# Compile Entity "Recursive_Functions_Entity"
-# Compile Architecture "Behavioral" of Entity "Recursive_Functions_Entity"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
-# Compile Package "image_filter"
-# Compile Package Body "image_filter"
-# Compile Entity "convolution_unit"
-# Compile Architecture "rtl" of Entity "convolution_unit"
-# Compile Entity "main"
-# Compile Architecture "rtl" of Entity "main"
-# Compile Entity "feature_map"
-# Compile Architecture "rtl" of Entity "feature_map"
-# Error: COMP96_0020: Q3.vhd : (160, 5): Variable can be declared only in a process or subprogram.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  94.0 [ms]
-acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
-# Compile Package "matrix_pkg"
-# Compile Package Body "matrix_pkg"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
-# Compile Package "Recursive_Functions"
-# Compile Package Body "Recursive_Functions"
-# Compile Entity "Recursive_Functions_Entity"
-# Compile Architecture "Behavioral" of Entity "Recursive_Functions_Entity"
-# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
-# Compile Package "image_filter"
-# Compile Package Body "image_filter"
-# Compile Entity "convolution_unit"
-# Compile Architecture "rtl" of Entity "convolution_unit"
-# Compile Entity "main"
-# Compile Architecture "rtl" of Entity "main"
-# Compile Entity "feature_map"
-# Compile Architecture "rtl" of Entity "feature_map"
-# Error: COMP96_0122: Q3.vhd : (196, 5): Symbol "main" has already been declared in this scope.
-# Error: COMP96_0641: Q3.vhd : (196, 12): Name "main" does not refer to a component declaration.
 # Compile failure 2 Errors 0 Warnings  Analysis time :  0.1 [s]
 acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
@@ -903,6 +173,30 @@ acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.
 # File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
 # Compile Package "matrix_pkg"
 # Compile Package Body "matrix_pkg"
+# Compile Entity "matrix_tb"
+# Compile Architecture "Behavioral" of Entity "matrix_tb"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
+# Compile Package "Recursive_Functions"
+# Compile Package Body "Recursive_Functions"
+# Compile Entity "Recursive_Functions_Entity"
+# Compile Architecture "Behavioral" of Entity "Recursive_Functions_Entity"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
+# Compile Package "image_filter"
+# Compile Package Body "image_filter"
+# Compile Entity "convolution_unit"
+# Compile Architecture "rtl" of Entity "convolution_unit"
+# Compile Entity "main"
+# Compile Architecture "rtl" of Entity "main"
+# Compile Entity "feature_map"
+# Compile Architecture "rtl" of Entity "feature_map"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
+# Compile Package "matrix_pkg"
+# Compile Package Body "matrix_pkg"
+# Compile Entity "matrix_tb"
+# Compile Architecture "Behavioral" of Entity "matrix_tb"
 # File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
 # Compile Package "Recursive_Functions"
 # Compile Package Body "Recursive_Functions"
@@ -918,3 +212,184 @@ acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.
 # Compile Entity "feature_map"
 # Compile Architecture "rtl" of Entity "feature_map"
 # Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+matrix_tb matrix_tb Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5647 kB (elbread=427 elab2=5081 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\UNI\term6\CAD\HW3\design\src\wave.asdb
+#  11:53 AM, Thursday, June 29, 2023
+#  Simulation has been initialized
+run 10 ns
+# KERNEL: stopped at time: 10 ns
+# add wave -noreg {/matrix_tb/a}
+# add wave -noreg {/matrix_tb/b}
+# add wave -noreg {/matrix_tb/add_result}
+# add wave -noreg {/matrix_tb/mul_result}
+# 4 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/wave.asdb'.
+# Error: Advanced Dataflow is disabled.
+# Error: To enable Advanced Dataflow close the simulation session, set the Generate Data for Advanced Dataflow option in Design Settings.
+# Error: Initialize simulation from Simulation Menu or use asim macro command with -advdataflow switch.
+# add wave -noreg {/matrix_tb/a}
+# add wave -noreg {/matrix_tb/b}
+# add wave -noreg {/matrix_tb/add_result}
+# add wave -noreg {/matrix_tb/mul_result}
+# KERNEL: Warning: KERNEL_0291 Signal '/matrix_tb/a' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/matrix_tb/b' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/matrix_tb/add_result' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/matrix_tb/mul_result' has already been traced.
+# 0 object(s) traced.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+matrix_tb matrix_tb Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5647 kB (elbread=427 elab2=5081 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\UNI\term6\CAD\HW3\design\src\wave.asdb
+#  11:53 AM, Thursday, June 29, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/wave.asdb'.
+run 10 ns
+# KERNEL: stopped at time: 10 ns
+# add wave -noreg {/matrix_tb/a}
+# add wave -noreg {/matrix_tb/b}
+# add wave -noreg {/matrix_tb/add_result}
+# add wave -noreg {/matrix_tb/mul_result}
+# 4 object(s) traced.
+run 10 ns
+# EXECUTION:: NOTE   : Real Part: -2147483648, Imaginary Part: -2147483648
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /matrix_tb,  Process: line__82.
+# EXECUTION:: NOTE   : Real Part: -2147483648, Imaginary Part: -2147483648
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /matrix_tb,  Process: line__82.
+# EXECUTION:: NOTE   : Real Part: -2147483648, Imaginary Part: -2147483648
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /matrix_tb,  Process: line__82.
+# EXECUTION:: NOTE   : Real Part: -2147483648, Imaginary Part: -2147483648
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /matrix_tb,  Process: line__82.
+# KERNEL: stopped at time: 20 ns
+run 10 ns
+# EXECUTION:: NOTE   : Real Part: -2147483648, Imaginary Part: -2147483648
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /matrix_tb,  Process: line__82.
+# EXECUTION:: NOTE   : Real Part: -2147483648, Imaginary Part: -2147483648
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /matrix_tb,  Process: line__82.
+# EXECUTION:: NOTE   : Real Part: -2147483648, Imaginary Part: -2147483648
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /matrix_tb,  Process: line__82.
+# EXECUTION:: NOTE   : Real Part: -2147483648, Imaginary Part: -2147483648
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /matrix_tb,  Process: line__82.
+# KERNEL: stopped at time: 30 ns
+run 10 ns
+# EXECUTION:: NOTE   : Real Part: 0, Imaginary Part: 0
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /matrix_tb,  Process: line__82.
+# EXECUTION:: NOTE   : Real Part: 0, Imaginary Part: 0
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /matrix_tb,  Process: line__82.
+# EXECUTION:: NOTE   : Real Part: 0, Imaginary Part: 0
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /matrix_tb,  Process: line__82.
+# EXECUTION:: NOTE   : Real Part: 0, Imaginary Part: 0
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /matrix_tb,  Process: line__82.
+# KERNEL: stopped at time: 40 ns
+run 10 ns
+# EXECUTION:: NOTE   : Real Part: 0, Imaginary Part: 0
+# EXECUTION:: Time: 50 ns,  Iteration: 0,  Instance: /matrix_tb,  Process: line__82.
+# EXECUTION:: NOTE   : Real Part: 0, Imaginary Part: 0
+# EXECUTION:: Time: 50 ns,  Iteration: 0,  Instance: /matrix_tb,  Process: line__82.
+# EXECUTION:: NOTE   : Real Part: 0, Imaginary Part: 0
+# EXECUTION:: Time: 50 ns,  Iteration: 0,  Instance: /matrix_tb,  Process: line__82.
+# EXECUTION:: NOTE   : Real Part: 0, Imaginary Part: 0
+# EXECUTION:: Time: 50 ns,  Iteration: 0,  Instance: /matrix_tb,  Process: line__82.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 60 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 70 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 80 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+matrix_tb matrix_tb Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5647 kB (elbread=427 elab2=5081 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\free\Desktop\UNI\term6\CAD\HW3\design\src\wave.asdb
+#  11:56 AM, Thursday, June 29, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/wave.asdb'.
+run 10 ns
+# KERNEL: stopped at time: 10 ns
+acom -O3 -e 100 -work design -2002  $dsn/src/Q1.vhd $dsn/src/Q2.vhd $dsn/src/Q3.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q1.vhd
+# Compile Package "matrix_pkg"
+# Compile Package Body "matrix_pkg"
+# Compile Entity "matrix_tb"
+# Compile Architecture "Behavioral" of Entity "matrix_tb"
+# Error: COMP96_0077: Q1.vhd : (77, 44): Undefined type of expression. Expected type 'complex'.
+# Error: COMP96_0079: Q1.vhd : (77, 43): Invalid aggregate.
+# Error: COMP96_0077: Q1.vhd : (77, 52): Undefined type of expression. Expected type 'complex'.
+# Error: COMP96_0079: Q1.vhd : (77, 51): Invalid aggregate.
+# Error: COMP96_0077: Q1.vhd : (78, 44): Undefined type of expression. Expected type 'complex'.
+# Error: COMP96_0079: Q1.vhd : (78, 43): Invalid aggregate.
+# Error: COMP96_0077: Q1.vhd : (78, 52): Undefined type of expression. Expected type 'complex'.
+# Error: COMP96_0079: Q1.vhd : (78, 51): Invalid aggregate.
+# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q2.vhd
+# Compile Package "Recursive_Functions"
+# Compile Package Body "Recursive_Functions"
+# Compile Entity "Recursive_Functions_Entity"
+# Compile Architecture "Behavioral" of Entity "Recursive_Functions_Entity"
+# File: C:/Users/free/Desktop/UNI/term6/CAD/HW3/design/src/Q3.vhd
+# Compile Package "image_filter"
+# Compile Package Body "image_filter"
+# Compile Entity "convolution_unit"
+# Compile Architecture "rtl" of Entity "convolution_unit"
+# Compile Entity "main"
+# Compile Architecture "rtl" of Entity "main"
+# Compile Entity "feature_map"
+# Compile Architecture "rtl" of Entity "feature_map"
+# Compile failure 8 Errors 0 Warnings  Analysis time :  0.2 [s]
+endsim
+# VSIM: Simulation has finished.
